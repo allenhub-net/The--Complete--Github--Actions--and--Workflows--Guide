@@ -17,10 +17,13 @@
 
 ### Section 1.4 - First Workflow
 
+<!-- markdownlint-disable MD033 -->
 <ul>
 </ul>
+<!-- markdownlint-enable MD033 -->
 
 ### Section 1.5 - Parallel & Dependent Jobs
-
+<!-- markdownlint-disable MD033 -->
 <ul>
 </ul>
+<!-- markdownlint-enable MD033 -->
