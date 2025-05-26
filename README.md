@@ -15,16 +15,4 @@ https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8no
       * [3d](#3d)
 <!--te-->
 
-## 2a
-
-### 3a
-
-### 3b
-
-## 2b
-
-### 3c
-
-
-### 3d
 
