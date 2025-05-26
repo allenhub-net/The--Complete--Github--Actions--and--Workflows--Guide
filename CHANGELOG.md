@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.2.0...v1.3.0) (2025-05-26)
+
+
+### Bug Fixes
+
+* sec 1.4 ([df9ea0e](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/df9ea0e8b68cf730aef0b108bfb156818cd61767))
+
+
+### Features
+
+* move to codespaces, start section 1 release ([7b7a4c9](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/7b7a4c9310fa44c836f2216b734086312b4fc423))
+
 # [1.2.0](https://github.com/michaeldallen/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.1.0...v1.2.0) (2025-05-23)
 
 
