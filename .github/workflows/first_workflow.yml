@@ -32,10 +32,9 @@ jobs:
     steps:
       - name: echo a string
         run: Write-Output "Windows String"
-      - name: error step
-        run:  does-not-exist
 
-        
+
+
 
         
           
