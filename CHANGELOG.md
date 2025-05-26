@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.3.2...v1.3.3) (2025-05-26)
+
+
+### Bug Fixes
+
+* release from section branches ([7d8390f](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/7d8390feef9d706f2337d7d508e1f2ff93c466ed))
+
 ## [1.3.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.3.1...v1.3.2) (2025-05-26)
 
 
