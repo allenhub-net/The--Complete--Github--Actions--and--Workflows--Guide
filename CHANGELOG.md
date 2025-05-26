@@ -1,3 +1,14 @@
+## [1.3.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.3.1...v1.3.2) (2025-05-26)
+
+
+### Bug Fixes
+
+* add push trigger for section--01 ([35c3fbb](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/35c3fbba8c7ce0712cac0d0fb40508a6105595f7))
+* markdownlint fixes ([1115b1b](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/1115b1ba74b69642d403152bf9e96705a2305070))
+* only run manually ([be45d3c](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/be45d3c30980fa536dc70659b3cec20491966e66))
+* release from sections ([ab0dd79](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/ab0dd79f66de2169e769c2a76f69dfe150706e91))
+* remove intentional error ([d164399](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/d1643995e4b30610468e33e95249fc2d281889f2))
+
 ## [1.3.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.3.0...v1.3.1) (2025-05-26)
 
 
