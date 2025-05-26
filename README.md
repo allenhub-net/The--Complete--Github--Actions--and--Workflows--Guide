@@ -19,3 +19,7 @@ https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8no
 <ul>
 </ul>
 
+## Section 1.5 - Parallel & Dependent Jobs
+
+<ul>
+</ul>
