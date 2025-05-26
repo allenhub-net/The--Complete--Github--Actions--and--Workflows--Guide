@@ -2,6 +2,9 @@ name: First Workflow
 
 on: 
   workflow_dispatch:
+  push:
+    branches:
+      - section--01
 
 jobs:
   
