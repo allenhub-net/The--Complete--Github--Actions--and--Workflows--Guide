@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.3...v1.5.4) (2025-05-27)
+
+
+### Bug Fixes
+
+* vscode dom ([0eddb9f](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/0eddb9f9e510cf15d23650c38d77431de18de43c))
+
 ## [1.5.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.2...v1.5.3) (2025-05-27)
 
 
