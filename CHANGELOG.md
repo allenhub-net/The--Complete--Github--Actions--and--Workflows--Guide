@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.2...v1.5.3) (2025-05-27)
+
+
+### Bug Fixes
+
+* is it vscode or markdownlint ([386c550](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/386c550065ee2a5cfd06d9b0e791160dbc95f40d))
+
 ## [1.5.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.1...v1.5.2) (2025-05-27)
 
 
