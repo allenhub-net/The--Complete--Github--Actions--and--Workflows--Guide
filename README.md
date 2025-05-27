@@ -27,3 +27,11 @@
 <ul>
 </ul>
 <!-- markdownlint-enable MD033 -->
+
+### Section 1.6 - Managing Workflows
+
+<!-- markdownlint-disable MD033 -->
+<ul>
+* debug logging when re-running single jobs
+</ul>
+<!-- markdownlint-enable MD033 -->
