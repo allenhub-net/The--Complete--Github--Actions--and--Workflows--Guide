@@ -30,16 +30,10 @@
 
 ### Section 1.6 - Managing Workflows
 
-<!-- markdownlint-disable MD033 -->
-<ul>
 * debug logging when re-running single jobs
-</ul>
-<!-- markdownlint-enable MD033 -->
 
 ### Section 1.7 - Debugging Workflows
 
-<!-- markdownlint-disable MD033 -->
-<ul>
+* highlight a line in an action and copy/paste the URL
 
-</ul>
-<!-- markdownlint-enable MD033 -->
+  [github token permission](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/actions/runs/15276653619/job/42964625517#step:1:17)
