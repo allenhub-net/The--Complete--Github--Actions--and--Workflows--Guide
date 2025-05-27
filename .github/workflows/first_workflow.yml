@@ -25,14 +25,6 @@ jobs:
       - name: view software versions
         run: sw_vers
 
-  another-parallel-job:
-    runs-on: ubuntu-latest
-    needs: 
-      - run-shell-commands
-    steps:
-      - name: echo a string
-        run: echo "Another Parallel Job"
-        
   dependent-job:
     runs-on: windows-latest
     needs: 
@@ -41,8 +33,11 @@ jobs:
       - name: echo a string
         run: Write-Output "Windows String"
 
-
-
+  another-parallel-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Another Parallel Job"
 
 
 
