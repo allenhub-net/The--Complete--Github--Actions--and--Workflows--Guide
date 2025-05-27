@@ -44,7 +44,7 @@
       ACTIONS_RUNNER_DEBUG=true
       ACTIONS_STEP_DEBUG=true
 
-  note: github actions extensions for codespace does not seem 
+  note: github actions extensions for codespace does not seem
   to integrate with "settings" frame
 
   note: releases for ss1.7 are coming out as "pre-release" :(
