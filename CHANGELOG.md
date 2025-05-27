@@ -4,6 +4,15 @@
 ### Features
 
 * another parallel job ([f0544d7](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/f0544d78b928cedb6b2a25bdf3fc19b3f23e4a93))
+* debug variables ([03ff15b](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/03ff15ba46ea0a3445a9a4776273db3dc9e27151))
+* workflow log refernce URL ([bc19f9a](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/bc19f9a1dae7d0a08ea8179a7bd87cd673cc1f0d))
+
+# [1.5.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.4.0...v1.5.0) (2025-05-27)
+
+
+### Features
+
+* another parallel job ([f0544d7](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/f0544d78b928cedb6b2a25bdf3fc19b3f23e4a93))
 * workflow log refernce URL ([bc19f9a](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/bc19f9a1dae7d0a08ea8179a7bd87cd673cc1f0d))
 
 # [1.4.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.3.3...v1.4.0) (2025-05-27)
