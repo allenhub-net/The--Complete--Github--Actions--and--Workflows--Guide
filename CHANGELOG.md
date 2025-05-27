@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.3.3...v1.4.0) (2025-05-27)
+
+
+### Bug Fixes
+
+* release from section branches ([4066f0c](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/4066f0c43cdd205fc27dfe0a88b43b34cba31fb8))
+
+
+### Features
+
+* s1.6 debug notes ([19c2dd4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/19c2dd46d7c1fdcd303bd77984be82536d1a4ee9))
+* s1.6 debug notes ([#1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/issues/1)) ([fb9287d](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/fb9287dfebb44ba73e17d3c274777ba568b8f676))
+
 ## [1.3.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.3.2...v1.3.3) (2025-05-26)
 
 
