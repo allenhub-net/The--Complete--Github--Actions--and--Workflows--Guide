@@ -35,3 +35,11 @@
 * debug logging when re-running single jobs
 </ul>
 <!-- markdownlint-enable MD033 -->
+
+### Section 1.7 - Debugging Workflows
+
+<!-- markdownlint-disable MD033 -->
+<ul>
+
+</ul>
+<!-- markdownlint-enable MD033 -->
