@@ -29,6 +29,7 @@ jobs:
     runs-on: windows-latest
     needs: 
       - run-shell-commands
+      - another-parallel-job
     steps:
       - name: echo a string
         run: Write-Output "Windows String"
