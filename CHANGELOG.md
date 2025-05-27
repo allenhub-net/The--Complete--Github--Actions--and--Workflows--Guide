@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.0...v1.5.1) (2025-05-27)
+
+
+### Bug Fixes
+
+* pre-release? ([105d62a](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/105d62a02612204074d02cbaac1c65c0b4a7626e))
+
 # [1.5.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.4.0...v1.5.0) (2025-05-27)
 
 
