@@ -31,8 +31,20 @@
 
 ### Section 1.6 - Managing Workflows
 
-<!-- markdownlint-disable MD033 -->
-<ul>
 * debug logging when re-running single jobs
-</ul>
-<!-- markdownlint-enable MD033 -->
+
+### Section 1.7 - Debugging Workflows
+
+* highlight a line in an action and copy/paste the URL
+
+  [github token permission](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/actions/runs/15276653619/job/42964625517#step:1:17)
+
+* repsitory variables for debugging
+
+      ACTIONS_RUNNER_DEBUG=true
+      ACTIONS_STEP_DEBUG=true
+
+  note: github actions extensions for codespace does not seem 
+  to integrate with "settings" frame
+
+  note: releases for ss1.7 are coming out as "pre-release" :(
