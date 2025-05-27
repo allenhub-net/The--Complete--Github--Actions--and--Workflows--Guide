@@ -10,7 +10,7 @@ on:
       - section*
       
   workflow_run:
-    workflows: ["github ToC"]
+    workflows: ["github-markdown-toc"]
     types:
       - completed
 
