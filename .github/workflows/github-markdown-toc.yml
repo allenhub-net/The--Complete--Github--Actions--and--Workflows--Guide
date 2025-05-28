@@ -3,9 +3,8 @@ name: github-markdown-toc
 on:
   workflow_dispatch:
   push:
-    branches: [main]
-    
-    paths: ['README.md']
+    # branches: [main]
+    # paths: ['README.md']
 
 jobs:
   build:
