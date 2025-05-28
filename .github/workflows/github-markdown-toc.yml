@@ -20,7 +20,7 @@ jobs:
       - name: Update Table of Contents
         run: |
           set -x
-          find . -iname '*.md' 
+          find . -iname '*.md' -print | while read md ; do awk '/<!--ts-->/ {ts=NR} /<!--te-->/ {te=NR} END {exit !(ts && te && ts < te)}' ${md} && echo "match: $md" ; done
           #-not -path './.github/*' -not -path './node_modules/*' -not -path './dist/*' -exec sed -i 's/<!-- TOC -->/<!-- TOC -->\n/' {} \;
           curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
           chmod a+x gh-md-toc
