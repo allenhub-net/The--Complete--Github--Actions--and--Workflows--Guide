@@ -15,6 +15,10 @@
 <!--te-->
 <!-- markdownlint-enable -->
 
+## github toc
+
+github toc test
+
 ## [Section 01](./section_01/README.md)
 
 ### Section 1.4 - First Workflow
@@ -50,3 +54,4 @@
 
   note: releases for ss1.7 are coming out as "pre-release" :(
 Wed May 28 13:52:44 UTC 2025
+
