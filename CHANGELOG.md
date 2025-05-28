@@ -1,3 +1,11 @@
+## [1.5.6](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.5...v1.5.6) (2025-05-28)
+
+
+### Bug Fixes
+
+* release aftger toc ([e5931c4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/e5931c4c4cb1e7d84f35b3efdb51d8b8a6bde1e9))
+* undo foo ([f9af547](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/f9af547d36a8c68f2524fab16900f019cab117e0))
+
 ## [1.5.5](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.4...v1.5.5) (2025-05-27)
 
 
