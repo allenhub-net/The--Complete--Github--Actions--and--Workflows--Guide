@@ -1,3 +1,10 @@
+## [1.5.7-section--01.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.7-section--01.1...v1.5.7-section--01.2) (2025-05-28)
+
+
+### Bug Fixes
+
+* toc on all pushes ([ad1c13b](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/ad1c13be0cacf2ebe811ab4630c5b6c62fbe1a88))
+
 ## [1.5.7-section--01.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.6...v1.5.7-section--01.1) (2025-05-28)
 
 
