@@ -19,13 +19,15 @@ jobs:
         uses: actions/checkout@v4
       - name: Update Table of Contents
         run: |
-          set -x
-          find . -iname '*.md' -print | while read md ; do awk '/<!--ts-->/ {ts=NR} /<!--te-->/ {te=NR} END {exit !(ts && te && ts < te)}' ${md} && echo "match: $md" ; done
-          #-not -path './.github/*' -not -path './node_modules/*' -not -path './dist/*' -exec sed -i 's/<!-- TOC -->/<!-- TOC -->\n/' {} \;
           curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
           chmod a+x gh-md-toc
-          ./gh-md-toc --insert --no-backup --hide-footer README.md
+          find . -iname '*.md' -print | while read md ; do 
+            awk '/<!--ts-->/ {ts=NR} /<!--te-->/ {te=NR} END {exit !(ts && te && ts < te)}' ${md} || { echo "skipping ${md}" ; continue ; } 
+            echo "match: ${md}" 
+            ./gh-md-toc --insert --no-backup --hide-footer ${md}
+          done
           rm gh-md-toc
+          git diff
       # - name: self-commit our changes
       #   uses: stefanzweifel/git-auto-commit-action@v5
       #   with:
