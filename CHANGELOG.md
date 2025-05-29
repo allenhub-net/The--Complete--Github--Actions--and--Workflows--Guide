@@ -1,3 +1,10 @@
+# [1.6.0-section--01.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.6.0-section--01.2...v1.6.0-section--01.3) (2025-05-29)
+
+
+### Bug Fixes
+
+* c/p typos ([b75a690](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/b75a6905b8ba62d934bdf71ca8d3d3d598895399))
+
 # [1.6.0-section--01.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.6.0-section--01.1...v1.6.0-section--01.2) (2025-05-29)
 
 
