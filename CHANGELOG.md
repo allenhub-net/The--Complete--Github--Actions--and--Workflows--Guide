@@ -1,3 +1,16 @@
+# [1.7.0-section--01.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.6.0...v1.7.0-section--01.1) (2025-05-29)
+
+
+### Bug Fixes
+
+* c/p typos ([b75a690](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/b75a6905b8ba62d934bdf71ca8d3d3d598895399))
+* copilot suggestions ([0f6dc34](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/0f6dc3419ef843ca545f73e649859f0dbb7c015a))
+
+
+### Features
+
+* delete pre release scritp ([031a3d0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/031a3d008fe7acc73a502ce5dd61d492bc70f43d))
+
 # [1.6.0-section--01.4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.6.0-section--01.3...v1.6.0-section--01.4) (2025-05-29)
 
 
