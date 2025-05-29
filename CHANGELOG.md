@@ -1,3 +1,15 @@
+# [1.6.0-section--01.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.6.0-section--01.1...v1.6.0-section--01.2) (2025-05-29)
+
+
+### Bug Fixes
+
+* move foo.md out of workflows files ([0e8a229](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/0e8a2294b39a81ae1e50983b415bf50d73fb0270))
+
+
+### Features
+
+* delete pre release scritp ([031a3d0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/031a3d008fe7acc73a502ce5dd61d492bc70f43d))
+
 # [1.6.0-section--01.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.7-section--01.2...v1.6.0-section--01.1) (2025-05-28)
 
 
