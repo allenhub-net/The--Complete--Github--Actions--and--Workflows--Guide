@@ -1,21 +1,16 @@
-# [1.6.0-section--01.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.6.0-section--01.2...v1.6.0-section--01.3) (2025-05-29)
-
-
-### Bug Fixes
-
-* c/p typos ([b75a690](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/b75a6905b8ba62d934bdf71ca8d3d3d598895399))
-
-# [1.6.0-section--01.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.6.0-section--01.1...v1.6.0-section--01.2) (2025-05-29)
+# [1.6.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.6...v1.6.0) (2025-05-29)
 
 
 ### Bug Fixes
 
 * move foo.md out of workflows files ([0e8a229](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/0e8a2294b39a81ae1e50983b415bf50d73fb0270))
+* test prerelease ([4f89009](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/4f89009c1828ff54dfa2b15c584d5dfa4d066656))
+* toc on all pushes ([ad1c13b](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/ad1c13be0cacf2ebe811ab4630c5b6c62fbe1a88))
 
 
 ### Features
 
-* delete pre release scritp ([031a3d0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/031a3d008fe7acc73a502ce5dd61d492bc70f43d))
+* github toc all .md files ([40055bb](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/40055bba4f7ed22502f1445801740f38e819806c))
 
 # [1.6.0-section--01.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.7-section--01.2...v1.6.0-section--01.1) (2025-05-28)
 
