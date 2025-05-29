@@ -14,6 +14,8 @@ releases=$(gh release list --limit 1000 --json tagName,isPrerelease)
 echo "$releases" | jq -c '.[] | select(.isPrerelease == true)' | while read -r prerelease; do
     tag=$(echo "$prerelease" | jq -r '.tagName')
     # Extract base tag (e.g., v1.6.0 from v1.6.0-section--01.1)
+    # Extract the base tag by removing the "-section--" suffix and everything after it.
+    # Expected format of the release tag: "v1.6.0-section--01.1", where "v1.6.0" is the base tag.
     base_tag=$(echo "$tag" | sed -E 's/-section--.*//')
     # Check if base release exists and is not a pre-release
     echo "Checking pre-release: $tag (base release: $base_tag)"
