@@ -3,9 +3,8 @@ name: github-markdown-toc
 on:
   workflow_dispatch:
   push:
-    branches: [main]
-    
-    paths: ['README.md']
+    # branches: [main]
+    # paths: ['README.md']
 
 jobs:
   build:
@@ -22,7 +21,11 @@ jobs:
         run: |
           curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
           chmod a+x gh-md-toc
-          ./gh-md-toc --insert --no-backup --hide-footer README.md
+          find . -iname '*.md' -print | while read md ; do 
+            awk '/<!--ts-->/ {ts=NR} /<!--te-->/ {te=NR} END {exit !(ts && te && ts < te)}' ${md} || { echo "skipping ${md}" ; continue ; } 
+            echo "match: ${md}" 
+            ./gh-md-toc --insert --no-backup --hide-footer ${md}
+          done
           rm gh-md-toc
       - name: self-commit our changes
         uses: stefanzweifel/git-auto-commit-action@v5

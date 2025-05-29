@@ -1,3 +1,24 @@
+# [1.6.0-section--01.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.7-section--01.2...v1.6.0-section--01.1) (2025-05-28)
+
+
+### Features
+
+* github toc all .md files ([40055bb](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/40055bba4f7ed22502f1445801740f38e819806c))
+
+## [1.5.7-section--01.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.7-section--01.1...v1.5.7-section--01.2) (2025-05-28)
+
+
+### Bug Fixes
+
+* toc on all pushes ([ad1c13b](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/ad1c13be0cacf2ebe811ab4630c5b6c62fbe1a88))
+
+## [1.5.7-section--01.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.6...v1.5.7-section--01.1) (2025-05-28)
+
+
+### Bug Fixes
+
+* test prerelease ([4f89009](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/4f89009c1828ff54dfa2b15c584d5dfa4d066656))
+
 ## [1.5.6](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.5.5...v1.5.6) (2025-05-28)
 
 
