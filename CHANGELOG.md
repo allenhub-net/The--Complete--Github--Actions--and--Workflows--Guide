@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.2...v1.8.3) (2025-05-30)
+
+
+### Bug Fixes
+
+* typo - extra dash ([a727fed](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/a727fedcd8d4545b49ff8b8c33bb7111fa432e87))
+
 ## [1.8.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.1...v1.8.2) (2025-05-30)
 
 
