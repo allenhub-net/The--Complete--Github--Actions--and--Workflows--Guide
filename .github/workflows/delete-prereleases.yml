@@ -4,15 +4,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  manual-intervention:
+
+  delete-pre-releases:
     runs-on: ubuntu-latest
     steps:
-      - name: Request manual approval
-        uses: peter-evans/workflow-dispatch@v1
-        with:
-          workflow: 'Delete Pre-Releases Approval'
-          inputs:
-            approve: 'Please approve to delete pre-releases.'
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Run delete pre-releases script
         run: |
