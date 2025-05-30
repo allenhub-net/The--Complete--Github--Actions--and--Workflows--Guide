@@ -2,6 +2,15 @@ name: delete-prereleases
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force delete pre-releases'
+        required: true
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 jobs:
 
@@ -15,4 +24,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          bash .github/workflows/delete-prereleases.sh
+          if [[ "${{ github.event.inputs.force }}" == "true" ]]; then
+            bash .github/workflows/delete-prereleases.sh --force
+          else
+            bash .github/workflows/delete-prereleases.sh
+          fi
