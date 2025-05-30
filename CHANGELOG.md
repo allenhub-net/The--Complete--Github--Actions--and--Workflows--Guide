@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.2...v1.9.3) (2025-05-30)
+
+
+### Reverts
+
+* Revert "fix: disable changelog" ([5532a9e](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/5532a9e365e716f52aca85863ee92836e8744438))
+
 # [1.9.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.5...v1.9.0) (2025-05-30)
 
 
