@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.0...v1.8.1) (2025-05-30)
+
+
+### Bug Fixes
+
+* workflows dir ([233f432](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/233f43202f80b1626e723512dea1d33f6adf4679))
+
 # [1.8.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.7.0...v1.8.0) (2025-05-30)
 
 
