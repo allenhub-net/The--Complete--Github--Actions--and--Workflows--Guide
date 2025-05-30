@@ -1,3 +1,11 @@
+## [1.9.6](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.5...v1.9.6) (2025-05-30)
+
+
+### Bug Fixes
+
+* prerelease title ([ff7ba51](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/ff7ba51612f9d21dbb94b1204ca051834f339454))
+* section test ([06c3257](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/06c32576624abe99c292cb3b9ec6d08727df640f))
+
 ## [1.9.5](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.4...v1.9.5) (2025-05-30)
 
 
