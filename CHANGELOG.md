@@ -1,3 +1,10 @@
+## [1.8.5](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.4...v1.8.5) (2025-05-30)
+
+
+### Bug Fixes
+
+* add github token ([f1ea561](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/f1ea5616790840ff105edb5a0754bf4358bf5f36))
+
 ## [1.8.4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.3...v1.8.4) (2025-05-30)
 
 
