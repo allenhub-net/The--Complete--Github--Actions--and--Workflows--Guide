@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.7...v1.10.0) (2025-05-30)
+
+
+### Features
+
+* add force option (ghcp) ([46d974c](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/46d974c6441d52ed2ff6d33d3f354e0708253bc0))
+
 ## [1.9.7](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.6...v1.9.7) (2025-05-30)
 
 
