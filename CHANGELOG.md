@@ -1,4 +1,47 @@
-# [1.7.0-section--01.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.6.0...v1.7.0-section--01.1) (2025-05-29)
+
+## [1.8.5](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.4...v1.8.5) (2025-05-30)
+
+
+### Bug Fixes
+
+* add github token ([f1ea561](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/f1ea5616790840ff105edb5a0754bf4358bf5f36))
+
+## [1.8.4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.3...v1.8.4) (2025-05-30)
+
+
+### Bug Fixes
+
+* another dash ([75c5b20](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/75c5b20f1ec59afd82b3af3cc2676d14438b5a09))
+
+## [1.8.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.2...v1.8.3) (2025-05-30)
+
+
+### Bug Fixes
+
+* typo - extra dash ([a727fed](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/a727fedcd8d4545b49ff8b8c33bb7111fa432e87))
+
+## [1.8.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.1...v1.8.2) (2025-05-30)
+
+
+### Bug Fixes
+
+* mvp ([cc97540](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/cc9754067879e77a65301b2d4c0f96ced1a58133))
+
+## [1.8.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.0...v1.8.1) (2025-05-30)
+
+
+### Bug Fixes
+
+* workflows dir ([233f432](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/233f43202f80b1626e723512dea1d33f6adf4679))
+
+# [1.8.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.7.0...v1.8.0) (2025-05-30)
+
+
+### Features
+
+* delete prerelease workflow ([9c3f4ce](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/9c3f4ce544d902034f56c6b4b638c2a5882d9bda))
+
+# [1.7.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.6.0...v1.7.0) (2025-05-29)
 
 
 ### Bug Fixes
