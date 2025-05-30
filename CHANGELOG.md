@@ -1,3 +1,10 @@
+## [1.9.7](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.6...v1.9.7) (2025-05-30)
+
+
+### Bug Fixes
+
+* stale script cleanup ([1a22f13](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/1a22f133f65551021ee311b361412face53c2d81))
+
 ## [1.9.6](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.5...v1.9.6) (2025-05-30)
 
 
