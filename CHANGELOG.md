@@ -1,3 +1,11 @@
+## [1.9.4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.3...v1.9.4) (2025-05-30)
+
+
+### Bug Fixes
+
+* plugins ([6e8053e](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/6e8053e7fa7efe2edec0e8182c682ef2593923df))
+* specify plugins on command line ([eff1b35](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/eff1b35edca8619a75b3cbd99014913b12bba7da))
+
 ## [1.9.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.2...v1.9.3) (2025-05-30)
 
 
