@@ -13,4 +13,4 @@ jobs:
 
       - name: Run delete pre-releases script
         run: |
-          bash .github/workflows/delete--pre-releases.sh
+          bash .github/workflows/delete-pre-releases.sh
