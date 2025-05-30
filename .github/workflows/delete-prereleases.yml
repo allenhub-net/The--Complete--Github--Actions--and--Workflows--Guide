@@ -12,5 +12,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run delete pre-releases script
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           bash .github/workflows/delete-prereleases.sh
