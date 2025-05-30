@@ -15,4 +15,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          bash -x .github/workflows/delete-prereleases.sh
+          bash .github/workflows/delete-prereleases.sh
