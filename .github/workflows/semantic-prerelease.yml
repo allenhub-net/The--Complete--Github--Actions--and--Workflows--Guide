@@ -6,7 +6,7 @@ on:
   # note: this will run twice if README.md is updated
   push:
     branches:
-      - main
+      - section--*
 
   workflow_run:
     workflows: ["github-markdown-toc"]
@@ -28,7 +28,7 @@ jobs:
           node-version: 20
 
       - name: Install semantic-release
-        run: npm install --no-save semantic-release @semantic-release/git @semantic-release/changelog
+        run: npm install --no-save semantic-release @semantic-release/git
 
       - name: Run semantic-release
         env:
