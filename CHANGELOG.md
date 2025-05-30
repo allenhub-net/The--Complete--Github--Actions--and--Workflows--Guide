@@ -1,3 +1,10 @@
+## [1.9.5](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.4...v1.9.5) (2025-05-30)
+
+
+### Bug Fixes
+
+* semantic prerelease ([bc3a6d6](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/bc3a6d64da4e60749d057088a68af73c11b30605))
+
 ## [1.9.4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.3...v1.9.4) (2025-05-30)
 
 
