@@ -5,12 +5,9 @@ on:
     inputs:
       force:
         description: 'Force delete pre-releases'
-        required: true
-        default: 'false'
-        type: choice
-        options:
-          - 'false'
-          - 'true'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
 
