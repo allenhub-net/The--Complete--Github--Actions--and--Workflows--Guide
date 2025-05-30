@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.7.0...v1.8.0) (2025-05-30)
+
+
+### Features
+
+* delete prerelease workflow ([9c3f4ce](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/9c3f4ce544d902034f56c6b4b638c2a5882d9bda))
+
 # [1.7.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.6.0...v1.7.0) (2025-05-29)
 
 
