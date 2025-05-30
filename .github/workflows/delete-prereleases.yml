@@ -16,5 +16,4 @@ jobs:
 
       - name: Run delete pre-releases script
         run: |
-          chmod +x ./delete--pre-releases.sh
-          ./delete--pre-releases.sh -f
+          bash .github/workflows/delete--pre-releases.sh
