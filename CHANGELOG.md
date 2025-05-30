@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.3...v1.8.4) (2025-05-30)
+
+
+### Bug Fixes
+
+* another dash ([75c5b20](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/75c5b20f1ec59afd82b3af3cc2676d14438b5a09))
+
 ## [1.8.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.2...v1.8.3) (2025-05-30)
 
 
