@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.1...v1.8.2) (2025-05-30)
+
+
+### Bug Fixes
+
+* mvp ([cc97540](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/cc9754067879e77a65301b2d4c0f96ced1a58133))
+
 ## [1.8.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.0...v1.8.1) (2025-05-30)
 
 
