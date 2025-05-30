@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.5...v1.9.0) (2025-05-30)
+
+
+### Bug Fixes
+
+* configure prelease ([e56524c](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/e56524ce67d298c6d1ae5831e27e41cb98fdb5ff))
+* update name ([d19caad](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/d19caadc7aeb2279a4597b5415b22fab31071c01))
+
+
+### Features
+
+* semantic prerelease ([a558dfb](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/a558dfbbf1c3bb4aa7c45cec0b69c806bee13146))
 
 ## [1.8.5](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.8.4...v1.8.5) (2025-05-30)
 
