@@ -30,6 +30,6 @@ echo "$releases" | jq -c '.[] | select(.isPrerelease == true)' | while read -r p
             echo "    [DRY RUN] Would delete tag: $tag"
         fi
     else
-        echo "  Skipping pre-release: $tag (base release $base_tag does not exist or is a pre-release)"
+        echo "    Skipping pre-release: $tag (base release $base_tag does not exist or is a pre-release)"
     fi
 done
