@@ -27,3 +27,11 @@ jobs:
       run: |  
         echo "::notice::notice title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
                 
+    - name: group of logs
+      run: |
+        echo "::group::group title"
+        echo "This is a group of logs"
+        echo "This is another log in the group"
+        echo "::endgroup::"
+
+        
