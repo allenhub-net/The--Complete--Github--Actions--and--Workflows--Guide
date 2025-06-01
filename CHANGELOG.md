@@ -1,3 +1,31 @@
+# [1.11.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.10.1...v1.11.0) (2025-06-01)
+
+
+### Bug Fixes
+
+* better messages ([e7fdb22](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/e7fdb22ca48b825a1ec163deeba5498669666b6e))
+* do spaces matter? ([67438c5](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/67438c5afa78494f3abb3121aaa1a2fc4f8406b1))
+* it again ([e43f485](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/e43f4858fbe3d188c2683bda2d98d3b5fb205896))
+* mask from repo secret ([8b82979](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/8b82979a8c93046a11926bf6e0ddf5937f765f49))
+* quote ([06a9c71](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/06a9c719541668fbd96454bf48aad23b101e2f2d))
+* severity tags ([4e0fcc3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/4e0fcc3ec4232f3b86c808a0de2bae8e98d8f7fc))
+* spacing again [skip ci] ([d55d1b0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/d55d1b043b078a1a9051681e5b9b48d0e72147c3))
+* spacing for delete output ([030f6aa](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/030f6aa2777854681ee3dfa37ca0428a9f4d8045))
+* titles ([5e9ace2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/5e9ace2f1c3ebbe1326692d08d41d89ae09af877))
+* titles again ([5725222](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/572522201906cafdddc9aa8d46cb900f3b5410ac))
+
+
+### Features
+
+* grouping/folding ([efe9ffc](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/efe9ffce8c8c0f8c72c60cb22b56314356c23eb2))
+* masks ([5ac02d3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/5ac02d3976c27cbf43e2c5a44084f672d2710bdc))
+* more messages ([bbf91c9](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/bbf91c9aac9872cab6d031e64072a76b42d563bb))
+* more workflow commands ([2b5ff56](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/2b5ff56b7f295469a346d7cabd649d14bcdd7c1e))
+* sec 1.8 ([7acae12](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/7acae1238e955b436e185f57e79c50309782ad8e))
+* sec 1.8 [skip ci] ([5b3cab7](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/5b3cab77f946d015fad4fcbad59467a71ea3cfe1))
+* sec 1.9 - workflow commands ([e63e826](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/e63e8269dac19b2622c9e10c5367a9b3d3210ca5))
+* yet another test ([d7737e3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/d7737e3840db63b50029ddab2a4d346b2a38244c))
+
 ## [1.10.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.10.0...v1.10.1) (2025-05-30)
 
 
