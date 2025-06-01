@@ -1,3 +1,33 @@
+## [1.10.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.10.0...v1.10.1) (2025-05-30)
+
+
+### Bug Fixes
+
+* prerelease test ([3586330](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/35863305ccd508f8a41b1b25e60a5911fd1e6528))
+* radio button ([9df7153](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/9df715336dada5017a4ec54dc2342160fb2893d2))
+
+# [1.10.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.7...v1.10.0) (2025-05-30)
+
+
+### Features
+
+* add force option (ghcp) ([46d974c](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/46d974c6441d52ed2ff6d33d3f354e0708253bc0))
+
+## [1.9.7](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.6...v1.9.7) (2025-05-30)
+
+
+### Bug Fixes
+
+* stale script cleanup ([1a22f13](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/1a22f133f65551021ee311b361412face53c2d81))
+
+## [1.9.6](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.5...v1.9.6) (2025-05-30)
+
+
+### Bug Fixes
+
+* prerelease title ([ff7ba51](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/ff7ba51612f9d21dbb94b1204ca051834f339454))
+* section test ([06c3257](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/06c32576624abe99c292cb3b9ec6d08727df640f))
+
 ## [1.9.5](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.9.4...v1.9.5) (2025-05-30)
 
 
