@@ -13,7 +13,6 @@
       * [Section 1.5 - Parallel &amp; Dependent Jobs](#section-15---parallel--dependent-jobs)
       * [Section 1.6 - Managing Workflows](#section-16---managing-workflows)
       * [Section 1.7 - Debugging Workflows](#section-17---debugging-workflows)
-      * [Section 1.8 - Skipping Workflows](#section-18---skipping-workflows)
 <!--te-->
 <!-- markdownlint-enable -->
 
@@ -59,5 +58,4 @@ Wed May 28 13:52:44 UTC 2025
 
 ### Section 1.8 - Skipping Workflows
 
-* `[skip ci]`
-
+* `[skip ci]`, `[skip actions]`
