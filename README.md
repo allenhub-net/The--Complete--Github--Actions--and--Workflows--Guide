@@ -14,6 +14,7 @@
       * [Section 1.6 - Managing Workflows](#section-16---managing-workflows)
       * [Section 1.7 - Debugging Workflows](#section-17---debugging-workflows)
       * [Section 1.8 - Skipping Workflows](#section-18---skipping-workflows)
+      * [Section 1.9 - Workflow commands](#section-19---workflow-commands)
 <!--te-->
 <!-- markdownlint-enable -->
 
