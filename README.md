@@ -13,6 +13,7 @@
       * [Section 1.5 - Parallel &amp; Dependent Jobs](#section-15---parallel--dependent-jobs)
       * [Section 1.6 - Managing Workflows](#section-16---managing-workflows)
       * [Section 1.7 - Debugging Workflows](#section-17---debugging-workflows)
+      * [Section 1.8 - Skipping Workflows](#section-18---skipping-workflows)
 <!--te-->
 <!-- markdownlint-enable -->
 
