@@ -40,5 +40,8 @@ jobs:
         SECRET_VALUE: "${{ secrets.CH1_SS9_SECRET }}"
 
     - name: echo masked value
-      run: "echo be-vewwy-vewwy-quiet"
+      run: "echo be-vewwy-vewwy-quiet, I'm a secret: $SECRET_VALUE"
+      env: 
+        SECRET_VALUE: "${{ secrets.CH1_SS9_SECRET }}"
 
+        
