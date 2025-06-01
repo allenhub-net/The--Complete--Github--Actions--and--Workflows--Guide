@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.11.0...v1.11.1) (2025-06-01)
+
+
+### Bug Fixes
+
+* add pre-release delete notice to summary ([4e45bec](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/4e45becc25c66e7cce4242645278865eaeb1d025))
+
 # [1.11.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.10.1...v1.11.0) (2025-06-01)
 
 
