@@ -12,7 +12,7 @@ jobs:
 
     - name: Setting an error message with parameters
       run: |  
-        echo "::error title::Error title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
+        echo "::error::Error title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
                 
     - name: Setting an debug message with parameters
       run: |  
