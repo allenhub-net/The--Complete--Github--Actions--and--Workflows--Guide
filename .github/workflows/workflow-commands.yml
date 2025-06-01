@@ -34,4 +34,9 @@ jobs:
         echo "This is another log in the group"
         echo "::endgroup::"
 
-        
+    - name: masking
+      run: echo "::add-mask::secret_value"
+      
+    - name: echo masked value
+      run: "echo secret_value"
+
