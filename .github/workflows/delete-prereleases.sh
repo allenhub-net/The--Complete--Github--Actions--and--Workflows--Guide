@@ -22,12 +22,14 @@ echo "$releases" | jq -c '.[] | select(.isPrerelease == true)' | while read -r p
 
     if echo "$releases" | jq -e --arg base "$base_tag" '[.[] | select(.tagName == $base and .isPrerelease == false)] | length > 0' > /dev/null; then
         if [[ "$FORCE" -eq 1 ]]; then
-            echo "Deleting pre-release: $tag (base release $base_tag exists)"
-            gh release delete "$tag" --yes 
-            git push --delete origin "$tag"
+            echo "  Deleting pre-release: $tag (base release $base_tag exists)"
+            gh release delete "$tag" --yes 2>&1 | sed 's/^/    /'
+            git push --delete origin "$tag" 2>&1 | sed 's/^/    /'
         else
-            echo "[DRY RUN] Would delete pre-release: $tag (base release $base_tag exists)"
-            echo "[DRY RUN] Would delete tag: $tag"
+            echo "    [DRY RUN] Would delete pre-release: $tag (base release $base_tag exists)"
+            echo "    [DRY RUN] Would delete tag: $tag"
         fi
+    else
+        echo "    Skipping pre-release: $tag (base release $base_tag does not exist or is a pre-release)"
     fi
 done

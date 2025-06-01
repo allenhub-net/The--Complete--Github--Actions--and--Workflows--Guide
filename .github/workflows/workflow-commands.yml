@@ -1,0 +1,47 @@
+name: workflow-commands
+on:
+  - push
+
+jobs:
+  testing-wf-commands:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setting and error message
+      run: |
+        echo "::error title=*** WICKED ERROR *** missing semicolon::"
+
+    - name: Setting an error message with parameters
+      run: |  
+        echo "::error title=error-message-title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
+                
+    - name: Setting an debug message with parameters
+      run: |  
+        echo "::debug title=debug-message-title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
+                
+    - name: Setting an warning message with parameters
+      run: |  
+        echo "::warning title=warning-message-title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
+                
+
+    - name: Setting an notice message with parameters
+      run: |  
+        echo "::notice title=notice-message-title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
+                
+    - name: group of logs
+      run: |
+        echo "::group::group title"
+        echo "This is a group of logs"
+        echo "This is another log in the group"
+        echo "::endgroup::"
+
+    - name: masking
+      run: echo "::add-mask::$SECRET_VALUE"
+      env: 
+        SECRET_VALUE: "${{ secrets.CH1_SS9_SECRET }}"
+
+    - name: echo masked value
+      run: "echo be-vewwy-vewwy-quiet, I'm a secret: $SECRET_VALUE"
+      env: 
+        SECRET_VALUE: "${{ secrets.CH1_SS9_SECRET }}"
+
+        

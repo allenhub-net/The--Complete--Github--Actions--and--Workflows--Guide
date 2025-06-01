@@ -13,6 +13,8 @@
       * [Section 1.5 - Parallel &amp; Dependent Jobs](#section-15---parallel--dependent-jobs)
       * [Section 1.6 - Managing Workflows](#section-16---managing-workflows)
       * [Section 1.7 - Debugging Workflows](#section-17---debugging-workflows)
+      * [Section 1.8 - Skipping Workflows](#section-18---skipping-workflows)
+      * [Section 1.9 - Workflow commands](#section-19---workflow-commands)
 <!--te-->
 <!-- markdownlint-enable -->
 
@@ -56,5 +58,13 @@ github toc test
   note: releases for ss1.7 are coming out as "pre-release" :(
 Wed May 28 13:52:44 UTC 2025
 
-Fri May 30 15:53:15 UTC 2025
-Fri May 30 18:50:10 UTC 2025
+### Section 1.8 - Skipping Workflows
+
+* `[skip ci]`, `[skip actions]`
+
+### Section 1.9 - Workflow commands
+
+* message to runner - cool
+* whoa ... there are many of them <https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions>
+* cool - folding/grouping messages
+* cool - masking
