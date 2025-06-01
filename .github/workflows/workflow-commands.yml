@@ -14,3 +14,16 @@ jobs:
       run: |  
         echo "::error title::Error title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
                 
+    - name: Setting an debug message with parameters
+      run: |  
+        echo "::debug title::debug title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
+                
+    - name: Setting an warning message with parameters
+      run: |  
+        echo "::error warning::warning title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
+                
+
+    - name: Setting an notice message with parameters
+      run: |  
+        echo "::notice title::notice title,file=app.js,line=2,endLine=3,col=5,endCol=7::Missing another semicolon"
+                
