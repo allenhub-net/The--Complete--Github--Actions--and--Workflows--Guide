@@ -23,14 +23,17 @@ jobs:
     steps:
       - name: Display working directory list files
         run: |
-          echo "Current working directory: $(pwd)"
+          echo "Current location:"
+          Get-Location
           echo ""
+
           echo "Contents of the current directory:"
-          ls -la 2>&1 | sed 's/^/    /'
+          dir
           echo ""
-          echo "id of triggerning commit: ${GITHUB_SHA}"
-          echo "github repository: ${GITHUB_REPOSITORY}"
-          echo "github workspace: ${GITHUB_WORKSPACE}"
+
+          echo "id of triggerning commit: $env:GITHUB_SHA"
+          echo "github repository: $env:GITHUB_REPOSITORY"
+          echo "github workspace: $env:GITHUB_WORKSPACE"
 
   display-working-dir-info-macos:
     runs-on: macos-latest
