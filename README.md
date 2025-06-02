@@ -15,6 +15,7 @@
       * [Section 1.7 - Debugging Workflows](#section-17---debugging-workflows)
       * [Section 1.8 - Skipping Workflows](#section-18---skipping-workflows)
       * [Section 1.9 - Workflow commands](#section-19---workflow-commands)
+      * [Section 1.11 - Working Dirs and Shells](#section-111---working-dirs-and-shells)
 <!--te-->
 <!-- markdownlint-enable -->
 
