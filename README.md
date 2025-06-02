@@ -16,6 +16,7 @@
       * [Section 1.8 - Skipping Workflows](#section-18---skipping-workflows)
       * [Section 1.9 - Workflow commands](#section-19---workflow-commands)
       * [Section 1.11 - Working Dirs and Shells](#section-111---working-dirs-and-shells)
+      * [Section 1.12 - Download our repo](#section-112---download-our-repo)
 <!--te-->
 <!-- markdownlint-enable -->
 
