@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  display-working-dir-info-ubuntu
+  display-working-dir-info-ubuntu:
     runs-on: ubuntu-latest
     steps:
       - name: Display working directory list files
@@ -18,7 +18,7 @@ jobs:
           echo "github repository: ${GITHUB_REPOSITORY}"
           echo "github workspace: ${GITHUB_WORKSPACE}"
 
-  display-working-dir-info-windows
+  display-working-dir-info-windows:
     runs-on: windows-latest
     steps:
       - name: Display working directory list files
@@ -32,7 +32,7 @@ jobs:
           echo "github repository: ${GITHUB_REPOSITORY}"
           echo "github workspace: ${GITHUB_WORKSPACE}"
 
-  display-working-dir-info-macos
+  display-working-dir-info-macos:
     runs-on: macos-latest
     steps:
       - name: Display working directory list files
