@@ -17,6 +17,7 @@
       * [Section 1.9 - Workflow commands](#section-19---workflow-commands)
       * [Section 1.11 - Working Dirs and Shells](#section-111---working-dirs-and-shells)
       * [Section 1.12 - Download our repo](#section-112---download-our-repo)
+      * [Section 1.13 - Actions](#section-113---actions)
 <!--te-->
 <!-- markdownlint-enable -->
 
