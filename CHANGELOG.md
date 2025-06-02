@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.11.1...v1.11.2) (2025-06-02)
+
+
+### Bug Fixes
+
+* wd for delete-prerelease ([d13bc27](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/d13bc2763dc1952ca484402d71012814c7944cb9))
+
 ## [1.11.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.11.0...v1.11.1) (2025-06-01)
 
 
