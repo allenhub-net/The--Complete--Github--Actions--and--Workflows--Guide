@@ -16,6 +16,8 @@
       * [Section 1.8 - Skipping Workflows](#section-18---skipping-workflows)
       * [Section 1.9 - Workflow commands](#section-19---workflow-commands)
       * [Section 1.11 - Working Dirs and Shells](#section-111---working-dirs-and-shells)
+      * [Section 1.12 - Download our repo](#section-112---download-our-repo)
+      * [Section 1.13 - Actions](#section-113---actions)
 <!--te-->
 <!-- markdownlint-enable -->
 
@@ -75,4 +77,21 @@ Wed May 28 13:52:44 UTC 2025
 * python shell 
   * command body is python code :)
 
-  
+### Section 1.12 - Download our repo
+* no school like old school
+* github variables
+
+### Section 1.13 - Actions
+* three types of actions
+  * javascript
+    * directly on runner
+    * all OSs
+  * docker
+    * write in any language
+    * abstract tools and OS & environment
+    * slower than js actions
+    * composite actions
+      * combine multiple workflow steps into actions
+      * reference the action rather than type out the steps
+      
+
