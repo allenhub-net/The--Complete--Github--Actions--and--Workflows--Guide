@@ -3,6 +3,13 @@ name: working-dirs-and-shells
 on: 
   push:
 
+
+defaults: 
+  run:
+    shell: bash
+
+    
+    
 jobs:
   display-working-dir-info-ubuntu:
     runs-on: ubuntu-latest
@@ -23,17 +30,14 @@ jobs:
     steps:
       - name: Display working directory list files
         run: |
-          echo "Current location:"
-          Get-Location
+          echo "Current working directory: $(pwd)"
           echo ""
-
           echo "Contents of the current directory:"
-          dir
+          ls -la 2>&1 | sed 's/^/    /'
           echo ""
-
-          echo "id of triggerning commit: $env:GITHUB_SHA"
-          echo "github repository: $env:GITHUB_REPOSITORY"
-          echo "github workspace: $env:GITHUB_WORKSPACE"
+          echo "id of triggerning commit: ${GITHUB_SHA}"
+          echo "github repository: ${GITHUB_REPOSITORY}"
+          echo "github workspace: ${GITHUB_WORKSPACE}"
 
   display-working-dir-info-macos:
     runs-on: macos-latest
