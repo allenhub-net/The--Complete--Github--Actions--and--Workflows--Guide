@@ -77,5 +77,20 @@ Wed May 28 13:52:44 UTC 2025
   * command body is python code :)
 
 ### Section 1.12 - Download our repo
+* no school like old school
+* github variables
 
+### Section 1.13 - Actions
+* three types of actions
+  * javascript
+    * directly on runner
+    * all OSs
+  * docker
+    * write in any language
+    * abstract tools and OS & environment
+    * slower than js actions
+    * composite actions
+      * combine multiple workflow steps into actions
+      * reference the action rather than type out the steps
+      
 
