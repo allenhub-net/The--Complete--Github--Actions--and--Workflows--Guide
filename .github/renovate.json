@@ -8,7 +8,8 @@
     {
       "matchManagers": ["github-actions"],
       "pinDigests": true,
-      "includeBranches": ["*"]
+      "includeBranches": ["*"],
+      "versioning": "github-commits"
     }
   ]
 }
