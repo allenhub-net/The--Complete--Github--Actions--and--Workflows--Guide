@@ -3,5 +3,12 @@
   "extends": [
     "config:recommended"
   ],
-  "dependencyDashboardAutoclose": true
+  "dependencyDashboardAutoclose": true,
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "pinDigests": true,
+      "includeBranches": ["*"]
+    }
+  ]
 }
