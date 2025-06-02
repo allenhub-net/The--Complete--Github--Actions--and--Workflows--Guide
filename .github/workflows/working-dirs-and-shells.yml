@@ -24,6 +24,14 @@ jobs:
           echo "id of triggerning commit: ${GITHUB_SHA}"
           echo "github repository: ${GITHUB_REPOSITORY}"
           echo "github workspace: ${GITHUB_WORKSPACE}"
+          
+      - name: python shell
+        shell: python
+        run: |
+          import platform
+          print(platform.processor)
+
+          
 
   display-working-dir-info-windows:
     runs-on: windows-latest
@@ -45,7 +53,7 @@ jobs:
           import platform
           print(platform.processor)
 
-          
+
 
   display-working-dir-info-macos:
     runs-on: macos-latest
