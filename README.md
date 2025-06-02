@@ -15,6 +15,7 @@
       * [Section 1.7 - Debugging Workflows](#section-17---debugging-workflows)
       * [Section 1.8 - Skipping Workflows](#section-18---skipping-workflows)
       * [Section 1.9 - Workflow commands](#section-19---workflow-commands)
+      * [Section 1.11 - Working Dirs and Shells](#section-111---working-dirs-and-shells)
 <!--te-->
 <!-- markdownlint-enable -->
 
@@ -68,3 +69,10 @@ Wed May 28 13:52:44 UTC 2025
 * whoa ... there are many of them <https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions>
 * cool - folding/grouping messages
 * cool - masking
+
+### Section 1.11 - Working Dirs and Shells
+* workflow, job, or step-level setting of shell or wd
+* python shell 
+  * command body is python code :)
+
+  
