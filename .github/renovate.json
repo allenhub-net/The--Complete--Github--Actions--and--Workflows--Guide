@@ -19,5 +19,6 @@
   "baseBranches": [
     "main",
     "/^section--[0-9]*/"
-  ]
+  ],
+  "prHourlyLimit": 20
 }
