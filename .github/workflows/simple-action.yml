@@ -1,15 +1,6 @@
 name: simple-action
 on:
-  push:
-
-  workflow_dispatch:
-    inputs:
-      who-to-greet:
-        description: 'Who to greet'
-        required: true
-        default: 'World'
-        type: string
-
+  - push
 
 jobs:
   simple-action:
