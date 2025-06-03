@@ -97,6 +97,21 @@ https://docs.renovatebot.com/modules/versioning/aws-eks-addon/
 
 # renovate notes
 
-renovate web service by default will create the dependency dashboard in the web console (the "developer console"), and not in a github issue.  I found it difficult to find this setting based on naming.
+🦠 renovate web service by default will create the dependency dashboard in the web console (the "developer console"), and not in a github issue.  I found it difficult to find this setting based on naming.
 
-At either an organizational level, or at a repo level, look for 
+"Silent Mode" seems to be the culprait, as least as far as naming clarity is concerned.
+
+1. go to "SETTINGS"
+<img src="resources/mend-renovate-settings.png" alt="Mend Renovate Settings" width="50%" />
+
+1. Selection "Dependencies" 
+
+1. Configure  <br><img src="resources/renovate-config.png" alt="Renovate Config Example" width="50%" />
+
+   * ✅ Dependency Updates
+   * ❌ Silent Mode
+   * Renovate
+     * ✅ Automated PRs
+     * ✅ Require config file
+     * ✅ Create onboarding PRs
+
