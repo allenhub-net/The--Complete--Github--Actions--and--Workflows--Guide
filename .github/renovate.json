@@ -16,10 +16,8 @@
       "rangeStrategy": "pin"
     }
   ],
-  "branches": [
+  "baseBranches": [
     "main",
-    {
-      "pattern": "^section--[0-9]*"
-    }
+    "/^section--[0-9]*/"
   ]
 }
