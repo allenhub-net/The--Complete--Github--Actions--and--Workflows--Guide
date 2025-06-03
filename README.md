@@ -7,7 +7,6 @@
 <!--ts-->
 * [The--Complete--Github--Actions--and--Workflows--Guide](#the--complete--github--actions--and--workflows--guide)
 * [Table of Contents](#table-of-contents)
-   * [github toc](#github-toc)
    * [<a href="./section_01/README.md">Section 01</a>](./section_01/README.md)
       * [Section 1.4 - First Workflow](#section-14---first-workflow)
       * [Section 1.5 - Parallel &amp; Dependent Jobs](#section-15---parallel--dependent-jobs)
@@ -18,6 +17,7 @@
       * [Section 1.11 - Working Dirs and Shells](#section-111---working-dirs-and-shells)
       * [Section 1.12 - Download our repo](#section-112---download-our-repo)
       * [Section 1.13 - Actions](#section-113---actions)
+* [renovate notes](#renovate-notes)
 <!--te-->
 <!-- markdownlint-enable -->
 
