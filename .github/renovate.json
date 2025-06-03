@@ -4,9 +4,8 @@
     "config:recommended"
   ],
   "dependencyDashboardAutoclose": true,
-  "includeBranches": [
-    "*"
-  ],
+  "dependencyDashboard": true,
+  "dependencyDashboardApproval": false,
   "packageRules": [
     {
       "matchManagers": [
@@ -14,8 +13,7 @@
       ],
       "pinDigests": true,
       "versioning": "github-commits",
-      "rangeStrategy": "pin",
-      "dependencyDashboardApproval": false
+      "rangeStrategy": "pin"
     }
   ]
 }
