@@ -21,9 +21,6 @@
 <!--te-->
 <!-- markdownlint-enable -->
 
-## github toc
-
-github toc test
 
 ## [Section 01](./section_01/README.md)
 
@@ -95,3 +92,11 @@ Wed May 28 13:52:44 UTC 2025
       * reference the action rather than type out the steps
       
 https://docs.renovatebot.com/modules/versioning/aws-eks-addon/
+
+
+
+# renovate notes
+
+renovate web service by default will create the dependency dashboard in the web console (the "developer console"), and not in a github issue.  I found it difficult to find this setting based on naming.
+
+At either an organizational level, or at a repo level, look for 
