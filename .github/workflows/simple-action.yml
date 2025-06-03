@@ -8,14 +8,14 @@ jobs:
     steps:
       - name: simple JS action
         id: greet
-        uses: actions/hello-world-javascript-action@v1
+        uses: actions/hello-world-javascript-action
         with: 
           who-to-greet: Mona the Octocat
       
       - name: log greeting time
         run: echo "${{ steps.greet.outputs.time }}"
 
-        
+
 
 
 
