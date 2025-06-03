@@ -7,9 +7,7 @@
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
-      "pinDigests": true,
-      "includeBranches": ["*"],
-      "versioning": "github-commits"
+      "includeBranches": ["*"]
     }
   ]
 }
