@@ -4,6 +4,7 @@
     "config:recommended"
   ],
   "dependencyDashboardAutoclose": true,
+  "onBranch": "*",
   "packageRules": [
     {
       "matchManagers": [
