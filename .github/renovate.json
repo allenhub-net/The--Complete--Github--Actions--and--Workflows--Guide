@@ -1,15 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:recommended",
+  "helpers:pinGitHubActionDigests"
+
   ],
   "dependencyDashboardAutoclose": true,
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
-      "includeBranches": ["*"],
-      "versioning": "github-commits",
-      "pinDigests": true
+      "includeBranches": ["*"]
     }
   ]
 }
