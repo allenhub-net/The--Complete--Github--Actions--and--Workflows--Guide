@@ -94,4 +94,4 @@ Wed May 28 13:52:44 UTC 2025
       * combine multiple workflow steps into actions
       * reference the action rather than type out the steps
       
-
+https://docs.renovatebot.com/modules/versioning/aws-eks-addon/
