@@ -18,6 +18,7 @@
       * [Section 1.12 - Download our repo](#section-112---download-our-repo)
       * [Section 1.13 - Actions](#section-113---actions)
 * [renovate notes](#renovate-notes)
+* [EKS Notes](#eks-notes)
 <!--te-->
 <!-- markdownlint-enable -->
 
