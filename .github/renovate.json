@@ -4,13 +4,13 @@
     "config:recommended"
   ],
   "dependencyDashboardAutoclose": true,
+  "prCreation": "immediate",
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
       "pinDigests": true,
       "versioning": "github-commits",
-      "rangeStrategy": "pin",
-      "prCreation": "immediate"
+      "rangeStrategy": "pin"
     }
   ]
 }
