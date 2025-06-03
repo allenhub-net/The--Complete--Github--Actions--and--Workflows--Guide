@@ -15,5 +15,11 @@
       "versioning": "github-commits",
       "rangeStrategy": "pin"
     }
+  ],
+  "branches": [
+    "main",
+    {
+      "pattern": "^section--[0-9]*"
+    }
   ]
 }
