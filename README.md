@@ -18,6 +18,7 @@
       * [Section 1.12 - Download our repo](#section-112---download-our-repo)
       * [Section 1.13 - Actions](#section-113---actions)
 * [renovate notes](#renovate-notes)
+* [EKS Notes](#eks-notes)
 <!--te-->
 <!-- markdownlint-enable -->
 
@@ -91,7 +92,7 @@ Wed May 28 13:52:44 UTC 2025
       * combine multiple workflow steps into actions
       * reference the action rather than type out the steps
       
-https://docs.renovatebot.com/modules/versioning/aws-eks-addon/
+
 
 
 
@@ -116,3 +117,7 @@ https://docs.renovatebot.com/modules/versioning/aws-eks-addon/
      * ✅ Require config file
      * ✅ Create onboarding PRs
 
+
+# EKS Notes
+
+https://docs.renovatebot.com/modules/versioning/aws-eks-addon/

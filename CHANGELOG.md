@@ -1,3 +1,17 @@
+## [1.12.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.12.0...v1.12.1) (2025-06-03)
+
+
+### Bug Fixes
+
+* PR limit 20 ([bbe0f92](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/bbe0f9223b95c032443b09eb4b95089e4091a808))
+
+# [1.12.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.11.2...v1.12.0) (2025-06-03)
+
+
+### Features
+
+* document renovate config ([a0d8099](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/a0d8099e066e372507c45b84ad0341bc4ed03a30))
+
 ## [1.11.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.11.1...v1.11.2) (2025-06-02)
 
 
