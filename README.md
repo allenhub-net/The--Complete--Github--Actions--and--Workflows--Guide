@@ -18,6 +18,11 @@
       * [Section 1.12 - Download our repo](#section-112---download-our-repo)
       * [Section 1.13 - Actions](#section-113---actions)
 * [renovate notes](#renovate-notes)
+   * [create PRs in github not renovate console](#create-prs-in-github-not-renovate-console)
+   * [Commit message](#commit-message)
+      * [Default message](#default-message)
+      * [Pull Request Title](#pull-request-title)
+      * [🏆 WINNER 🏆 PR Title and description](#-winner--pr-title-and-description)
 * [EKS Notes](#eks-notes)
 <!--te-->
 <!-- markdownlint-enable -->
