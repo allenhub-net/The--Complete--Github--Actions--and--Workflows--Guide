@@ -98,6 +98,8 @@ Wed May 28 13:52:44 UTC 2025
 
 # renovate notes
 
+## create PRs in github not renovate console
+
 🦠 renovate web service by default will create the dependency dashboard in the web console (the "developer console"), and not in a github issue.  I found it difficult to find this setting based on naming.
 
 "Silent Mode" seems to be the culprait, as least as far as naming clarity is concerned.
@@ -115,6 +117,26 @@ Wed May 28 13:52:44 UTC 2025
      * ✅ Automated PRs
      * ✅ Require config file
      * ✅ Create onboarding PRs
+
+
+
+## Commit message
+
+<img src="resources/pr-settings.png" alt="PR Settings" width="50%" />
+
+###  Default message 
+
+doesn't trigger semantic release the
+way I want
+
+###  Pull Request Title 
+
+seems good
+
+### 🏆 WINNER 🏆 PR Title and description 
+
+includes the branch and (clickable) PR number in the commit summary
+
 
 
 # EKS Notes
