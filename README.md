@@ -113,12 +113,13 @@ mostly fiddling with renovate, which is awesome
 
 "Silent Mode" seems to be the culprait, as least as far as naming clarity is concerned.
 
-1. go to "SETTINGS"
-<img src="resources/mend-renovate-settings.png" alt="Mend Renovate Settings" width="50%" />
+1. go to "SETTINGS" <br>![Mend Renovate Settings](resources/mend-renovate-settings.png)
 
 1. Selection "Dependencies"
 
-1. Configure  <br><img src="resources/renovate-config.png" alt="Renovate Config Example" width="50%" />
+1. Configure
+
+   ![Renovate Config Example](resources/renovate-config.png)
 
    * ✅ Dependency Updates
    * ❌ Silent Mode

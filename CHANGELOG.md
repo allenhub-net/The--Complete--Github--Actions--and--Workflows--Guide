@@ -1,3 +1,15 @@
+# [1.13.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.12.1...v1.13.0) (2025-06-03)
+
+
+### Bug Fixes
+
+* waste a ton of time augering in on images in markdown ([b72c790](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/b72c79087d51d1025d1ed8e3fed0b6518f1530cd))
+
+
+### Features
+
+* section 1.13 ([d63e7db](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/d63e7dbff91ab0342c648c571205a08a10cb8770))
+
 ## [1.12.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.12.0...v1.12.1) (2025-06-03)
 
 
