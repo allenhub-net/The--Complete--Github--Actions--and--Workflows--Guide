@@ -17,11 +17,16 @@
       * [Section 1.11 - Working Dirs and Shells](#section-111---working-dirs-and-shells)
       * [Section 1.12 - Download our repo](#section-112---download-our-repo)
       * [Section 1.13 - Actions](#section-113---actions)
+      * [Section 1.14 - Actions](#section-114---actions)
 * [renovate notes](#renovate-notes)
+   * [create PRs in github not renovate console](#create-prs-in-github-not-renovate-console)
+   * [Commit message](#commit-message)
+      * [Default message](#default-message)
+      * [Pull Request Title](#pull-request-title)
+      * [🏆 WINNER 🏆 PR Title and description](#-winner--pr-title-and-description)
 * [EKS Notes](#eks-notes)
 <!--te-->
 <!-- markdownlint-enable -->
-
 
 ## [Section 01](./section_01/README.md)
 
@@ -71,15 +76,18 @@ Wed May 28 13:52:44 UTC 2025
 * cool - masking
 
 ### Section 1.11 - Working Dirs and Shells
+
 * workflow, job, or step-level setting of shell or wd
-* python shell 
+* python shell
   * command body is python code :)
 
 ### Section 1.12 - Download our repo
+
 * no school like old school
 * github variables
 
 ### Section 1.13 - Actions
+
 * three types of actions
   * javascript
     * directly on runner
@@ -91,20 +99,24 @@ Wed May 28 13:52:44 UTC 2025
     * composite actions
       * combine multiple workflow steps into actions
       * reference the action rather than type out the steps
-      
 
+### Section 1.14 - Actions
 
-
+mostly fiddling with renovate, which is awesome
 
 # renovate notes
 
-🦠 renovate web service by default will create the dependency dashboard in the web console (the "developer console"), and not in a github issue.  I found it difficult to find this setting based on naming.
+## create PRs in github not renovate console
+
+🦠 renovate web service by default will create the dependency dashboard in the
+ web console (the "developer console"), and not in a github issue.
+  I found it difficult to find this setting based on naming.
 
 "Silent Mode" seems to be the culprait, as least as far as naming clarity is concerned.
 
 1. go to "SETTINGS" <br>![Mend Renovate Settings](resources/mend-renovate-settings.png)
 
-1. Selection "Dependencies" 
+1. Selection "Dependencies"
 
 1. Configure
 
@@ -117,7 +129,23 @@ Wed May 28 13:52:44 UTC 2025
      * ✅ Require config file
      * ✅ Create onboarding PRs
 
+## Commit message
+
+<img src="resources/pr-settings.png" alt="PR Settings" width="50%" />
+
+### Default message
+
+doesn't trigger semantic release the
+way I want
+
+### Pull Request Title
+
+seems good
+
+### 🏆 WINNER 🏆 PR Title and description
+
+includes the branch and (clickable) PR number in the commit summary
 
 # EKS Notes
 
-https://docs.renovatebot.com/modules/versioning/aws-eks-addon/
+<https://docs.renovatebot.com/modules/versioning/aws-eks-addon/>
