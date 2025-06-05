@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.13.0...v1.14.0) (2025-06-05)
+
+
+### Features
+
+* section 01 complete ([#47](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/issues/47)) ([6b90a03](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/6b90a0359b913fdca53bbb3e68523c5f6ddf716f))
+
 # [1.13.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.12.1...v1.13.0) (2025-06-03)
 
 
