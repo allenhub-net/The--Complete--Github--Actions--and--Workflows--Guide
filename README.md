@@ -17,6 +17,7 @@
       * [Section 1.11 - Working Dirs and Shells](#section-111---working-dirs-and-shells)
       * [Section 1.12 - Download our repo](#section-112---download-our-repo)
       * [Section 1.13 - Actions](#section-113---actions)
+      * [Section 1.14 - Actions](#section-114---actions)
 * [renovate notes](#renovate-notes)
    * [create PRs in github not renovate console](#create-prs-in-github-not-renovate-console)
    * [Commit message](#commit-message)
