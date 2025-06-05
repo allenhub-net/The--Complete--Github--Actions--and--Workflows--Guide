@@ -27,7 +27,6 @@
 <!--te-->
 <!-- markdownlint-enable -->
 
-
 ## [Section 01](./section_01/README.md)
 
 ### Section 1.4 - First Workflow
@@ -76,15 +75,18 @@ Wed May 28 13:52:44 UTC 2025
 * cool - masking
 
 ### Section 1.11 - Working Dirs and Shells
+
 * workflow, job, or step-level setting of shell or wd
-* python shell 
+* python shell
   * command body is python code :)
 
 ### Section 1.12 - Download our repo
+
 * no school like old school
 * github variables
 
 ### Section 1.13 - Actions
+
 * three types of actions
   * javascript
     * directly on runner
@@ -96,23 +98,25 @@ Wed May 28 13:52:44 UTC 2025
     * composite actions
       * combine multiple workflow steps into actions
       * reference the action rather than type out the steps
-      
 
+### Section 1.14 - Actions
 
-
+mostly fiddling with renovate, which is awesome
 
 # renovate notes
 
 ## create PRs in github not renovate console
 
-🦠 renovate web service by default will create the dependency dashboard in the web console (the "developer console"), and not in a github issue.  I found it difficult to find this setting based on naming.
+🦠 renovate web service by default will create the dependency dashboard in the
+ web console (the "developer console"), and not in a github issue.
+  I found it difficult to find this setting based on naming.
 
 "Silent Mode" seems to be the culprait, as least as far as naming clarity is concerned.
 
 1. go to "SETTINGS"
 <img src="resources/mend-renovate-settings.png" alt="Mend Renovate Settings" width="50%" />
 
-1. Selection "Dependencies" 
+1. Selection "Dependencies"
 
 1. Configure  <br><img src="resources/renovate-config.png" alt="Renovate Config Example" width="50%" />
 
@@ -123,27 +127,23 @@ Wed May 28 13:52:44 UTC 2025
      * ✅ Require config file
      * ✅ Create onboarding PRs
 
-
-
 ## Commit message
 
 <img src="resources/pr-settings.png" alt="PR Settings" width="50%" />
 
-###  Default message 
+### Default message
 
 doesn't trigger semantic release the
 way I want
 
-###  Pull Request Title 
+### Pull Request Title
 
 seems good
 
-### 🏆 WINNER 🏆 PR Title and description 
+### 🏆 WINNER 🏆 PR Title and description
 
 includes the branch and (clickable) PR number in the commit summary
 
-
-
 # EKS Notes
 
-https://docs.renovatebot.com/modules/versioning/aws-eks-addon/
+<https://docs.renovatebot.com/modules/versioning/aws-eks-addon/>
