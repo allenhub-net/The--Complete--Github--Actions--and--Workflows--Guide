@@ -104,6 +104,11 @@ Wed May 28 13:52:44 UTC 2025
 
 mostly fiddling with renovate, which is awesome
 
+## Section 2 - Events
+
+push test to see what's active
+
+
 # renovate notes
 
 ## create PRs in github not renovate console
