@@ -1,3 +1,15 @@
+# [1.16.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.15.0...v1.16.0) (2025-06-06)
+
+
+### Bug Fixes
+
+* only trigger on TOC generation for matching branches ([50707e2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/50707e2825cc85b0e4a5509114e78d4660e16102))
+
+
+### Features
+
+* section--02 push test ([1bdddfe](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/1bdddfe34b4bca1e3f8f0d7595f6e55ba9fea6a0))
+
 # [1.15.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.14.0...v1.15.0) (2025-06-05)
 
 
