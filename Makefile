@@ -246,7 +246,7 @@ ${VENV}/bin/vault : ${VENV}/vault_${VAULT_VERSION}_linux_amd64.zip
 	[ ${VENV}/vault_${VAULT_VERSION}_linux_amd64.zip -nt ${VENV}/bin/vault ] && { rm -vf ${VENV}/bin/vault ; unzip -B -DD -d ${VENV}/bin ${VENV}/vault_${VAULT_VERSION}_linux_amd64.zip ; }
 
 ${VENV}/vault_${VAULT_VERSION}_linux_amd64.zip :
-	curl --output-dir ${VENV} --location --remote-name https://releases.hashicorp.com/vault/${VAULT_VERSION}/vault_${VAULT_VERSION}_linux_amd64.zip
+	(cd ${VENV} ; curl --location --remote-name https://releases.hashicorp.com/vault/${VAULT_VERSION}/vault_${VAULT_VERSION}_linux_amd64.zip)
 
 
 
