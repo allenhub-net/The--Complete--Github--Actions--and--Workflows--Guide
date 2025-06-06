@@ -107,8 +107,11 @@ mostly fiddling with renovate, which is awesome
 
 ## Section 2 - Events
 
+### Section 2.1 - event tests
+
 push test to see what's active
 
+check PR branch name
 
 # renovate notes
 
