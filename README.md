@@ -19,6 +19,7 @@
       * [Section 1.13 - Actions](#section-113---actions)
       * [Section 1.14 - Actions](#section-114---actions)
    * [Section 2 - Events](#section-2---events)
+      * [Section 2.1 - event tests](#section-21---event-tests)
 * [renovate notes](#renovate-notes)
    * [create PRs in github not renovate console](#create-prs-in-github-not-renovate-console)
    * [Commit message](#commit-message)
