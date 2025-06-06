@@ -12,6 +12,8 @@ on:
     workflows: ["github-markdown-toc"]
     types:
       - completed
+    branches:
+      - section--*
 
 jobs:
   release:
