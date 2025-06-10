@@ -6,6 +6,7 @@
 <!-- markdownlint-disable -->
 <!--ts-->
 * [Section 2 - Events](#section-2---events)
+   * [Section 2.15 - Events](#section-215---events)
 <!--te-->
 <!-- markdownlint-enable -->
 

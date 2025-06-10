@@ -28,6 +28,7 @@
    * [Section 1.14 - Actions](section_01/README.md#section-114---actions)
 
 * [Section 2 - Events](section_02/README.md#section-2---events)
+   * [Section 2.15 - Events](section_02/README.md#section-215---events)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
