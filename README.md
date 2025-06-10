@@ -3,6 +3,7 @@
 [Udemy Course Link](https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8noJMBI7eT51ozLMdESC0TC/)
 
 <!-- markdownlint-disable -->
+<!--ts-->
 
 * [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
    * [renovate notes](README.md#renovate-notes)
@@ -29,6 +30,7 @@
 * [Section 2 - Events](section_02/README.md#section-2---events)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<!--te-->
 
 <!-- markdownlint-enable -->
 
