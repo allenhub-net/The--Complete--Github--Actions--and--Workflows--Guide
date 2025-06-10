@@ -12,3 +12,17 @@
 
 ## Section 2.15 - Events
 
+[GitHub Actions Events Documentation](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows)
+
+### push
+
+```
+GITHUB_SHA:1d6b29137717892bd0558d5f9f93109b6d60fbd2
+GITHUB_REF:refs/heads/section--02
+```
+
+### pull_request
+
+    git switch -c pr-test-branch
+
+
