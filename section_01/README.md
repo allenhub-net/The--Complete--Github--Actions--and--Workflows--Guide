@@ -6,22 +6,18 @@
 
 <!-- markdownlint-disable -->
 <!--ts-->
-* [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
-   * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
-   * [Section 1.4 - First Workflow](section_01/README.md#section-14---first-workflow)
-   * [Section 1.5 - Parallel &amp; Dependent Jobs](section_01/README.md#section-15---parallel--dependent-jobs)
-   * [Section 1.6 - Managing Workflows](section_01/README.md#section-16---managing-workflows)
-   * [Section 1.7 - Debugging Workflows](section_01/README.md#section-17---debugging-workflows)
-   * [Section 1.8 - Skipping Workflows](section_01/README.md#section-18---skipping-workflows)
-   * [Section 1.9 - Workflow commands](section_01/README.md#section-19---workflow-commands)
-   * [Section 1.11 - Working Dirs and Shells](section_01/README.md#section-111---working-dirs-and-shells)
-   * [Section 1.12 - Download our repo](section_01/README.md#section-112---download-our-repo)
-   * [Section 1.13 - Actions](section_01/README.md#section-113---actions)
-   * [Section 1.14 - Actions](section_01/README.md#section-114---actions)
-
-<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: codespace, at: Tue Jun 10 21:37:56 UTC 2025 -->
-
+* [Section 1 - Basic Concepts](#section-1---basic-concepts)
+   * [Section 1.3 - YAML](#section-13---yaml)
+   * [Section 1.4 - First Workflow](#section-14---first-workflow)
+   * [Section 1.5 - Parallel &amp; Dependent Jobs](#section-15---parallel--dependent-jobs)
+   * [Section 1.6 - Managing Workflows](#section-16---managing-workflows)
+   * [Section 1.7 - Debugging Workflows](#section-17---debugging-workflows)
+   * [Section 1.8 - Skipping Workflows](#section-18---skipping-workflows)
+   * [Section 1.9 - Workflow commands](#section-19---workflow-commands)
+   * [Section 1.11 - Working Dirs and Shells](#section-111---working-dirs-and-shells)
+   * [Section 1.12 - Download our repo](#section-112---download-our-repo)
+   * [Section 1.13 - Actions](#section-113---actions)
+   * [Section 1.14 - Actions](#section-114---actions)
 <!--te-->
 <!-- markdownlint-enable -->
 
