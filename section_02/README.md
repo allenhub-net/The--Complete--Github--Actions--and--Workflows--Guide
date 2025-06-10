@@ -9,6 +9,7 @@
    * [Section 2.15 - Events](#section-215---events)
       * [push](#push)
       * [pull_request](#pull_request)
+      * [issue create:](#issue-create)
 <!--te-->
 <!-- markdownlint-enable -->
 
@@ -40,3 +41,13 @@ pull request merge:
 GITHUB_SHA:2f1d8f3ba9011e927e9d08fd7b720d4f084d87e6
 GITHUB_REF:refs/heads/section--02
 ```
+
+
+### issue create:
+
+```
+GITHUB_SHA:64c16a8430192b9354084dd0bb77c5221a5817d8
+GITHUB_REF:refs/heads/main
+```
+
+(ref of last commit on default branch)
