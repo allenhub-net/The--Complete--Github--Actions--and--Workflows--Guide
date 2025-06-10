@@ -9,6 +9,7 @@
    * [Section 2.15 - Events](#section-215---events)
       * [push](#push)
       * [pull_request](#pull_request)
+      * [issue create:](#issue-create)
 <!--te-->
 <!-- markdownlint-enable -->
 
