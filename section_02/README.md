@@ -7,6 +7,8 @@
 <!--ts-->
 * [Section 2 - Events](#section-2---events)
    * [Section 2.15 - Events](#section-215---events)
+      * [push](#push)
+      * [pull_request](#pull_request)
 <!--te-->
 <!-- markdownlint-enable -->
 
