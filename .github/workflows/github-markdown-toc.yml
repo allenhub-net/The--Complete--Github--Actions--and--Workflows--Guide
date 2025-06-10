@@ -29,9 +29,9 @@ jobs:
           echo "updating omni-TOC in README.md"
           ./gh-md-toc README.md section_01/README.md section_02/README.md > toc.tmp
           awk '/<!--ts-->/ {print;while((getline<"toc.tmp")>0)print;f=1;next} /<!--te-->/ {f=0;print;next} !f' README.md > README.md.tmp && mv README.md.tmp README.md
-          git diff README.md
           rm toc.tmp
           rm gh-md-toc
+          git diff 
       - name: self-commit our changes
         uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403 # v5.2.0
         with:
