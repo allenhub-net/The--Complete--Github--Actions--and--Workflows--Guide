@@ -6,6 +6,7 @@
 <!-- markdownlint-disable -->
 <!--ts-->
 * [Section 2 - Events](#section-2---events)
+   * [omni-toc test](#omni-toc-test)
 <!--te-->
 <!-- markdownlint-enable -->
 
