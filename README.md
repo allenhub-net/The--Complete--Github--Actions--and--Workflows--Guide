@@ -4,18 +4,14 @@
 
 <!-- markdownlint-disable -->
 <!--ts-->
-* [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
-   * [renovate notes](README.md#renovate-notes)
-      * [create PRs in github not renovate console](README.md#create-prs-in-github-not-renovate-console)
-      * [Commit message](README.md#commit-message)
-         * [Default message](README.md#default-message)
-         * [Pull Request Title](README.md#pull-request-title)
-         * [🏆 WINNER 🏆 PR Title and description](README.md#-winner--pr-title-and-description)
-   * [EKS Notes](README.md#eks-notes)
-
-<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: codespace, at: Tue Jun 10 21:37:56 UTC 2025 -->
-
+* [The--Complete--Github--Actions--and--Workflows--Guide](#the--complete--github--actions--and--workflows--guide)
+   * [renovate notes](#renovate-notes)
+      * [create PRs in github not renovate console](#create-prs-in-github-not-renovate-console)
+      * [Commit message](#commit-message)
+         * [Default message](#default-message)
+         * [Pull Request Title](#pull-request-title)
+         * [🏆 WINNER 🏆 PR Title and description](#-winner--pr-title-and-description)
+   * [EKS Notes](#eks-notes)
 <!--te-->
 <!-- markdownlint-enable -->
 
