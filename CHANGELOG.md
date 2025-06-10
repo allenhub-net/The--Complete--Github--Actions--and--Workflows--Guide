@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.17.0...v1.17.1) (2025-06-10)
+
+
+### Bug Fixes
+
+* run semrel only after TOC ([be8deca](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/be8decabb4d4dd554eb1080f60988a4fdf891b01))
+
 # [1.17.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.16.0...v1.17.0) (2025-06-06)
 
 
