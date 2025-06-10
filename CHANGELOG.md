@@ -1,3 +1,28 @@
+# [1.17.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.16.0...v1.17.0) (2025-06-06)
+
+
+### Bug Fixes
+
+* accomodate old curl ([0aab300](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/0aab300f1b1e4826c12fb123d762c914d769aac4))
+* fix the right Makefile ([8ef7397](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/8ef7397f9d38daf8c30fff4bb50acb6a8284228c))
+
+
+### Features
+
+* general tool shell ([#51](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/issues/51)) ([cd602c3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/cd602c3a87b565cbfe398453025cc26303f10ed2))
+
+# [1.16.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.15.0...v1.16.0) (2025-06-06)
+
+
+### Bug Fixes
+
+* only trigger on TOC generation for matching branches ([50707e2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/50707e2825cc85b0e4a5509114e78d4660e16102))
+
+
+### Features
+
+* section--02 push test ([1bdddfe](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/1bdddfe34b4bca1e3f8f0d7595f6e55ba9fea6a0))
+
 # [1.15.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.14.0...v1.15.0) (2025-06-05)
 
 
