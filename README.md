@@ -28,7 +28,6 @@
    * [Section 1.14 - Actions](section_01/README.md#section-114---actions)
 
 * [Section 2 - Events](section_02/README.md#section-2---events)
-   * [omni-toc test](section_02/README.md#omni-toc-test)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
