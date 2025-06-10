@@ -18,6 +18,10 @@
    * [Section 1.12 - Download our repo](section_01/README.md#section-112---download-our-repo)
    * [Section 1.13 - Actions](section_01/README.md#section-113---actions)
    * [Section 1.14 - Actions](section_01/README.md#section-114---actions)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<!-- Added by: codespace, at: Tue Jun 10 21:37:56 UTC 2025 -->
+
 <!--te-->
 <!-- markdownlint-enable -->
 
