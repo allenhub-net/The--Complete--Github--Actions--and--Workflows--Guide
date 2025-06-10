@@ -12,7 +12,3 @@
 
 
 push test to see what's active
-
-## omni-toc test
-
-fubar
