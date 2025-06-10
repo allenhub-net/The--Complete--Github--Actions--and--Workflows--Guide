@@ -25,4 +25,16 @@ GITHUB_REF:refs/heads/section--02
 
     git switch -c pr-test-branch
 
+pull request creation:
 
+```
+GITHUB_SHA:c43a8f35670b4424cfd6d89bf2e2ca1a5e134a79
+GITHUB_REF:refs/pull/58/merge
+```
+
+pull request merge:
+
+```
+GITHUB_SHA:2f1d8f3ba9011e927e9d08fd7b720d4f084d87e6
+GITHUB_REF:refs/heads/section--02
+```
