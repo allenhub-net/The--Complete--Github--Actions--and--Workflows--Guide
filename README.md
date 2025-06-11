@@ -13,6 +13,7 @@
          * [Pull Request Title](README.md#pull-request-title)
          * [🏆 WINNER 🏆 PR Title and description](README.md#-winner--pr-title-and-description)
    * [EKS Notes](README.md#eks-notes)
+   * [Mermaid](README.md#mermaid)
 
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
@@ -38,7 +39,6 @@
 
 <!-- markdownlint-enable -->
 
-
 ## renovate notes
 
 ### create PRs in github not renovate console
@@ -49,7 +49,8 @@
 
 "Silent Mode" seems to be the culprait, as least as far as naming clarity is concerned.
 
-1. go to "SETTINGS" <br>![Mend Renovate Settings](resources/mend-renovate-settings.png)
+1. go to "SETTINGS"  
+   ![Mend Renovate Settings](resources/mend-renovate-settings.png)
 
 1. Selection "Dependencies"
 
@@ -66,7 +67,7 @@
 
 ### Commit message
 
-<img src="resources/pr-settings.png" alt="PR Settings" width="50%" />
+![PR Settings](resources/pr-settings.png)
 
 #### Default message
 
@@ -84,3 +85,33 @@ includes the branch and (clickable) PR number in the commit summary
 ## EKS Notes
 
 <https://docs.renovatebot.com/modules/versioning/aws-eks-addon/>
+
+## Mermaid
+
+```mermaid
+
+%% Repository Structure
+graph TD;
+    ROOT["/ (root)"]
+    ROOT --> CHANGELOGMD["CHANGELOG.md"]
+    ROOT --> MAKEFILE["Makefile"]
+    ROOT --> READMEMD["README.md"]
+    ROOT --> APPJS["app.js"]
+    ROOT --> DOT_MARKDOWNLINTIGNORE["dot_markdownlintignore"]
+    ROOT --> PACKAGELOCKJSON["package-lock.json"]
+    ROOT --> PACKAGEJSON["package.json"]
+    ROOT --> RESOURCES["resources/"]
+    RESOURCES --> RESOURCES_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]
+    RESOURCES --> RESOURCES_PRSETTINGSPNG["pr-settings.png"]
+    RESOURCES --> RESOURCES_RENOVATECONFIGPNG["renovate-config.png"]
+    ROOT --> SECTION_01["section_01/"]
+    SECTION_01 --> SECTION_01_READMEMD["README.md"]
+    SECTION_01 --> SECTION_01_CONVERTJS["convert.js"]
+    SECTION_01 --> SECTION_01_INPUTYAML["input.yaml"]
+    SECTION_01 --> SECTION_01_OUTPUTJSON["output.json"]
+    SECTION_01 --> SECTION_01_PACKAGELOCKJSON["package-lock.json"]
+    SECTION_01 --> SECTION_01_PACKAGEJSON["package.json"]
+    ROOT --> SECTION_02["section_02/"]
+    SECTION_02 --> SECTION_02_READMEMD["README.md"]
+    ROOT --> UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]
+```
