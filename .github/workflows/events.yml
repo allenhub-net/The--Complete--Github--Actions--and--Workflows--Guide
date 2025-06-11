@@ -1,10 +1,20 @@
 name: events
 
 on: 
-  - push
-  - pull_request
-  - issues
-  - workflow_dispatch
+  push:
+
+  pull_request:
+    types: 
+      - opened
+      - assigned
+      - synchronize
+      - reopened
+
+  issues:
+    types:
+      - opened
+
+  workflow_dispatch:
 
 jobs:
   checkout-test:
