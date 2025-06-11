@@ -25,7 +25,7 @@ function generateMermaid() {
   // Add Mermaid directive to double vertical spacing between rows
   lines.push('graph TD;');
   lines.push('    %% Double vertical spacing');
-  lines.push('    classDef doubledSpacing height:160px;'); // Mermaid class for spacing
+  lines.push('    classDef doubledSpacing height:60px;'); // Mermaid class for spacing
 
   lines.push('    ROOT["/ (root)"]:::doubledSpacing');
   getDirTreeWithSpacing('.', 'ROOT', lines);
