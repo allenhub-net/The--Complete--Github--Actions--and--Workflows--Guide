@@ -9,9 +9,7 @@
   "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    // ...your dependencies...
   },
   "devDependencies": {
-    // ...your devDependencies...
   }
 }
