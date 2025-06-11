@@ -93,18 +93,6 @@ includes the branch and (clickable) PR number in the commit summary
 
 ```mermaid
 
-%% Repository Structure
-graph TD;
-    ROOT["/ (root)"]
 
-    ROOT --> UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]
-```
-
-```mermaid
-
-%% Repository Structure
-graph TD;
-    ROOT["/ (root)"]
-    ROOT --> CHANGELOGMD["CHANGELOG.md"]
 
 ```
