@@ -32,7 +32,9 @@
    * [Section 2.15 - Events](section_02/README.md#section-215---events)
       * [push](section_02/README.md#push)
       * [pull_request](section_02/README.md#pull_request)
-      * [issue create:](section_02/README.md#issue-create)
+         * [pull request creation](section_02/README.md#pull-request-creation)
+         * [pull request merge](section_02/README.md#pull-request-merge)
+      * [issue create](section_02/README.md#issue-create)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->

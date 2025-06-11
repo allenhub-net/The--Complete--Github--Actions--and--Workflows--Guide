@@ -8,7 +8,9 @@
    * [Section 2.15 - Events](#section-215---events)
       * [push](#push)
       * [pull_request](#pull_request)
-      * [issue create:](#issue-create)
+         * [pull request creation](#pull-request-creation)
+         * [pull request merge](#pull-request-merge)
+      * [issue create](#issue-create)
 <!--te-->
 <!-- markdownlint-enable -->
 
