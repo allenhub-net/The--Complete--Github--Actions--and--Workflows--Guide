@@ -33,21 +33,16 @@ function generateMermaid() {
 }
 
 // Helper to add doubledSpacing class to each node
-function getDirTreeWithSpacing(dir, parent, lines, spacerCount = { count: 0 }) {
+function getDirTreeWithSpacing(dir, parent, lines) {
   const files = fs.readdirSync(dir, { withFileTypes: true });
   files.forEach(f => {
     if (f.name.startsWith('.')) return;
     if (['node_modules', '.git'].includes(f.name)) return;
     const fullPath = path.join(dir, f.name);
     const node = (dir === '.' ? '' : dir.replace('./', '').replace(/\//g, '').toUpperCase() + '_') + f.name.replace(/\W/g, '').toUpperCase();
-
-    // Add a spacer node for vertical space
-    const spacer = `SPACER_${spacerCount.count++}`;
-    lines.push(`    ${parent} --> ${spacer}[" "]:::doubledSpacing`);
-    lines.push(`    ${spacer} --> ${node}["${f.name}${f.isDirectory() ? '/' : ''}"]:::doubledSpacing`);
-
+    lines.push(`    ${parent} --> ${node}["${f.name}${f.isDirectory() ? '/' : ''}"]:::doubledSpacing`);
     if (f.isDirectory()) {
-      getDirTreeWithSpacing(fullPath, node, lines, spacerCount);
+      getDirTreeWithSpacing(fullPath, node, lines);
     }
   });
 }
