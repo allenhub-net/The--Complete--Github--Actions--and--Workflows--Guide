@@ -39,7 +39,6 @@
 
 <!-- markdownlint-enable -->
 
-
 ## renovate notes
 
 ### create PRs in github not renovate console
@@ -50,7 +49,8 @@
 
 "Silent Mode" seems to be the culprait, as least as far as naming clarity is concerned.
 
-1. go to "SETTINGS" <br>![Mend Renovate Settings](resources/mend-renovate-settings.png)
+1. go to "SETTINGS"  
+   ![Mend Renovate Settings](resources/mend-renovate-settings.png)
 
 1. Selection "Dependencies"
 
@@ -67,7 +67,7 @@
 
 ### Commit message
 
-<img src="resources/pr-settings.png" alt="PR Settings" width="50%" />
+![PR Settings](resources/pr-settings.png)
 
 #### Default message
 
@@ -86,10 +86,7 @@ includes the branch and (clickable) PR number in the commit summary
 
 <https://docs.renovatebot.com/modules/versioning/aws-eks-addon/>
 
-
 ## Mermaid
-
-<ul>
 
 ```mermaid
 
