@@ -84,3 +84,59 @@ includes the branch and (clickable) PR number in the commit summary
 ## EKS Notes
 
 <https://docs.renovatebot.com/modules/versioning/aws-eks-addon/>
+
+
+## Mermaid
+
+<ul>
+
+```mermaid
+
+
+
+%% Repository Structure
+graph TD;
+    ROOT["/ (root)"]
+    ROOT --> GITIGNORE[".gitignore"]
+    ROOT --> MARKDOWNLINTIGNORE[".markdownlintignore"]
+    ROOT --> RELEASERC[".releaserc"]
+    ROOT --> APPJS["app.js"]
+    ROOT --> CHANGELOG["CHANGELOG.md"]
+    ROOT --> DOT_MARKDOWNLINTIGNORE["dot_markdownlintignore"]
+    ROOT --> MAKEFILE["Makefile"]
+    ROOT --> README["README.md"]
+    ROOT --> GITHUB[".github/"]
+    ROOT --> VSCODE[".vscode/"]
+    ROOT --> RESOURCES["resources/"]
+    ROOT --> SECTION01["section_01/"]
+    ROOT --> SECTION02["section_02/"]
+
+    GITHUB --> RENOVATE["renovate.json"]
+    GITHUB --> WORKFLOWS["workflows/"]
+    WORKFLOWS --> CHECKOUT["checkout.yml"]
+    WORKFLOWS --> DELETE_PRERELEASES_SH["delete-prereleases.sh"]
+    WORKFLOWS --> DELETE_PRERELEASES_YML["delete-prereleases.yml"]
+    WORKFLOWS --> EVENTS["events.yml"]
+    WORKFLOWS --> FIRST_WORKFLOW["first_workflow.yml"]
+    WORKFLOWS --> GITHUB_MARKDOWN_TOC["github-markdown-toc.yml"]
+    WORKFLOWS --> SEMANTIC_PRERELEASE["semantic-prerelease.yml"]
+    WORKFLOWS --> SEMANTIC_RELEASE["semantic-release.yml"]
+    WORKFLOWS --> SIMPLE_ACTION["simple-action.yml"]
+    WORKFLOWS --> WORKFLOW_COMMANDS["workflow-commands.yml"]
+    WORKFLOWS --> WORKING_DIRS_SHELLS["working-dirs-and-shells.yml"]
+
+    VSCODE --> SETTINGS["settings.json"]
+
+    RESOURCES --> MEND["mend-renovate-settings.png"]
+    RESOURCES --> PR_SETTINGS["pr-settings.png"]
+    RESOURCES --> RENOVATE_CONFIG["renovate-config.png"]
+
+    SECTION01 --> CONVERT["convert.js"]
+    SECTION01 --> INPUT["input.yaml"]
+    SECTION01 --> OUTPUT["output.json"]
+    SECTION01 --> PACKAGE["package.json"]
+    SECTION01 --> README01["README.md"]
+
+    SECTION02 --> README02["README.md"]
+    
+    ```
