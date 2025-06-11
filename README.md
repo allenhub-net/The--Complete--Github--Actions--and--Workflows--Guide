@@ -93,7 +93,7 @@ includes the branch and (clickable) PR number in the commit summary
 %% Repository Structure
 graph TD;
     %% Double vertical spacing
-    classDef doubledSpacing height:160px;
+    classDef doubledSpacing height:60px;
     ROOT["/ (root)"]:::doubledSpacing
     ROOT --> CHANGELOGMD["CHANGELOG.md"]:::doubledSpacing
     ROOT --> MAKEFILE["Makefile"]:::doubledSpacing
