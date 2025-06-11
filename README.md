@@ -99,17 +99,7 @@ graph TD;
     ROOT --> MAKEFILE["Makefile"]:::doubledSpacing
     ROOT --> READMEMD["README.md"]:::doubledSpacing
     ROOT --> APPJS["app.js"]:::doubledSpacing
-    ROOT --> BAR["bar/"]:::doubledSpacing
-    BAR --> BAR_A["a/"]:::doubledSpacing
-    BAR_A --> BARA_1["1"]:::doubledSpacing
-    BAR_A --> BARA_2["2"]:::doubledSpacing
-    BAR_A --> BARA_3["3"]:::doubledSpacing
-    BAR --> BAR_B["b/"]:::doubledSpacing
-    BAR_B --> BARB_BAR["bar"]:::doubledSpacing
-    BAR_B --> BARB_BAZ["baz"]:::doubledSpacing
-    BAR_B --> BARB_FOO["foo"]:::doubledSpacing
     ROOT --> DOT_MARKDOWNLINTIGNORE["dot_markdownlintignore"]:::doubledSpacing
-    ROOT --> FOO["foo"]:::doubledSpacing
     ROOT --> PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
     ROOT --> PACKAGEJSON["package.json"]:::doubledSpacing
     ROOT --> RESOURCES["resources/"]:::doubledSpacing
