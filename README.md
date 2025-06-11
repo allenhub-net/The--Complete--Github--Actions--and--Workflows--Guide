@@ -96,25 +96,15 @@ includes the branch and (clickable) PR number in the commit summary
 %% Repository Structure
 graph TD;
     ROOT["/ (root)"]
-    ROOT --> CHANGELOGMD["CHANGELOG.md"]
-    ROOT --> MAKEFILE["Makefile"]
-    ROOT --> READMEMD["README.md"]
-    ROOT --> APPJS["app.js"]
-    ROOT --> DOT_MARKDOWNLINTIGNORE["dot_markdownlintignore"]
-    ROOT --> PACKAGELOCKJSON["package-lock.json"]
-    ROOT --> PACKAGEJSON["package.json"]
-    ROOT --> RESOURCES["resources/"]
-    RESOURCES --> RESOURCES_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]
-    RESOURCES --> RESOURCES_PRSETTINGSPNG["pr-settings.png"]
-    RESOURCES --> RESOURCES_RENOVATECONFIGPNG["renovate-config.png"]
-    ROOT --> SECTION_01["section_01/"]
-    SECTION_01 --> SECTION_01_READMEMD["README.md"]
-    SECTION_01 --> SECTION_01_CONVERTJS["convert.js"]
-    SECTION_01 --> SECTION_01_INPUTYAML["input.yaml"]
-    SECTION_01 --> SECTION_01_OUTPUTJSON["output.json"]
-    SECTION_01 --> SECTION_01_PACKAGELOCKJSON["package-lock.json"]
-    SECTION_01 --> SECTION_01_PACKAGEJSON["package.json"]
-    ROOT --> SECTION_02["section_02/"]
-    SECTION_02 --> SECTION_02_READMEMD["README.md"]
+
     ROOT --> UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]
+```
+
+```mermaid
+
+%% Repository Structure
+graph TD;
+    ROOT["/ (root)"]
+    ROOT --> CHANGELOGMD["CHANGELOG.md"]
+
 ```
