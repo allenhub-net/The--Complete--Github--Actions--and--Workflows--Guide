@@ -95,28 +95,26 @@ includes the branch and (clickable) PR number in the commit summary
 
 %% Repository Structure
 graph TD;
-    %% Double vertical spacing
-    classDef doubledSpacing height:60px;
-    ROOT["/ (root)"]:::doubledSpacing
-    ROOT --> CHANGELOGMD["CHANGELOG.md"]:::doubledSpacing
-    ROOT --> MAKEFILE["Makefile"]:::doubledSpacing
-    ROOT --> READMEMD["README.md"]:::doubledSpacing
-    ROOT --> APPJS["app.js"]:::doubledSpacing
-    ROOT --> DERENOVATESH["de-renovate.sh"]:::doubledSpacing
-    ROOT --> PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
-    ROOT --> PACKAGEJSON["package.json"]:::doubledSpacing
-    ROOT --> RESOURCES["resources/"]:::doubledSpacing
-    RESOURCES --> RESOURCES_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
-    RESOURCES --> RESOURCES_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
-    RESOURCES --> RESOURCES_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
-    ROOT --> SECTION_01["section_01/"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_READMEMD["README.md"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_CONVERTJS["convert.js"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_INPUTYAML["input.yaml"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_OUTPUTJSON["output.json"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_PACKAGEJSON["package.json"]:::doubledSpacing
-    ROOT --> SECTION_02["section_02/"]:::doubledSpacing
-    SECTION_02 --> SECTION_02_READMEMD["README.md"]:::doubledSpacing
-    ROOT --> UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
+    ROOT["/ (root)"]
+    ROOT --> CHANGELOGMD["CHANGELOG.md"]
+    ROOT --> MAKEFILE["Makefile"]
+    ROOT --> READMEMD["README.md"]
+    ROOT --> APPJS["app.js"]
+    ROOT --> DERENOVATESH["de-renovate.sh"]
+    ROOT --> PACKAGELOCKJSON["package-lock.json"]
+    ROOT --> PACKAGEJSON["package.json"]
+    ROOT --> RESOURCES["resources/"]
+    RESOURCES --> RESOURCES_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]
+    RESOURCES --> RESOURCES_PRSETTINGSPNG["pr-settings.png"]
+    RESOURCES --> RESOURCES_RENOVATECONFIGPNG["renovate-config.png"]
+    ROOT --> SECTION_01["section_01/"]
+    SECTION_01 --> SECTION_01_READMEMD["README.md"]
+    SECTION_01 --> SECTION_01_CONVERTJS["convert.js"]
+    SECTION_01 --> SECTION_01_INPUTYAML["input.yaml"]
+    SECTION_01 --> SECTION_01_OUTPUTJSON["output.json"]
+    SECTION_01 --> SECTION_01_PACKAGELOCKJSON["package-lock.json"]
+    SECTION_01 --> SECTION_01_PACKAGEJSON["package.json"]
+    ROOT --> SECTION_02["section_02/"]
+    SECTION_02 --> SECTION_02_READMEMD["README.md"]
+    ROOT --> UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]
 ```
