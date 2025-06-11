@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.18.0...v1.18.1) (2025-06-11)
+
+
+### Bug Fixes
+
+* double-space node rows ([d7d0806](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/d7d0806aad939b779d66de7e4d0a7accd66f4ab3))
+
 ## [1.17.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.17.0...v1.17.1) (2025-06-10)
 
 
