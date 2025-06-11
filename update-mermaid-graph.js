@@ -22,10 +22,29 @@ function getDirTree(dir, parent, lines) {
 function generateMermaid() {
   const lines = [];
   lines.push('%% Repository Structure');
+  // Add Mermaid directive to double vertical spacing between rows
   lines.push('graph TD;');
-  lines.push('    ROOT["/ (root)"]');
-  getDirTree('.', 'ROOT', lines);
+  lines.push('    %% Double vertical spacing');
+  lines.push('    classDef doubledSpacing height:60px;'); // Mermaid class for spacing
+
+  lines.push('    ROOT["/ (root)"]:::doubledSpacing');
+  getDirTreeWithSpacing('.', 'ROOT', lines);
   return lines.join('\n');
+}
+
+// Helper to add doubledSpacing class to each node
+function getDirTreeWithSpacing(dir, parent, lines) {
+  const files = fs.readdirSync(dir, { withFileTypes: true });
+  files.forEach(f => {
+    if (f.name.startsWith('.')) return;
+    if (['node_modules', '.git'].includes(f.name)) return;
+    const fullPath = path.join(dir, f.name);
+    const node = (dir === '.' ? '' : dir.replace('./', '').replace(/\//g, '').toUpperCase() + '_') + f.name.replace(/\W/g, '').toUpperCase();
+    lines.push(`    ${parent} --> ${node}["${f.name}${f.isDirectory() ? '/' : ''}"]:::doubledSpacing`);
+    if (f.isDirectory()) {
+      getDirTreeWithSpacing(fullPath, node, lines);
+    }
+  });
 }
 
 function updateReadme() {
