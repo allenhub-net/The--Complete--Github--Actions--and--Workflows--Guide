@@ -102,7 +102,7 @@ graph TD;
     ROOT --> MAKEFILE["Makefile"]:::doubledSpacing
     ROOT --> READMEMD["README.md"]:::doubledSpacing
     ROOT --> APPJS["app.js"]:::doubledSpacing
-    ROOT --> DOT_MARKDOWNLINTIGNORE["dot_markdownlintignore"]:::doubledSpacing
+    ROOT --> DERENOVATESH["de-renovate.sh"]:::doubledSpacing
     ROOT --> PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
     ROOT --> PACKAGEJSON["package.json"]:::doubledSpacing
     ROOT --> RESOURCES["resources/"]:::doubledSpacing
