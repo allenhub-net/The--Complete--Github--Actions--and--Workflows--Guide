@@ -1,3 +1,10 @@
+## [1.18.5](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.18.4...v1.18.5) (2025-06-11)
+
+
+### Bug Fixes
+
+* manual undo ([aa6ac74](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/aa6ac740e30347ebfefe9b55a8b63c3a68b5328f))
+
 ## [1.18.4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.18.3...v1.18.4) (2025-06-11)
 
 
