@@ -13,6 +13,7 @@
          * [Pull Request Title](README.md#pull-request-title)
          * [🏆 WINNER 🏆 PR Title and description](README.md#-winner--pr-title-and-description)
    * [EKS Notes](README.md#eks-notes)
+   * [Mermaid](README.md#mermaid)
 
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
