@@ -95,26 +95,48 @@ graph TD;
     %% Double vertical spacing
     classDef doubledSpacing height:60px;
     ROOT["/ (root)"]:::doubledSpacing
-    ROOT --> CHANGELOGMD["CHANGELOG.md"]:::doubledSpacing
-    ROOT --> MAKEFILE["Makefile"]:::doubledSpacing
-    ROOT --> READMEMD["README.md"]:::doubledSpacing
-    ROOT --> APPJS["app.js"]:::doubledSpacing
-    ROOT --> DOT_MARKDOWNLINTIGNORE["dot_markdownlintignore"]:::doubledSpacing
-    ROOT --> FOO["foo"]:::doubledSpacing
-    ROOT --> PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
-    ROOT --> PACKAGEJSON["package.json"]:::doubledSpacing
-    ROOT --> RESOURCES["resources/"]:::doubledSpacing
-    RESOURCES --> RESOURCES_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
-    RESOURCES --> RESOURCES_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
-    RESOURCES --> RESOURCES_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
-    ROOT --> SECTION_01["section_01/"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_READMEMD["README.md"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_CONVERTJS["convert.js"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_INPUTYAML["input.yaml"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_OUTPUTJSON["output.json"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_PACKAGEJSON["package.json"]:::doubledSpacing
-    ROOT --> SECTION_02["section_02/"]:::doubledSpacing
-    SECTION_02 --> SECTION_02_READMEMD["README.md"]:::doubledSpacing
-    ROOT --> UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
+    ROOT --> SPACER_0[" "]:::doubledSpacing
+    SPACER_0 --> CHANGELOGMD["CHANGELOG.md"]:::doubledSpacing
+    ROOT --> SPACER_1[" "]:::doubledSpacing
+    SPACER_1 --> MAKEFILE["Makefile"]:::doubledSpacing
+    ROOT --> SPACER_2[" "]:::doubledSpacing
+    SPACER_2 --> READMEMD["README.md"]:::doubledSpacing
+    ROOT --> SPACER_3[" "]:::doubledSpacing
+    SPACER_3 --> APPJS["app.js"]:::doubledSpacing
+    ROOT --> SPACER_4[" "]:::doubledSpacing
+    SPACER_4 --> DOT_MARKDOWNLINTIGNORE["dot_markdownlintignore"]:::doubledSpacing
+    ROOT --> SPACER_5[" "]:::doubledSpacing
+    SPACER_5 --> FOO["foo"]:::doubledSpacing
+    ROOT --> SPACER_6[" "]:::doubledSpacing
+    SPACER_6 --> PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
+    ROOT --> SPACER_7[" "]:::doubledSpacing
+    SPACER_7 --> PACKAGEJSON["package.json"]:::doubledSpacing
+    ROOT --> SPACER_8[" "]:::doubledSpacing
+    SPACER_8 --> RESOURCES["resources/"]:::doubledSpacing
+    RESOURCES --> SPACER_9[" "]:::doubledSpacing
+    SPACER_9 --> RESOURCES_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
+    RESOURCES --> SPACER_10[" "]:::doubledSpacing
+    SPACER_10 --> RESOURCES_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
+    RESOURCES --> SPACER_11[" "]:::doubledSpacing
+    SPACER_11 --> RESOURCES_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
+    ROOT --> SPACER_12[" "]:::doubledSpacing
+    SPACER_12 --> SECTION_01["section_01/"]:::doubledSpacing
+    SECTION_01 --> SPACER_13[" "]:::doubledSpacing
+    SPACER_13 --> SECTION_01_READMEMD["README.md"]:::doubledSpacing
+    SECTION_01 --> SPACER_14[" "]:::doubledSpacing
+    SPACER_14 --> SECTION_01_CONVERTJS["convert.js"]:::doubledSpacing
+    SECTION_01 --> SPACER_15[" "]:::doubledSpacing
+    SPACER_15 --> SECTION_01_INPUTYAML["input.yaml"]:::doubledSpacing
+    SECTION_01 --> SPACER_16[" "]:::doubledSpacing
+    SPACER_16 --> SECTION_01_OUTPUTJSON["output.json"]:::doubledSpacing
+    SECTION_01 --> SPACER_17[" "]:::doubledSpacing
+    SPACER_17 --> SECTION_01_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
+    SECTION_01 --> SPACER_18[" "]:::doubledSpacing
+    SPACER_18 --> SECTION_01_PACKAGEJSON["package.json"]:::doubledSpacing
+    ROOT --> SPACER_19[" "]:::doubledSpacing
+    SPACER_19 --> SECTION_02["section_02/"]:::doubledSpacing
+    SECTION_02 --> SPACER_20[" "]:::doubledSpacing
+    SPACER_20 --> SECTION_02_READMEMD["README.md"]:::doubledSpacing
+    ROOT --> SPACER_21[" "]:::doubledSpacing
+    SPACER_21 --> UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
 ```
