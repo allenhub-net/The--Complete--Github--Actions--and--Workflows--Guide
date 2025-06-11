@@ -11,6 +11,7 @@
          * [pull request creation](#pull-request-creation)
          * [pull request merge](#pull-request-merge)
       * [issue create](#issue-create)
+   * [Section 2.16 - Event Activity Types](#section-216---event-activity-types)
 <!--te-->
 <!-- markdownlint-enable -->
 

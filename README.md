@@ -35,6 +35,7 @@
          * [pull request creation](section_02/README.md#pull-request-creation)
          * [pull request merge](section_02/README.md#pull-request-merge)
       * [issue create](section_02/README.md#issue-create)
+   * [Section 2.16 - Event Activity Types](section_02/README.md#section-216---event-activity-types)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
