@@ -98,6 +98,7 @@ graph TD;
     ROOT --> READMEMD["README.md"]
     ROOT --> APPJS["app.js"]
     ROOT --> DOT_MARKDOWNLINTIGNORE["dot_markdownlintignore"]
+    ROOT --> FOO["foo"]
     ROOT --> PACKAGELOCKJSON["package-lock.json"]
     ROOT --> PACKAGEJSON["package.json"]
     ROOT --> RESOURCES["resources/"]
