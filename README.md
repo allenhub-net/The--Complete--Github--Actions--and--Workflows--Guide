@@ -125,14 +125,14 @@ graph TD;
     ROOT --> UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
 ```
 
-
 ## dependabot
 
-interesting to see dependabot flag the issue.  when I added a known-to-be-out-of-date dev dependency to package-lock.json, renovate picked it up right away
+interesting to see dependabot flag the issue.  when
+I added a known-to-be-out-of-date dev dependency to
+package-lock.json, renovate picked it up right away
 
 as soon as I merged the renovate PR, dependabot closed the issue
 
 slick
-
 
 <https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/security/dependabot/3>
