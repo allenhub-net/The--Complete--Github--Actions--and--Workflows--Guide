@@ -57,8 +57,14 @@ GITHUB_REF:refs/heads/main
 
 (ref of last commit on default branch)
 
-
 ## Section 2.16 - Event Activity Types
 
-once again, the workflow file comes from /main.  maybe later we'll get an alternative to run from the branch doing the push
+once again, the workflow file comes from /main.  
+maybe later we'll get an alternative to run from the branch doing the push
 
+## section 2.17 - Event trigging from forks
+
+note: lots of settings. if using an organization, settings need to be configured
+at organization level
+
+[Approving workflow runs from public forks](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/approving-workflow-runs-from-public-forks)
