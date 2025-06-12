@@ -17,5 +17,5 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                body: `Thank you for your pull request! Please ensure that you have followed the [contribution guidelines](https://github.com/your/repo/blob/main/CONTRIBUTING.md).
+                body: `Thanks, ${{ github.actor }}, for your pull request!`
             });
