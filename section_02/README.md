@@ -75,7 +75,8 @@ at organization level
 
 `pull_request_target` - runs in context of base branch, not HEAD branch
 
-safe against protection from external pull requests - does not run the code from the pull request
+safe against protection from external pull requests - does not run the code from
+the pull request
 
 such as adding a label
 
