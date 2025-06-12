@@ -14,6 +14,7 @@
    * [Section 2.16 - Event Activity Types](#section-216---event-activity-types)
    * [section 2.17 - Event trigging from forks](#section-217---event-trigging-from-forks)
    * [section 2.18 - Pull Request Target event](#section-218---pull-request-target-event)
+   * [section 2.19 - workflow_run](#section-219---workflow_run)
 <!--te-->
 <!-- markdownlint-enable -->
 
@@ -81,3 +82,6 @@ the pull request
 such as adding a label
 
 [Octokit REST.js v22 Documentation](https://octokit.github.io/rest.js/v22/)
+
+## section 2.19 - workflow_run
+

@@ -18,5 +18,5 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                body: `Thanks, ${{ github.actor }}, for your pull request!`
+                body: `Thanks, Dawg (${{ github.actor }}), for your pull request!`
             });

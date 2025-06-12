@@ -38,6 +38,7 @@
    * [Section 2.16 - Event Activity Types](section_02/README.md#section-216---event-activity-types)
    * [section 2.17 - Event trigging from forks](section_02/README.md#section-217---event-trigging-from-forks)
    * [section 2.18 - Pull Request Target event](section_02/README.md#section-218---pull-request-target-event)
+   * [section 2.19 - workflow_run](section_02/README.md#section-219---workflow_run)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
