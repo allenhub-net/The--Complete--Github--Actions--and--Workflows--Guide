@@ -69,3 +69,13 @@ note: lots of settings. if using an organization, settings need to be configured
 at organization level
 
 [Approving workflow runs from public forks](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/approving-workflow-runs-from-public-forks)
+
+## section 2.18 - Pull Request Target event
+
+`pull_request_target` - runs in context of base branch, not HEAD branch
+
+safe against protection from external pull requests - does not run the code from the pull request
+
+such as adding a label
+
+[Octokit REST.js v22 Documentation](https://octokit.github.io/rest.js/v22/)
