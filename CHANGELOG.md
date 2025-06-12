@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.19.0...v1.19.1) (2025-06-12)
+
+
+### Bug Fixes
+
+* drop the changelog ([a5a9345](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/a5a9345fa0c158cd90be0f6d395e92b0b55d5646))
+
 # [1.19.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.18.5...v1.19.0) (2025-06-11)
 
 
