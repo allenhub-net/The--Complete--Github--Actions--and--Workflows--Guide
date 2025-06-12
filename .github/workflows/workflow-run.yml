@@ -1,11 +1,14 @@
 name: workflow-run
 
 on: 
+
   workflow_run:
     workflows:
       - events
     type:
       - completed
+
+  workflow_dispatch:
 
 jobs:
   echo-string:
