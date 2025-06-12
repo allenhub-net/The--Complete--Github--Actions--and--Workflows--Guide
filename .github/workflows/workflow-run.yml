@@ -11,4 +11,6 @@ jobs:
   echo-string:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "::notice title=workflow_run::I was triggered because 'events' was completed"
+      - run: |
+          echo "::notice title=GITHUB_SHA::GITHUB_SHA is ${GITHUB_SHA}"
+          echo "::notice title=GITHUB_REF::GITHUB_REF is ${GITHUB_REF}"
