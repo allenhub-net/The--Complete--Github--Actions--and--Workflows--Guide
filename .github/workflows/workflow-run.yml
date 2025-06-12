@@ -15,4 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-            echo -e "::notice title=github context::GITHUB_SHA is ${GITHUB_SHA}\nGITHUB_REF is ${GITHUB_REF}"
+          echo "::notice title=GITHUB_SHA::GITHUB_SHA is ${GITHUB_SHA}"
+          echo "::notice title=GITHUB_REF::GITHUB_REF is ${GITHUB_REF}"
