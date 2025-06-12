@@ -2,8 +2,7 @@ name: Update Mermaid Graph
 
 on:
   push:
-    branches:
-      - main
+
 
 jobs:
   update-mermaid:
