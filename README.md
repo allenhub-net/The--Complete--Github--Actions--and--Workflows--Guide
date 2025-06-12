@@ -6,7 +6,7 @@
 <!--ts-->
 
 * [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
-   * [renovate notes](README.md#renovate-notes)
+   * [renovatebot](README.md#renovatebot)
       * [create PRs in github not renovate console](README.md#create-prs-in-github-not-renovate-console)
       * [Commit message](README.md#commit-message)
          * [Default message](README.md#default-message)
@@ -14,6 +14,7 @@
          * [🏆 WINNER 🏆 PR Title and description](README.md#-winner--pr-title-and-description)
    * [EKS Notes](README.md#eks-notes)
    * [Mermaid](README.md#mermaid)
+   * [dependabot](README.md#dependabot)
 
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
