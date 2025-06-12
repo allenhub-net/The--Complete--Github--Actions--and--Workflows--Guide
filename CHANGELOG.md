@@ -1,3 +1,45 @@
+# [1.19.0](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.18.5...v1.19.0) (2025-06-11)
+
+
+### Features
+
+* ss2.16 ([54ef865](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/54ef865de068163fa1794c18447999b996852f9f))
+
+## [1.18.5](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.18.4...v1.18.5) (2025-06-11)
+
+
+### Bug Fixes
+
+* manual undo ([aa6ac74](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/aa6ac740e30347ebfefe9b55a8b63c3a68b5328f))
+
+## [1.18.4](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.18.3...v1.18.4) (2025-06-11)
+
+
+### Bug Fixes
+
+* double space ([84863bd](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/84863bd67e1e99038daa284ca4a40b3ecf5a0978))
+
+## [1.18.3](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.18.2...v1.18.3) (2025-06-11)
+
+
+### Bug Fixes
+
+* unfix ([c6706aa](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/c6706aa5500d3d4369660b232ba0c30020ad9b96))
+
+## [1.18.2](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.18.1...v1.18.2) (2025-06-11)
+
+
+### Bug Fixes
+
+* more ([9137ff9](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/9137ff9fd5edf199df0903f65ed17232b9f1a1b1))
+
+## [1.18.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.18.0...v1.18.1) (2025-06-11)
+
+
+### Bug Fixes
+
+* double-space node rows ([d7d0806](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/commit/d7d0806aad939b779d66de7e4d0a7accd66f4ab3))
+
 ## [1.17.1](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/compare/v1.17.0...v1.17.1) (2025-06-10)
 
 
