@@ -100,6 +100,7 @@ graph TD;
     %% Double vertical spacing
     classDef doubledSpacing height:60px;
     ROOT["/ (root)"]:::doubledSpacing
+    ROOT --> CHANGELOGMD["CHANGELOG.md"]:::doubledSpacing
     ROOT --> MAKEFILE["Makefile"]:::doubledSpacing
     ROOT --> READMEMD["README.md"]:::doubledSpacing
     ROOT --> APPJS["app.js"]:::doubledSpacing
