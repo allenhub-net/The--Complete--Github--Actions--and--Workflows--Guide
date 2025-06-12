@@ -13,6 +13,7 @@
       * [issue create](#issue-create)
    * [Section 2.16 - Event Activity Types](#section-216---event-activity-types)
    * [section 2.17 - Event trigging from forks](#section-217---event-trigging-from-forks)
+   * [section 2.18 - Pull Request Target event](#section-218---pull-request-target-event)
 <!--te-->
 <!-- markdownlint-enable -->
 
@@ -69,3 +70,14 @@ note: lots of settings. if using an organization, settings need to be configured
 at organization level
 
 [Approving workflow runs from public forks](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/approving-workflow-runs-from-public-forks)
+
+## section 2.18 - Pull Request Target event
+
+`pull_request_target` - runs in context of base branch, not HEAD branch
+
+safe against protection from external pull requests - does not run the code from
+the pull request
+
+such as adding a label
+
+[Octokit REST.js v22 Documentation](https://octokit.github.io/rest.js/v22/)
