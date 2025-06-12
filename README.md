@@ -3,110 +3,51 @@
 [Udemy Course Link](https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8noJMBI7eT51ozLMdESC0TC/)
 
 <!-- markdownlint-disable -->
-# Table of Contents
 <!--ts-->
-* [The--Complete--Github--Actions--and--Workflows--Guide](#the--complete--github--actions--and--workflows--guide)
-* [Table of Contents](#table-of-contents)
-   * [<a href="./section_01/README.md">Section 01</a>](./section_01/README.md)
-      * [Section 1.4 - First Workflow](#section-14---first-workflow)
-      * [Section 1.5 - Parallel &amp; Dependent Jobs](#section-15---parallel--dependent-jobs)
-      * [Section 1.6 - Managing Workflows](#section-16---managing-workflows)
-      * [Section 1.7 - Debugging Workflows](#section-17---debugging-workflows)
-      * [Section 1.8 - Skipping Workflows](#section-18---skipping-workflows)
-      * [Section 1.9 - Workflow commands](#section-19---workflow-commands)
-      * [Section 1.11 - Working Dirs and Shells](#section-111---working-dirs-and-shells)
-      * [Section 1.12 - Download our repo](#section-112---download-our-repo)
-      * [Section 1.13 - Actions](#section-113---actions)
-      * [Section 1.14 - Actions](#section-114---actions)
-* [renovate notes](#renovate-notes)
-   * [create PRs in github not renovate console](#create-prs-in-github-not-renovate-console)
-   * [Commit message](#commit-message)
-      * [Default message](#default-message)
-      * [Pull Request Title](#pull-request-title)
-      * [🏆 WINNER 🏆 PR Title and description](#-winner--pr-title-and-description)
-* [EKS Notes](#eks-notes)
+
+* [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
+   * [renovate notes](README.md#renovate-notes)
+      * [create PRs in github not renovate console](README.md#create-prs-in-github-not-renovate-console)
+      * [Commit message](README.md#commit-message)
+         * [Default message](README.md#default-message)
+         * [Pull Request Title](README.md#pull-request-title)
+         * [🏆 WINNER 🏆 PR Title and description](README.md#-winner--pr-title-and-description)
+   * [EKS Notes](README.md#eks-notes)
+   * [Mermaid](README.md#mermaid)
+
+* [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
+   * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
+   * [Section 1.4 - First Workflow](section_01/README.md#section-14---first-workflow)
+   * [Section 1.5 - Parallel &amp; Dependent Jobs](section_01/README.md#section-15---parallel--dependent-jobs)
+   * [Section 1.6 - Managing Workflows](section_01/README.md#section-16---managing-workflows)
+   * [Section 1.7 - Debugging Workflows](section_01/README.md#section-17---debugging-workflows)
+   * [Section 1.8 - Skipping Workflows](section_01/README.md#section-18---skipping-workflows)
+   * [Section 1.9 - Workflow commands](section_01/README.md#section-19---workflow-commands)
+   * [Section 1.11 - Working Dirs and Shells](section_01/README.md#section-111---working-dirs-and-shells)
+   * [Section 1.12 - Download our repo](section_01/README.md#section-112---download-our-repo)
+   * [Section 1.13 - Actions](section_01/README.md#section-113---actions)
+   * [Section 1.14 - Actions](section_01/README.md#section-114---actions)
+
+* [Section 2 - Events](section_02/README.md#section-2---events)
+   * [Section 2.15 - Events](section_02/README.md#section-215---events)
+      * [push](section_02/README.md#push)
+      * [pull_request](section_02/README.md#pull_request)
+         * [pull request creation](section_02/README.md#pull-request-creation)
+         * [pull request merge](section_02/README.md#pull-request-merge)
+      * [issue create](section_02/README.md#issue-create)
+   * [Section 2.16 - Event Activity Types](section_02/README.md#section-216---event-activity-types)
+   * [section 2.17 - Event trigging from forks](section_02/README.md#section-217---event-trigging-from-forks)
+   * [section 2.18 - Pull Request Target event](section_02/README.md#section-218---pull-request-target-event)
+   * [section 2.19 - workflow_run](section_02/README.md#section-219---workflow_run)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
+
 <!-- markdownlint-enable -->
 
-## [Section 01](./section_01/README.md)
+## renovatebot
 
-### Section 1.4 - First Workflow
-
-<!-- markdownlint-disable MD033 -->
-<ul>
-</ul>
-<!-- markdownlint-enable MD033 -->
-
-### Section 1.5 - Parallel & Dependent Jobs
-<!-- markdownlint-disable MD033 -->
-<ul>
-</ul>
-<!-- markdownlint-enable MD033 -->
-
-### Section 1.6 - Managing Workflows
-
-* debug logging when re-running single jobs
-
-### Section 1.7 - Debugging Workflows
-
-* highlight a line in an action and copy/paste the URL
-
-  [github token permission](https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/actions/runs/15276653619/job/42964625517#step:1:17)
-
-* repsitory variables for debugging
-
-      ACTIONS_RUNNER_DEBUG=true
-      ACTIONS_STEP_DEBUG=true
-
-  note: github actions extensions for codespace does not seem
-  to integrate with "settings" frame
-
-  note: releases for ss1.7 are coming out as "pre-release" :(
-Wed May 28 13:52:44 UTC 2025
-
-### Section 1.8 - Skipping Workflows
-
-* `[skip ci]`, `[skip actions]`
-
-### Section 1.9 - Workflow commands
-
-* message to runner - cool
-* whoa ... there are many of them <https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions>
-* cool - folding/grouping messages
-* cool - masking
-
-### Section 1.11 - Working Dirs and Shells
-
-* workflow, job, or step-level setting of shell or wd
-* python shell
-  * command body is python code :)
-
-### Section 1.12 - Download our repo
-
-* no school like old school
-* github variables
-
-### Section 1.13 - Actions
-
-* three types of actions
-  * javascript
-    * directly on runner
-    * all OSs
-  * docker
-    * write in any language
-    * abstract tools and OS & environment
-    * slower than js actions
-    * composite actions
-      * combine multiple workflow steps into actions
-      * reference the action rather than type out the steps
-
-### Section 1.14 - Actions
-
-mostly fiddling with renovate, which is awesome
-
-# renovate notes
-
-## create PRs in github not renovate console
+### create PRs in github not renovate console
 
 🦠 renovate web service by default will create the dependency dashboard in the
  web console (the "developer console"), and not in a github issue.
@@ -114,7 +55,8 @@ mostly fiddling with renovate, which is awesome
 
 "Silent Mode" seems to be the culprait, as least as far as naming clarity is concerned.
 
-1. go to "SETTINGS" <br>![Mend Renovate Settings](resources/mend-renovate-settings.png)
+1. go to "SETTINGS"  
+   ![Mend Renovate Settings](resources/mend-renovate-settings.png)
 
 1. Selection "Dependencies"
 
@@ -129,23 +71,67 @@ mostly fiddling with renovate, which is awesome
      * ✅ Require config file
      * ✅ Create onboarding PRs
 
-## Commit message
+### Commit message
 
-<img src="resources/pr-settings.png" alt="PR Settings" width="50%" />
+![PR Settings](resources/pr-settings.png)
 
-### Default message
+#### Default message
 
 doesn't trigger semantic release the
 way I want
 
-### Pull Request Title
+#### Pull Request Title
 
 seems good
 
-### 🏆 WINNER 🏆 PR Title and description
+#### 🏆 WINNER 🏆 PR Title and description
 
 includes the branch and (clickable) PR number in the commit summary
 
-# EKS Notes
+## EKS Notes
 
 <https://docs.renovatebot.com/modules/versioning/aws-eks-addon/>
+
+## Mermaid
+
+```mermaid
+
+%% Repository Structure
+graph TD;
+    %% Double vertical spacing
+    classDef doubledSpacing height:60px;
+    ROOT["/ (root)"]:::doubledSpacing
+    ROOT --> CHANGELOGMD["CHANGELOG.md"]:::doubledSpacing
+    ROOT --> MAKEFILE["Makefile"]:::doubledSpacing
+    ROOT --> READMEMD["README.md"]:::doubledSpacing
+    ROOT --> APPJS["app.js"]:::doubledSpacing
+    ROOT --> DERENOVATESH["de-renovate.sh"]:::doubledSpacing
+    ROOT --> PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
+    ROOT --> PACKAGEJSON["package.json"]:::doubledSpacing
+    ROOT --> RESOURCES["resources/"]:::doubledSpacing
+    RESOURCES --> RESOURCES_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
+    RESOURCES --> RESOURCES_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
+    RESOURCES --> RESOURCES_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
+    ROOT --> SECTION_01["section_01/"]:::doubledSpacing
+    SECTION_01 --> SECTION_01_READMEMD["README.md"]:::doubledSpacing
+    SECTION_01 --> SECTION_01_CONVERTJS["convert.js"]:::doubledSpacing
+    SECTION_01 --> SECTION_01_INPUTYAML["input.yaml"]:::doubledSpacing
+    SECTION_01 --> SECTION_01_OUTPUTJSON["output.json"]:::doubledSpacing
+    SECTION_01 --> SECTION_01_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
+    SECTION_01 --> SECTION_01_PACKAGEJSON["package.json"]:::doubledSpacing
+    ROOT --> SECTION_02["section_02/"]:::doubledSpacing
+    SECTION_02 --> SECTION_02_READMEMD["README.md"]:::doubledSpacing
+    ROOT --> UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
+```
+
+
+## dependabot
+
+interesting to see dependabot flag the issue.  when I added a known-to-be-out-of-date dev dependency to package-lock.json, renovate picked it up right away
+
+as soon as I merged the renovate PR, dependabot closed the issue
+
+slick
+
+
+<https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/security/dependabot/3>

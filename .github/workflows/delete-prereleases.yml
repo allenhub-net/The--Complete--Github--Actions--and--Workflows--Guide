@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: 'Force delete pre-releases'
+        description: 'delete pre-releases'
         required: false
         default: false
         type: boolean

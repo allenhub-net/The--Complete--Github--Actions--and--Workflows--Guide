@@ -1,0 +1,14 @@
+name: workflow-run
+
+on: 
+  workflow_run:
+    workflows:
+      - events
+    type:
+      - completed
+
+jobs:
+  echo-string:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "::notice title=workflow_run::I was triggered because 'events' was completed"

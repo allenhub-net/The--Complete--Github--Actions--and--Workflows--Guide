@@ -4,14 +4,16 @@ on:
   workflow_dispatch:
 
   # note: this will run twice if README.md is updated
-  push:
-    branches:
-      - section--*
+  # push:
+  #   branches:
+  #     - section--*
 
   workflow_run:
     workflows: ["github-markdown-toc"]
     types:
       - completed
+    branches:
+      - section--*
 
 jobs:
   release:

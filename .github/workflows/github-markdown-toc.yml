@@ -23,10 +23,15 @@ jobs:
           chmod a+x gh-md-toc
           find . -iname '*.md' -print | while read md ; do 
             awk '/<!--ts-->/ {ts=NR} /<!--te-->/ {te=NR} END {exit !(ts && te && ts < te)}' ${md} || { echo "skipping ${md}" ; continue ; } 
-            echo "match: ${md}" 
+            echo "match: ${md} - updating TOC in ${md}" 
             ./gh-md-toc --insert --no-backup --hide-footer ${md}
           done
+          echo "updating omni-TOC in README.md"
+          ./gh-md-toc README.md section_01/README.md section_02/README.md > toc.tmp
+          awk '/<!--ts-->/ {print;while((getline<"toc.tmp")>0)print;f=1;next} /<!--te-->/ {f=0;print;next} !f' README.md > README.md.tmp && mv README.md.tmp README.md
+          rm toc.tmp
           rm gh-md-toc
+          git diff 
       - name: self-commit our changes
         uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 # v6.0.1
         with:
