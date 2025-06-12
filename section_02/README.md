@@ -13,6 +13,7 @@
       * [issue create](#issue-create)
    * [Section 2.16 - Event Activity Types](#section-216---event-activity-types)
    * [section 2.17 - Event trigging from forks](#section-217---event-trigging-from-forks)
+   * [section 2.18 - Pull Request Target event](#section-218---pull-request-target-event)
 <!--te-->
 <!-- markdownlint-enable -->
 
