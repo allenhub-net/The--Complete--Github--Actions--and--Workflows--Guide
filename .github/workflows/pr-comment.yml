@@ -1,4 +1,4 @@
-name: Pull Request Comment
+name: pr-comment
 
 on: 
   pull_request_target:
