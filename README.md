@@ -36,6 +36,7 @@
          * [pull request merge](section_02/README.md#pull-request-merge)
       * [issue create](section_02/README.md#issue-create)
    * [Section 2.16 - Event Activity Types](section_02/README.md#section-216---event-activity-types)
+   * [section 2.17 - Event trigging from forks](section_02/README.md#section-217---event-trigging-from-forks)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
