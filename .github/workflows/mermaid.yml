@@ -36,8 +36,8 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit" >> $GITHUB_STEP_SUMMARY
           else
-            git commit -m "chore: update Mermaid graph in README.md"
             echo "- Changes made to the following files:" >> $GITHUB_STEP_SUMMARY
             git diff --name-only >> $GITHUB_STEP_SUMMARY
+            git commit -m "chore: update Mermaid graph in README.md"
           fi
           git push
