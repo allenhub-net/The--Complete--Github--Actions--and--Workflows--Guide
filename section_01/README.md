@@ -2,6 +2,7 @@
 
 [Udemy Course Link](https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8noJMBI7eT51ozLMdESC0TC/)
 
+<!-- markdownlint-disable MD007 -->
 <!--ts-->
 * [Section 1 - Basic Concepts](#section-1---basic-concepts)
    * [Section 1.3 - YAML](#section-13---yaml)
@@ -16,6 +17,7 @@
    * [Section 1.13 - Actions](#section-113---actions)
    * [Section 1.14 - Actions](#section-114---actions)
 <!--te-->
+<!-- markdownlint-enable MD007 -->
 
 ## Section 1.3 - YAML
 
