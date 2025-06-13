@@ -33,5 +33,13 @@ jobs:
           git status
           git diff
           git add README.md
-          git diff --cached --quiet || git commit -m "chore: update Mermaid graph in README.md"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            echo "## 🎉 Hello from the job summary!" >> $GITHUB_STEP_SUMMARY
+            echo "- This will appear in the job summary tab" >> $GITHUB_STEP_SUMMARY
+          else
+            git commit -m "chore: update Mermaid graph in README.md"
+            echo "- chore: update Mermaid graph in README.md will appear in the job summary tab" >> $GITHUB_STEP_SUMMARY
+
+          fi
           git push
