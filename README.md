@@ -144,3 +144,7 @@ slick
 ## Markdown
 
 * two blank spaces at the end of a line of text yields a line break
+
+## TODO
+
+TODO: create a workflow/action that ensures PRs to /main will trigger a semantic release
