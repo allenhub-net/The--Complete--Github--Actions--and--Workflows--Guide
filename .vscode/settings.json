@@ -1,5 +1,6 @@
 {
     "markdownlint.ignore": [
         "CHANGELOG.md"
-    ]
+    ],
+    "markdown.extension.toc.unorderedList.marker": "*"
 }
