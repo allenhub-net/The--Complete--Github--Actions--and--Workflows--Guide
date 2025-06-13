@@ -24,7 +24,7 @@ jobs:
         run: npm ci || npm install
 
       - name: Update Mermaid graph in README.md
-        run: npm run update-mermaid
+        run: npm run update-mermaid -- README.md
 
       - name: Commit and push changes
         run: |
