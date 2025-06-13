@@ -4,13 +4,13 @@ on:
   push:
   workflow_dispatch: 
 
-defaults:
-  run:
-    working-directory: ./section_02
+
 
 jobs:
   update-mermaid:
     runs-on: ubuntu-latest
+    env:
+      NODE_HOME: section_02
     steps:
       - name: Checkout repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
@@ -21,10 +21,10 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm ci || npm install
+        run: cd "$NODE_HOME" && (npm ci || npm install)
 
       - name: Update Mermaid graph in README.md
-        run: npm run update-mermaid -- README.md
+        run: cd "$NODE_HOME" && (npm run update-mermaid -- README.md)
 
       - name: Commit and push changes
         run: |
