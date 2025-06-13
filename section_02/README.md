@@ -2,6 +2,7 @@
 
 [Udemy Course Link](https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8noJMBI7eT51ozLMdESC0TC/)
 
+<!-- markdownlint-disable MD007 -->
 <!--ts-->
 * [Section 2 - Events](#section-2---events)
    * [Section 2.15 - Events](#section-215---events)
@@ -19,6 +20,7 @@
          * [Q: * vs **](#q--vs-)
          * [A: don't cross /, or do cross /](#a-dont-cross--or-do-cross-)
 <!--te-->
+<!-- markdownlint-enable MD007 -->
 
 ## Section 2.15 - Events
 
