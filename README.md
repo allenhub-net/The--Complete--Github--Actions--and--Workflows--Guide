@@ -16,6 +16,7 @@
    * [Mermaid](README.md#mermaid)
    * [Dependabot](README.md#dependabot)
    * [Markdown](README.md#markdown)
+   * [TODO](README.md#todo)
 
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
