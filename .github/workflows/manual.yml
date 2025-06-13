@@ -20,7 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "message: ${{ github.event.inputs.message }}"
           echo "::notice title=message::message is ${{ github.event.inputs.message }}"
           echo "::notice title=GITHUB_SHA::GITHUB_SHA is ${GITHUB_SHA}"
           echo "::notice title=GITHUB_REF::GITHUB_REF is ${GITHUB_REF}"
