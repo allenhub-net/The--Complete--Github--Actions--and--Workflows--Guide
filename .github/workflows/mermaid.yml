@@ -30,6 +30,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git status
+          git diff
           git add README.md
           git diff --cached --quiet || git commit -m "chore: update Mermaid graph in README.md"
           git push
