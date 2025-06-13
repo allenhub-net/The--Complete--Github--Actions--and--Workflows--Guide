@@ -19,6 +19,7 @@
       * [copilot: Branch Filter Patterns in GitHub Actions](#copilot-branch-filter-patterns-in-github-actions)
          * [Q: * vs **](#q--vs-)
          * [A: don't cross /, or do cross /](#a-dont-cross--or-do-cross-)
+   * [section 2.21 - manual trigger](#section-221---manual-trigger)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 

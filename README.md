@@ -46,6 +46,7 @@
       * [copilot: Branch Filter Patterns in GitHub Actions](section_02/README.md#copilot-branch-filter-patterns-in-github-actions)
          * [Q: * vs **](section_02/README.md#q--vs-)
          * [A: don't cross /, or do cross /](section_02/README.md#a-dont-cross--or-do-cross-)
+   * [section 2.21 - manual trigger](section_02/README.md#section-221---manual-trigger)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
