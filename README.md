@@ -40,6 +40,7 @@
    * [section 2.17 - Event trigging from forks](section_02/README.md#section-217---event-trigging-from-forks)
    * [section 2.18 - Pull Request Target event](section_02/README.md#section-218---pull-request-target-event)
    * [section 2.19 - workflow_run](section_02/README.md#section-219---workflow_run)
+   * [section 2.20 - filter workflow runs by branches, tags, paths](section_02/README.md#section-220---filter-workflow-runs-by-branches-tags-paths)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
@@ -102,27 +103,26 @@ graph TD;
     %% Double vertical spacing
     classDef doubledSpacing height:60px;
     ROOT["/ (root)"]:::doubledSpacing
-    ROOT --> CHANGELOGMD["CHANGELOG.md"]:::doubledSpacing
-    ROOT --> MAKEFILE["Makefile"]:::doubledSpacing
-    ROOT --> READMEMD["README.md"]:::doubledSpacing
-    ROOT --> APPJS["app.js"]:::doubledSpacing
-    ROOT --> DERENOVATESH["de-renovate.sh"]:::doubledSpacing
-    ROOT --> PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
-    ROOT --> PACKAGEJSON["package.json"]:::doubledSpacing
-    ROOT --> RESOURCES["resources/"]:::doubledSpacing
-    RESOURCES --> RESOURCES_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
-    RESOURCES --> RESOURCES_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
-    RESOURCES --> RESOURCES_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
-    ROOT --> SECTION_01["section_01/"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_READMEMD["README.md"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_CONVERTJS["convert.js"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_INPUTYAML["input.yaml"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_OUTPUTJSON["output.json"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
-    SECTION_01 --> SECTION_01_PACKAGEJSON["package.json"]:::doubledSpacing
-    ROOT --> SECTION_02["section_02/"]:::doubledSpacing
-    SECTION_02 --> SECTION_02_READMEMD["README.md"]:::doubledSpacing
-    ROOT --> UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
+    ROOT --> ._MAKEFILE["Makefile"]:::doubledSpacing
+    ROOT --> ._READMEMD["README.md"]:::doubledSpacing
+    ROOT --> ._RESOURCES["resources/"]:::doubledSpacing
+    ._RESOURCES --> .RESOURCES_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
+    ._RESOURCES --> .RESOURCES_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
+    ._RESOURCES --> .RESOURCES_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
+    ROOT --> ._SECTION_01["section_01/"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_READMEMD["README.md"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_APPJS["app.js"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_CONVERTJS["convert.js"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_INPUTYAML["input.yaml"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_OUTPUTJSON["output.json"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_PACKAGEJSON["package.json"]:::doubledSpacing
+    ROOT --> ._SECTION_02["section_02/"]:::doubledSpacing
+    ._SECTION_02 --> .SECTION_02_READMEMD["README.md"]:::doubledSpacing
+    ._SECTION_02 --> .SECTION_02_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
+    ._SECTION_02 --> .SECTION_02_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
+    ._SECTION_02 --> .SECTION_02_PACKAGEJSON["package.json"]:::doubledSpacing
+    ._SECTION_02 --> .SECTION_02_UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
 ```
 
 ## dependabot
