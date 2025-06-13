@@ -4,8 +4,9 @@ on:
   push:
   workflow_dispatch: 
 
-env:
-  ACTION_FOLDER: section_02
+defaults:
+  run:
+    working-directory: ./section_02
 
 jobs:
   update-mermaid:
@@ -20,11 +21,9 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        uses: ./${{ env.ACTION_FOLDER }}
         run: npm ci || npm install
 
       - name: Update Mermaid graph in README.md
-        uses: ./${{ env.ACTION_FOLDER }}
         run: npm run update-mermaid
 
       - name: Commit and push changes
