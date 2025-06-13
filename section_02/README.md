@@ -116,7 +116,7 @@ workflow will only run when all filters are matched (AND, not OR)
 
 can specify branches/paths in `pull_request`, `pull_request_target`, `workflow_run`
 
-  * if `workflow_run` has `workflows:`, the predicate must be on the same branch
+* if `workflow_run` has `workflows:`, the predicate must be on the same branch
 
 ### copilot: Branch Filter Patterns in GitHub Actions
 
@@ -156,7 +156,6 @@ Note: `branches-ignore`
 * also note, `branches` and `branches-ignore` are mutually exclusive
 
 * also, also note: `"!feature/featA"` ignores `feature/featA`
-
 
 ## section 2.21 - manual trigger
 
