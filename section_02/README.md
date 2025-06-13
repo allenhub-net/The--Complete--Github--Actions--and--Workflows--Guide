@@ -103,6 +103,20 @@ note: can only have up to three levels of nesting for `workflow_run`
   
 * order matters: last match wins
 
+tags work same as branches - may be useful in development pipeline
+
+path syntax is a little different
+
+[Patterns to match branches and tags](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#patterns-to-match-branches-and-tags)
+
+[Patterns to match file paths](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#patterns-to-match-file-paths)
+
+workflow will only run when all filters are matched (AND, not OR)
+
+can specify branches/paths in `pull_request`, `pull_request_target`, `workflow_run`
+
+  * if `workflow_run` has `workflows:`, the predicate must be on the same branch
+
 ### copilot: Branch Filter Patterns in GitHub Actions
 
 #### Q: `*` vs `**`
