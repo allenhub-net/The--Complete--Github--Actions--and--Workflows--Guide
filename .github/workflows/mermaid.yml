@@ -28,6 +28,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          set -x
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git status
@@ -37,6 +38,8 @@ jobs:
             echo "No changes to commit" >> $GITHUB_STEP_SUMMARY
           else
             echo "- Changes made to the following files:" >> $GITHUB_STEP_SUMMARY
+            echo "- Changes made to the following files:"
+            git diff --name-only
             git diff --name-only >> $GITHUB_STEP_SUMMARY
             git commit -m "chore: update Mermaid graph in README.md"
           fi
