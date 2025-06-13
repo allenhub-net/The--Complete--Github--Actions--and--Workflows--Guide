@@ -3,12 +3,20 @@ name: manual
 on: 
 
   workflow_dispatch:
-
+    inputs:
+      target_branch:
+        description: 'Branch to run on'
+        required: true
+        default: 'section_02'
+        type: string
+        
 jobs:
   log-info:
     runs-on: ubuntu-latest
     steps:
-      - run: |
+      - with:
+          ref: ${{ github.event.inputs.target_branch }}
+        run: |
           echo "::notice title=GITHUB_SHA::GITHUB_SHA is ${GITHUB_SHA}"
           echo "::notice title=GITHUB_REF::GITHUB_REF is ${GITHUB_REF}"
           echo "::notice title=GITHUB_EVENT_NAME::GITHUB_EVENT_NAME is ${GITHUB_EVENT_NAME}"
