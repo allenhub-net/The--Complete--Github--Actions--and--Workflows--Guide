@@ -22,7 +22,7 @@ jobs:
       - run: |
           {
             echo "### Workflow Inputs"
-            echo "- **message**: ${{ github.event.inputs.message }}"
+            echo "- **message**: ${{ inputs.message }}"
             echo ""
             echo "### GitHub Context Variables"
             echo "- github.sha: ${{ github.sha }}"
