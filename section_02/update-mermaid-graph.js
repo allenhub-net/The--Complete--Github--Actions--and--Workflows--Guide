@@ -37,7 +37,7 @@ function generateMermaid() {
   const lines = [];
   lines.push('%% Repository Structure');
   // Add Mermaid directive to double vertical spacing between rows
-  lines.push('graph TD;');
+  lines.push('graph LR;');
   lines.push('    %% Double vertical spacing');
   lines.push('    classDef doubledSpacing height:60px;'); // Mermaid class for spacing
 
