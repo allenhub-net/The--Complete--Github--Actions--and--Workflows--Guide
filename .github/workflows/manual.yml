@@ -19,9 +19,7 @@ jobs:
   log-info:
     runs-on: ubuntu-latest
     steps:
-      - with:
-          ref: ${{ github.event.inputs.target_branch }}
-        run: |
+      - run: |
           echo "message: ${{ github.event.inputs.message }}"
           echo "::notice title=message::message is ${{ github.event.inputs.message }}"
           echo "::notice title=GITHUB_SHA::GITHUB_SHA is ${GITHUB_SHA}"
