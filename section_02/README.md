@@ -155,3 +155,7 @@ Note: `branches-ignore`
 * also note, `branches` and `branches-ignore` are mutually exclusive
 
 * also, also note: `"!feature/featA"` ignores `feature/featA`
+
+
+## section 2.21 - manual trigger
+
