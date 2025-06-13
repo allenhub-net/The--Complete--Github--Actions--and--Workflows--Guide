@@ -1,10 +1,8 @@
-
-
 # Section 1 - Basic Concepts
 
 [Udemy Course Link](https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8noJMBI7eT51ozLMdESC0TC/)
 
-<!-- markdownlint-disable -->
+<!-- markdownlint-disable MD007 -->
 <!--ts-->
 * [Section 1 - Basic Concepts](#section-1---basic-concepts)
    * [Section 1.3 - YAML](#section-13---yaml)
@@ -19,12 +17,12 @@
    * [Section 1.13 - Actions](#section-113---actions)
    * [Section 1.14 - Actions](#section-114---actions)
 <!--te-->
-<!-- markdownlint-enable -->
-
+<!-- markdownlint-enable MD007 -->
 
 ## Section 1.3 - YAML
 
 align vscode panels
+
 * top-left: input.yaml
 * top-right: output.json
 * bottom: terminal
@@ -35,11 +33,9 @@ in terminal
 
     npm run start
 
-change something in _input.yaml_<br>
-see convert.js restart in terminal<br>
-see output.json updated in _output.json_<br>
-
-
+change something in _input.yaml_  
+see convert.js restart in terminal  
+see output.json updated in _output.json_  
 
 ## Section 1.4 - First Workflow
 
@@ -114,5 +110,3 @@ Wed May 28 13:52:44 UTC 2025
 ## Section 1.14 - Actions
 
 mostly fiddling with renovate, which is awesome
-
-

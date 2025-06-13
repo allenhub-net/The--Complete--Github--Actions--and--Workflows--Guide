@@ -2,11 +2,11 @@
 
 [Udemy Course Link](https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8noJMBI7eT51ozLMdESC0TC/)
 
-<!-- markdownlint-disable -->
+<!-- markdownlint-disable MD007 -->
 <!--ts-->
 
 * [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
-   * [renovatebot](README.md#renovatebot)
+   * [Renovatebot](README.md#renovatebot)
       * [create PRs in github not renovate console](README.md#create-prs-in-github-not-renovate-console)
       * [Commit message](README.md#commit-message)
          * [Default message](README.md#default-message)
@@ -14,7 +14,8 @@
          * [🏆 WINNER 🏆 PR Title and description](README.md#-winner--pr-title-and-description)
    * [EKS Notes](README.md#eks-notes)
    * [Mermaid](README.md#mermaid)
-   * [dependabot](README.md#dependabot)
+   * [Dependabot](README.md#dependabot)
+   * [Markdown](README.md#markdown)
 
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
@@ -41,13 +42,16 @@
    * [section 2.18 - Pull Request Target event](section_02/README.md#section-218---pull-request-target-event)
    * [section 2.19 - workflow_run](section_02/README.md#section-219---workflow_run)
    * [section 2.20 - filter workflow runs by branches, tags, paths](section_02/README.md#section-220---filter-workflow-runs-by-branches-tags-paths)
+      * [copilot: Branch Filter Patterns in GitHub Actions](section_02/README.md#copilot-branch-filter-patterns-in-github-actions)
+         * [Q: * vs **](section_02/README.md#q--vs-)
+         * [A: don't cross /, or do cross /](section_02/README.md#a-dont-cross--or-do-cross-)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-enable MD007 -->
 
-## renovatebot
+## Renovatebot
 
 ### create PRs in github not renovate console
 
@@ -125,7 +129,7 @@ graph LR;
     ._SECTION_02 --> .SECTION_02_UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
 ```
 
-## dependabot
+## Dependabot
 
 interesting to see dependabot flag the issue.  when
 I added a known-to-be-out-of-date dev dependency to
@@ -136,3 +140,7 @@ as soon as I merged the renovate PR, dependabot closed the issue
 slick
 
 <https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/security/dependabot/3>
+
+## Markdown
+
+* two blank spaces at the end of a line of text yields a line break

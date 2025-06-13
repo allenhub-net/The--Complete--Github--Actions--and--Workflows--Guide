@@ -2,7 +2,7 @@
 
 [Udemy Course Link](https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8noJMBI7eT51ozLMdESC0TC/)
 
-<!-- markdownlint-disable -->
+<!-- markdownlint-disable MD007 -->
 <!--ts-->
 * [Section 2 - Events](#section-2---events)
    * [Section 2.15 - Events](#section-215---events)
@@ -16,8 +16,11 @@
    * [section 2.18 - Pull Request Target event](#section-218---pull-request-target-event)
    * [section 2.19 - workflow_run](#section-219---workflow_run)
    * [section 2.20 - filter workflow runs by branches, tags, paths](#section-220---filter-workflow-runs-by-branches-tags-paths)
+      * [copilot: Branch Filter Patterns in GitHub Actions](#copilot-branch-filter-patterns-in-github-actions)
+         * [Q: * vs **](#q--vs-)
+         * [A: don't cross /, or do cross /](#a-dont-cross--or-do-cross-)
 <!--te-->
-<!-- markdownlint-enable -->
+<!-- markdownlint-enable MD007 -->
 
 ## Section 2.15 - Events
 
@@ -88,4 +91,53 @@ such as adding a label
 
 note: can only have up to three levels of nesting for `workflow_run`
 
+[Setting a default shell and working directory](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/setting-a-default-shell-and-working-directory)
+
 ## section 2.20 - filter workflow runs by branches, tags, paths
+
+* branches - established (see semantic release and pre-release)
+
+  * `*` does not match `/`
+
+  * `**` matches across `/`s
+  
+* order matters: last match wins
+
+### copilot: Branch Filter Patterns in GitHub Actions
+
+#### Q: `*` vs `**`
+
+_In GitHub Actions workflow event branch filters, please explain '*' and '**',  
+and highlight what is different about them_
+
+#### A: don't cross `/`, or do cross `/`
+
+In GitHub Actions workflow event branch filters, `*` and `**` are glob patterns
+used to match branch names.
+
+* `*` (single asterisk):  
+  Matches any sequence of characters **except the path separator** (`/`).  
+  * Example:  
+    * Pattern: `feature/*`  
+    * Matches: `feature/one`, `feature/two`  
+    * Does **not** match: `feature/one/two`
+
+* `**` (double asterisk):  
+  Matches any sequence of characters, **including path separators** (`/`).  
+  * Example:  
+    * Pattern: `feature/**`  
+    * Matches: `feature/one`, `feature/one/two`, `feature/three/four/five`
+
+**Key difference:**  
+
+* `*` matches only within a single path segment (no `/`),
+
+* `**` matches across multiple path segments (can include `/`).
+
+[GitHub Actions Filter Pattern Cheat Sheet](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet)
+
+Note: `branches-ignore`
+
+* also note, `branches` and `branches-ignore` are mutually exclusive
+
+* also, also note: `"!feature/featA"` ignores `feature/featA`
