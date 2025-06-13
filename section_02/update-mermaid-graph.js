@@ -17,11 +17,10 @@ const repoRootRelative = (() => {
 })();
 console.log('Repository root (relative):', repoRootRelative);
 
-
 function getDirTree(dir, parent, lines) {
   const files = fs.readdirSync(dir, { withFileTypes: true });
   files.forEach(f => {
-    if (f.name.startsWith('.')) return; // skip dotfiles/folders except .github/.vscode
+    if (f.name.startsWith('.')) return;
     if (['node_modules', '.git'].includes(f.name)) return;
     const fullPath = path.join(dir, f.name);
     const label = f.name.endsWith('/') ? f.name : f.name;
@@ -36,17 +35,14 @@ function getDirTree(dir, parent, lines) {
 function generateMermaid() {
   const lines = [];
   lines.push('%% Repository Structure');
-  // Add Mermaid directive to double vertical spacing between rows
-  lines.push('graph TD;');
+  lines.push('graph LR;');
   lines.push('    %% Double vertical spacing');
-  lines.push('    classDef doubledSpacing height:60px;'); // Mermaid class for spacing
-
+  lines.push('    classDef doubledSpacing height:60px;');
   lines.push('    ROOT["/ (root)"]:::doubledSpacing');
   getDirTreeWithSpacing(repoRootRelative, 'ROOT', lines);
   return lines.join('\n');
 }
 
-// Helper to add doubledSpacing class to each node
 function getDirTreeWithSpacing(dir, parent, lines) {
   const files = fs.readdirSync(dir, { withFileTypes: true });
   files.forEach(f => {
@@ -61,17 +57,25 @@ function getDirTreeWithSpacing(dir, parent, lines) {
   });
 }
 
-function updateReadme() {
-  const readmePath = path.join(repoRootRelative, 'README.md');
-  const readme = fs.readFileSync(readmePath, 'utf8');
+// Accept target file as command-line argument
+function updateTargetFile(targetFile) {
+  const targetPath = path.join(repoRootRelative, targetFile);
+  console.log('Target file path:', targetPath);
+  const fileContent = fs.readFileSync(targetPath, 'utf8');
   const mermaidGraph = generateMermaid();
 
   const newMermaidBlock = `${mermaidStart}\n\n${mermaidGraph}\n${mermaidEnd}`;
-  const updated = readme.replace(
+  const updated = fileContent.replace(
     /```mermaid[\s\S]*?```/m,
     newMermaidBlock
   );
-  fs.writeFileSync(readmePath, updated);
+  fs.writeFileSync(targetPath, updated);
 }
 
-updateReadme();
+// Main
+const targetFile = process.argv[2];
+if (!targetFile) {
+  console.error('Usage: node update-mermaid-graph.js <target-file-relative-to-repo-root>');
+  process.exit(1);
+}
+updateTargetFile(targetFile);

@@ -99,7 +99,7 @@ includes the branch and (clickable) PR number in the commit summary
 ```mermaid
 
 %% Repository Structure
-graph TD;
+graph LR;
     %% Double vertical spacing
     classDef doubledSpacing height:60px;
     ROOT["/ (root)"]:::doubledSpacing
