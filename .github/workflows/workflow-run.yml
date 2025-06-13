@@ -5,7 +5,7 @@ on:
   workflow_run:
     workflows:
       - events
-    type:
+    types:
       - completed
 
   workflow_dispatch:
