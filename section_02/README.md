@@ -15,6 +15,7 @@
    * [section 2.17 - Event trigging from forks](#section-217---event-trigging-from-forks)
    * [section 2.18 - Pull Request Target event](#section-218---pull-request-target-event)
    * [section 2.19 - workflow_run](#section-219---workflow_run)
+   * [section 2.20 - filter workflow runs by branches, tags, paths](#section-220---filter-workflow-runs-by-branches-tags-paths)
 <!--te-->
 <!-- markdownlint-enable -->
 
