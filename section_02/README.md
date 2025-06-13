@@ -19,6 +19,7 @@
       * [copilot: Branch Filter Patterns in GitHub Actions](#copilot-branch-filter-patterns-in-github-actions)
          * [Q: * vs **](#q--vs-)
          * [A: don't cross /, or do cross /](#a-dont-cross--or-do-cross-)
+   * [section 2.21 - manual trigger](#section-221---manual-trigger)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
@@ -115,7 +116,7 @@ workflow will only run when all filters are matched (AND, not OR)
 
 can specify branches/paths in `pull_request`, `pull_request_target`, `workflow_run`
 
-  * if `workflow_run` has `workflows:`, the predicate must be on the same branch
+* if `workflow_run` has `workflows:`, the predicate must be on the same branch
 
 ### copilot: Branch Filter Patterns in GitHub Actions
 
@@ -155,3 +156,6 @@ Note: `branches-ignore`
 * also note, `branches` and `branches-ignore` are mutually exclusive
 
 * also, also note: `"!feature/featA"` ignores `feature/featA`
+
+## section 2.21 - manual trigger
+
