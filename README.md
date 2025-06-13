@@ -103,7 +103,6 @@ graph LR;
     %% Double vertical spacing
     classDef doubledSpacing height:60px;
     ROOT["/ (root)"]:::doubledSpacing
-    ROOT --> ._CHANGELOGMD["CHANGELOG.md"]:::doubledSpacing
     ROOT --> ._MAKEFILE["Makefile"]:::doubledSpacing
     ROOT --> ._READMEMD["README.md"]:::doubledSpacing
     ROOT --> ._RESOURCES["resources/"]:::doubledSpacing
