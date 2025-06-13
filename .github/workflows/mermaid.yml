@@ -35,10 +35,8 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit" >> $GITHUB_STEP_SUMMARY
           else
-            echo "- Changes made to the following files:" >> $GITHUB_STEP_SUMMARY
-            echo "- Changes made to the following files:"
-            git diff --cached --name-only
-            git diff --cached --name-only >> $GITHUB_STEP_SUMMARY
+            echo "Changes made to the following files:" >> $GITHUB_STEP_SUMMARY
+            git diff --cached --name-only | sed 's/^/* /' >> $GITHUB_STEP_SUMMARY
             git commit -m "chore: update Mermaid graph in README.md"
           fi
           git push
