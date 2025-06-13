@@ -121,7 +121,6 @@ graph LR;
     ROOT --> ._SECTION_02["section_02/"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_READMEMD["README.md"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
-    ._SECTION_02 --> .SECTION_02_FOO["foo"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_PACKAGEJSON["package.json"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
