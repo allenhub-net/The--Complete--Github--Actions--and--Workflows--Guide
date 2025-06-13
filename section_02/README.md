@@ -159,3 +159,6 @@ Note: `branches-ignore`
 
 ## section 2.21 - manual trigger
 
+PITA: workflow is default-centric.  even when workflow is on $default, 
+cannot set default to another branch.  biteme.
+
