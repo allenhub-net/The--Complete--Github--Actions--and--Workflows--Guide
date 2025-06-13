@@ -4,6 +4,20 @@ const path = require('path');
 const mermaidStart = '```mermaid';
 const mermaidEnd = '```';
 
+const { execSync } = require('child_process');
+
+const repoRootRelative = (() => {
+  try {
+    const output = execSync('git rev-parse --show-cdup', { encoding: 'utf8' });
+    return output.trim() || '.';
+  } catch (error) {
+    console.error('Not a git repository or error occurred.');
+    return '.';
+  }
+})();
+console.log('Repository root (relative):', repoRootRelative);
+
+
 function getDirTree(dir, parent, lines) {
   const files = fs.readdirSync(dir, { withFileTypes: true });
   files.forEach(f => {
@@ -28,7 +42,7 @@ function generateMermaid() {
   lines.push('    classDef doubledSpacing height:60px;'); // Mermaid class for spacing
 
   lines.push('    ROOT["/ (root)"]:::doubledSpacing');
-  getDirTreeWithSpacing('.', 'ROOT', lines);
+  getDirTreeWithSpacing(repoRootRelative, 'ROOT', lines);
   return lines.join('\n');
 }
 
@@ -48,8 +62,7 @@ function getDirTreeWithSpacing(dir, parent, lines) {
 }
 
 function updateReadme() {
-  // Use GITHUB_WORKSPACE to refer to the repository root
-  const readmePath = path.join(process.env.GITHUB_WORKSPACE || '.', 'README.md');
+  const readmePath = path.join(repoRootRelative, 'README.md');
   const readme = fs.readFileSync(readmePath, 'utf8');
   const mermaidGraph = generateMermaid();
 
