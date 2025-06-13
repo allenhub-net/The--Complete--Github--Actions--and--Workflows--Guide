@@ -4,8 +4,6 @@ on:
   push:
   workflow_dispatch: 
 
-
-
 jobs:
   update-mermaid:
     runs-on: ubuntu-latest
@@ -28,10 +26,17 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          set -x
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git status
           git diff
           git add README.md
-          git diff --cached --quiet || git commit -m "chore: update Mermaid graph in README.md"
+          if git diff --cached --quiet; then
+            echo "No changes to commit" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "Changes made to the following files:" >> $GITHUB_STEP_SUMMARY
+            git diff --cached --name-only | sed 's/^/* /' >> $GITHUB_STEP_SUMMARY
+            git commit -m "chore: update Mermaid graph in README.md"
+          fi
           git push
