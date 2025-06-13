@@ -4,21 +4,20 @@
 
 <!--ts-->
 * [Section 2 - Events](#section-2---events)
-  * [Section 2.15 - Events](#section-215---events)
-    * [push](#push)
-    * [pull\_request](#pull_request)
-      * [pull request creation](#pull-request-creation)
-      * [pull request merge](#pull-request-merge)
-    * [issue create](#issue-create)
-  * [Section 2.16 - Event Activity Types](#section-216---event-activity-types)
-  * [section 2.17 - Event trigging from forks](#section-217---event-trigging-from-forks)
-  * [section 2.18 - Pull Request Target event](#section-218---pull-request-target-event)
-  * [section 2.19 - workflow\_run](#section-219---workflow_run)
-  * [section 2.20 - filter workflow runs by branches, tags, paths](#section-220---filter-workflow-runs-by-branches-tags-paths)
-    * [copilot: Branch Filter Patterns in GitHub Actions](#copilot-branch-filter-patterns-in-github-actions)
-      * [Q: `*` vs `**`](#q--vs-)
-      * [A: don't cross `/`, or do cross `/`](#a-dont-cross--or-do-cross-)
-
+   * [Section 2.15 - Events](#section-215---events)
+      * [push](#push)
+      * [pull_request](#pull_request)
+         * [pull request creation](#pull-request-creation)
+         * [pull request merge](#pull-request-merge)
+      * [issue create](#issue-create)
+   * [Section 2.16 - Event Activity Types](#section-216---event-activity-types)
+   * [section 2.17 - Event trigging from forks](#section-217---event-trigging-from-forks)
+   * [section 2.18 - Pull Request Target event](#section-218---pull-request-target-event)
+   * [section 2.19 - workflow_run](#section-219---workflow_run)
+   * [section 2.20 - filter workflow runs by branches, tags, paths](#section-220---filter-workflow-runs-by-branches-tags-paths)
+      * [copilot: Branch Filter Patterns in GitHub Actions](#copilot-branch-filter-patterns-in-github-actions)
+         * [Q: * vs **](#q--vs-)
+         * [A: don't cross /, or do cross /](#a-dont-cross--or-do-cross-)
 <!--te-->
 
 ## Section 2.15 - Events
