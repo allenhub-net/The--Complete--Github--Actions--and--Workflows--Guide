@@ -86,3 +86,5 @@ such as adding a label
 ## section 2.19 - workflow_run
 
 note: can only have up to three levels of nesting for `workflow_run`
+
+## section 2.20 - filter workflow runs by branches, tags, paths

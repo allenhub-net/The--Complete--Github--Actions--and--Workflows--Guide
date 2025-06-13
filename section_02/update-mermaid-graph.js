@@ -48,7 +48,8 @@ function getDirTreeWithSpacing(dir, parent, lines) {
 }
 
 function updateReadme() {
-  const readmePath = 'README.md';
+  // Use GITHUB_WORKSPACE to refer to the repository root
+  const readmePath = path.join(process.env.GITHUB_WORKSPACE || '.', 'README.md');
   const readme = fs.readFileSync(readmePath, 'utf8');
   const mermaidGraph = generateMermaid();
 
