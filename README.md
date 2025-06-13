@@ -120,10 +120,6 @@ graph LR;
     ._SECTION_01 --> .SECTION_01_PACKAGEJSON["package.json"]:::doubledSpacing
     ROOT --> ._SECTION_02["section_02/"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_READMEMD["README.md"]:::doubledSpacing
-    ._SECTION_02 --> .SECTION_02_A["a"]:::doubledSpacing
-    ._SECTION_02 --> .SECTION_02_B["b"]:::doubledSpacing
-    ._SECTION_02 --> .SECTION_02_C["c"]:::doubledSpacing
-    ._SECTION_02 --> .SECTION_02_D["d"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_PACKAGEJSON["package.json"]:::doubledSpacing
