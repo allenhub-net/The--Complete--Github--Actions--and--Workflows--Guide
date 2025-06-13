@@ -50,7 +50,7 @@
 
 <!-- markdownlint-enable -->
 
-## renovatebot
+## Renovatebot
 
 ### create PRs in github not renovate console
 
@@ -128,7 +128,7 @@ graph LR;
     ._SECTION_02 --> .SECTION_02_UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
 ```
 
-## dependabot
+## Dependabot
 
 interesting to see dependabot flag the issue.  when
 I added a known-to-be-out-of-date dev dependency to
@@ -139,3 +139,7 @@ as soon as I merged the renovate PR, dependabot closed the issue
 slick
 
 <https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/security/dependabot/3>
+
+## Markdown
+
+* two blank spaces at the end of a line of text yields a line break
