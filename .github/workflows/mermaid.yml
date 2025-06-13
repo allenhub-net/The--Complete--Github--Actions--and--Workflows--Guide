@@ -1,4 +1,5 @@
-name: mermaid
+name: Repository File Graph  – ${{ github.ref_name }} by ${{ github.actor }}
+
 
 on:
   push:
