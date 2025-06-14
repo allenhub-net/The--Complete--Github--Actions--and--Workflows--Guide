@@ -159,3 +159,17 @@ Note: `branches-ignore`
 
 ## section 2.21 - manual trigger
 
+PITA: workflow is default-centric.  even when workflow is on $default,
+cannot set default to another branch.  biteme.
+
+fair enough - there are limits
+
+```base
+@michaeldallen ➜ /workspaces/The--Complete--Github--Actions--and--Workflows--Guide (section--02) $ gh workflow run manual -f biteme=true -f message="Bill" -f environment=right --ref section--02 -02 
+could not create workflow dispatch event: HTTP 403: Resource not accessible by integration (https://api.github.com/repos/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/actions/workflows/168451082/dispatches)tions/workflows/168451082/dispatches)
+@michaeldallen ➜ /workspaces/The--Complete--Github--Actions--and--Workflows--Guide (section--02) $ 
+```
+
+[GitHub CLI Workflow Run Documentation](https://cli.github.com/manual/gh_workflow_run)
+
+[GitHub REST API: Create a workflow dispatch event](https://docs.github.com/en/rest/actions/workflows?apiVersion=2022-11-28#create-a-workflow-dispatch-event)
