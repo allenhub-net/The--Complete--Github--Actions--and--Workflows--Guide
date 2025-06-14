@@ -255,3 +255,8 @@ Notice: client_payload.action: biteme, client_payload.severity: hard
 stale issues/PRs
 
 [crontab guru](https://crontab.guru/)
+
+stale branch action insists that branches are protected, but 
+`gh` says they are not. see `util/protected-branch-p.sh`.  
+setting `include-protected-branches: true` gets the example 
+working for the course, but precludes actually using this action.
