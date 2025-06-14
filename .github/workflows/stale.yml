@@ -1,0 +1,39 @@
+name: stale
+
+# description: 'Mark issues and pull requests as stale after a period of inactivity'
+
+on:
+
+  workflow_dispatch: 
+
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+    - cron: '0/5 * * * *' # Runs every 5 minutes for testing purposes
+  
+
+jobs:
+  stale-issues-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mark issues and pull requests as stale
+        uses: actions/stale@v6
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          days-before-stale: 1
+          days-before-close: -1   # <-- Set to -1 to disable auto-closing
+          stale-issue-label: 'stale'
+          stale-pr-label: 'stale'
+          exempt-issue-labels: 'do not close, do not stale, keep open'
+          exempt-pr-labels: 'do not close, do not stale, keep open'
+
+  stale-branches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for stale branches
+        uses: crs-k/stale-branches@v3
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          days-before-stale: 1
+          days-before-delete: 0   # Disables branch deletion
+          stale-branch-label: 'stale-branch'
+          dry-run: true

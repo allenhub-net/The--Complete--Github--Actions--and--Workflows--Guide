@@ -248,3 +248,9 @@ Run echo "::notice title=Repository dispatch event received::client_payload.acti
   shell: /usr/bin/bash -e {0}
 Notice: client_payload.action: biteme, client_payload.severity: hard
 ```
+
+## section 2.23 - scheduled event
+
+stale issues/PRs
+
+[crontab guru](https://crontab.guru/)
