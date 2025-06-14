@@ -13,3 +13,5 @@ git branch | grep 'renovate/' | xargs --no-run-if-empty -- git branch --delete -
 
 # Delete remote branches
 git branch --remote | grep 'origin/renovate/' | sed 's|origin/||' | xargs --no-run-if-empty --replace={} echo git push --delete origin {}
+
+#EOF
