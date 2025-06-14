@@ -22,6 +22,7 @@
    * [section 2.21 - manual trigger](#section-221---manual-trigger)
       * [cool - postman](#cool---postman)
    * [section 2.22 - repository dispatch](#section-222---repository-dispatch)
+   * [section 2.23 - scheduled event](#section-223---scheduled-event)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
