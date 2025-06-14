@@ -49,6 +49,7 @@
    * [section 2.21 - manual trigger](section_02/README.md#section-221---manual-trigger)
       * [cool - postman](section_02/README.md#cool---postman)
    * [section 2.22 - repository dispatch](section_02/README.md#section-222---repository-dispatch)
+   * [section 2.23 - scheduled event](section_02/README.md#section-223---scheduled-event)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
