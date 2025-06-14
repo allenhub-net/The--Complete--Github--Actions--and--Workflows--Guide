@@ -6,11 +6,10 @@ on:
       - build
   
 jobs:
-  echo:
+  echo-client-payload:
     runs-on: ubuntu-latest
     steps:
       - run: |
           echo "Repository dispatch event received"
           echo "client_payload.env: ${{ github.event.client_payload.env }}"
-
-  
+          echo "::notice title=Repository dispatch event received::client_payload.env: ${{ github.event.client_payload.env }}"
