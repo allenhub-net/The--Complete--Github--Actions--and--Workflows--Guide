@@ -14,7 +14,12 @@ on:
         required: true
         default: 'Hello, World!'
         type: string
-        
+      environment:
+        description: 'Environment to run on'
+        required: true
+        type: environment
+        default: 'left'
+
 jobs:
   log-info:
     runs-on: ubuntu-latest
