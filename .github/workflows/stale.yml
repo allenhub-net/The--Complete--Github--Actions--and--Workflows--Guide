@@ -10,7 +10,10 @@ on:
     - cron: '0 0 * * *' # Runs daily at midnight UTC
     - cron: '0/5 * * * *' # Runs every 5 minutes for testing purposes
   
-
+permissions:
+  issues: write
+  contents: write
+  
 jobs:
   stale-issues-prs:
     runs-on: ubuntu-latest
