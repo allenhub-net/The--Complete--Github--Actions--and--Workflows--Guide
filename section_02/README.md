@@ -173,3 +173,21 @@ could not create workflow dispatch event: HTTP 403: Resource not accessible by i
 [GitHub CLI Workflow Run Documentation](https://cli.github.com/manual/gh_workflow_run)
 
 [GitHub REST API: Create a workflow dispatch event](https://docs.github.com/en/rest/actions/workflows?apiVersion=2022-11-28#create-a-workflow-dispatch-event)
+
+### cool - postman
+
+```json
+{
+    "ref" : "section--02",
+    "inputs": {
+        "message": "rest trigger via postman",
+        "environment": "right"
+    }
+}
+```
+
+```text
+log-info summary
+Workflow Inputs
+message: rest trigger via postman
+```
