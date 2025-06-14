@@ -2,11 +2,15 @@ name: external
 
 on: 
   repository_dispatch:
+    types:
+      - build
   
 jobs:
   echo:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Repository dispatch event received"
-  
+      - run: |
+          echo "Repository dispatch event received"
+          echo "client_payload.env: ${{ github.event.client_payload.env }}"
+
   

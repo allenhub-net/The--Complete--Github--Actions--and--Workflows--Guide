@@ -195,6 +195,32 @@ Workflow Inputs
 message: rest trigger via postman
 ```
 
+```code
+curl --location 'https://api.github.com/repos/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/dispatches' \
+--header 'Accept: application/vnd.github+json' \
+--header 'X-GitHub-Api-Version: 2022-11-28' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer redacted' \
+--data '{
+    "event_type": "build"
+}'
+```
+
 ## section 2.22 - repository dispatch
 
 note: support activity type
+
+```code
+curl --location 'https://api.github.com/repos/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/actions/workflows/manual.yml/dispatches' \
+--header 'Accept: application/vnd.github+json' \
+--header 'X-GitHub-Api-Version: 2022-11-28' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer redacted' \
+--data '{
+    "ref": "section--02",
+    "inputs": {
+        "message": "rest trigger via postman",
+        "environment": "right"
+    }
+}'
+```
