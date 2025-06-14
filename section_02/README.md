@@ -177,6 +177,8 @@ could not create workflow dispatch event: HTTP 403: Resource not accessible by i
 
 ### cool - postman
 
+_my first REST call!!!_
+
 ```json
 {
     "ref" : "section--02",
@@ -192,3 +194,7 @@ log-info summary
 Workflow Inputs
 message: rest trigger via postman
 ```
+
+## section 2.22 - repository dispatch
+
+note: support activity type

@@ -24,6 +24,7 @@ on:
         required: true
         type: boolean
         default: false
+        
 jobs:
   log-info:
     runs-on: ubuntu-latest
