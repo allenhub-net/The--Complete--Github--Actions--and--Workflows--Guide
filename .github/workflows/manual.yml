@@ -19,7 +19,11 @@ on:
         required: true
         type: environment
         default: 'left'
-
+      biteme:
+        description: 'Bite me'
+        required: true
+        type: boolean
+        default: false
 jobs:
   log-info:
     runs-on: ubuntu-latest
