@@ -34,6 +34,6 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           days-before-stale: 1
-          days-before-delete: 0   # Disables branch deletion
+          days-before-delete: 9999   # Disables branch deletion
           stale-branch-label: 'stale-branch'
           dry-run: true
