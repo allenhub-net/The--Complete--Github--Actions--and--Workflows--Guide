@@ -21,6 +21,7 @@
          * [A: don't cross /, or do cross /](#a-dont-cross--or-do-cross-)
    * [section 2.21 - manual trigger](#section-221---manual-trigger)
       * [cool - postman](#cool---postman)
+   * [section 2.22 - repository dispatch](#section-222---repository-dispatch)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 

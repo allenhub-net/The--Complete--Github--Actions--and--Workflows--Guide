@@ -48,6 +48,7 @@
          * [A: don't cross /, or do cross /](section_02/README.md#a-dont-cross--or-do-cross-)
    * [section 2.21 - manual trigger](section_02/README.md#section-221---manual-trigger)
       * [cool - postman](section_02/README.md#cool---postman)
+   * [section 2.22 - repository dispatch](section_02/README.md#section-222---repository-dispatch)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
