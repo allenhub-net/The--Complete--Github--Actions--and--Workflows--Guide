@@ -209,7 +209,7 @@ curl --location 'https://api.github.com/repos/allenhub-net/The--Complete--Github
 
 ## section 2.22 - repository dispatch
 
-note: support activity type
+note: repository dispatch supports activity type
 
 ```code
 curl --location 'https://api.github.com/repos/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/actions/workflows/manual.yml/dispatches' \
@@ -224,4 +224,27 @@ curl --location 'https://api.github.com/repos/allenhub-net/The--Complete--Github
         "environment": "right"
     }
 }'
+```
+
+```code
+curl --location 'https://api.github.com/repos/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/dispatches' \
+--header 'Accept: application/vnd.github+json' \
+--header 'X-GitHub-Api-Version: 2022-11-28' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: ••••••' \
+--data '{
+    "event_type": "build",
+    "client_payload": {
+        "action": "biteme",
+        "severity": "hard"
+    }
+}'
+```
+
+```code
+1s
+Run echo "::notice title=Repository dispatch event received::client_payload.action: biteme, client_payload.severity: hard" 
+  echo "::notice title=Repository dispatch event received::client_payload.action: biteme, client_payload.severity: hard" 
+  shell: /usr/bin/bash -e {0}
+Notice: client_payload.action: biteme, client_payload.severity: hard
 ```
