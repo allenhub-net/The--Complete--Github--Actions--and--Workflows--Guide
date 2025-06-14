@@ -128,10 +128,12 @@ graph LR;
     ._SECTION_01 --> .SECTION_01_PACKAGEJSON["package.json"]:::doubledSpacing
     ROOT --> ._SECTION_02["section_02/"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_READMEMD["README.md"]:::doubledSpacing
-    ._SECTION_02 --> .SECTION_02_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_PACKAGEJSON["package.json"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
+    ROOT --> ._UTIL["util/"]:::doubledSpacing
+    ._UTIL --> .UTIL_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
+    ._UTIL --> .UTIL_PROTECTEDBRANCHPSH["protected-branch-p.sh"]:::doubledSpacing
 ```
 
 ## Dependabot
