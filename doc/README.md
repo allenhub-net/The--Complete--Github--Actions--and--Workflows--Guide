@@ -86,31 +86,31 @@ But again — for just restoring extensions, the extension ID list is the smalle
 
    date
 
-```code
-Thu Jun 19 17:47:40 UTC 2025
-```
+    Thu Jun 19 18:06:21 UTC 2025
 
    code --list-extensions --show-versions
 
 ```shell
-Extensions installed on Codespaces: symmetrical fishstick:
+Extensions installed on Codespaces: sturdy umbrella:
 davidanson.vscode-markdownlint@0.60.0
 github.codespaces@1.17.3
 github.copilot@1.336.0
 github.copilot-chat@0.28.1
 github.github-vscode-theme@6.3.5
 github.vscode-pull-request-github@0.110.0
+redhat.vscode-yaml@1.18.0
 ```
 
-   code --list-extensions | awk '!/^Extensions/ {print "code --install-extension", $0}'
+   code --list-extensions | awk '!/^Extensions/ {print "code --install-extension", $0, "--force"}'
 
 ```shell
-code --install-extension davidanson.vscode-markdownlint
-code --install-extension github.codespaces
-code --install-extension github.copilot
-code --install-extension github.copilot-chat
-code --install-extension github.github-vscode-theme
-code --install-extension github.vscode-pull-request-github
+code --install-extension davidanson.vscode-markdownlint --force
+code --install-extension github.codespaces --force
+code --install-extension github.copilot --force
+code --install-extension github.copilot-chat --force
+code --install-extension github.github-vscode-theme --force
+code --install-extension github.vscode-pull-request-github --force
+code --install-extension redhat.vscode-yaml --force
 ```
 <!-- tsil-noisnetxe -->
 
