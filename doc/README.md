@@ -5,7 +5,7 @@
 * [Notes](#notes)
    * [GitHub Codespaces/VSCode](#github-codespacesvscode)
       * [VSCode Extensions](#vscode-extensions)
-      * [Manual List as of 6/19](#manual-list-as-of-619)
+      * [Manual List](#manual-list)
    * [Renovatebot](#renovatebot)
       * [Ereate PRs in GitHub not Renovate Console](#ereate-prs-in-github-not-renovate-console)
       * [Commit Message](#commit-message)

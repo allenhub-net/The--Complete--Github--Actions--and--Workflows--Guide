@@ -17,7 +17,7 @@
 * [Notes](doc/README.md#notes)
    * [GitHub Codespaces/VSCode](doc/README.md#github-codespacesvscode)
       * [VSCode Extensions](doc/README.md#vscode-extensions)
-      * [Manual List as of 6/19](doc/README.md#manual-list-as-of-619)
+      * [Manual List](doc/README.md#manual-list)
    * [Renovatebot](doc/README.md#renovatebot)
       * [Ereate PRs in GitHub not Renovate Console](doc/README.md#ereate-prs-in-github-not-renovate-console)
       * [Commit Message](doc/README.md#commit-message)
