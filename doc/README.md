@@ -80,35 +80,22 @@ But again — for just restoring extensions, the extension ID list is the smalle
 
 ```
 
-### Manual List as of 6/19
+### Manual List
 
 <!-- extension-list -->
 
-   date
-
-   Thu Jun 19 18:06:21 UTC 2025
-
-   code --list-extensions --show-versions
-
 ```shell
-Extensions installed on Codespaces: sturdy umbrella:
-davidanson.vscode-markdownlint@0.60.0
-github.codespaces@1.17.3
-github.copilot@1.336.0
-github.copilot-chat@0.28.1
-github.github-vscode-theme@6.3.5
-github.vscode-pull-request-github@0.110.0
-redhat.vscode-yaml@1.18.0
+echo ": $(date)" ; code --list-extensions | awk '!/^Extensions/ {print "code --install-extension", $0, "--force"}'
 ```
 
-   code --list-extensions | awk '!/^Extensions/ {print "code --install-extension", $0, "--force"}'
-
 ```shell
+: Thu Jun 19 18:25:23 UTC 2025
 code --install-extension davidanson.vscode-markdownlint --force
 code --install-extension github.codespaces --force
 code --install-extension github.copilot --force
 code --install-extension github.copilot-chat --force
 code --install-extension github.github-vscode-theme --force
+code --install-extension github.vscode-github-actions --force
 code --install-extension github.vscode-pull-request-github --force
 code --install-extension redhat.vscode-yaml --force
 ```
