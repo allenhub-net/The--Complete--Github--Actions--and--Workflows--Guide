@@ -1,0 +1,13 @@
+name: external
+
+on: 
+  repository_dispatch:
+    types:
+      - build
+  
+jobs:
+  echo-client-payload:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::notice title=Repository dispatch event received::client_payload.action: ${{ github.event.client_payload.action }}, client_payload.severity: ${{ github.event.client_payload.severity }}" 

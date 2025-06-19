@@ -1,0 +1,62 @@
+{
+  "4": 18,
+  "elder": "hank",
+  "key": "value",
+  "key with quotes": "value with quotes",
+  "another key": 1,
+  "special_chars": "colon : noloc",
+  "single quote": "sq value",
+  "quoted quote": "quote goes here' or \\u263A \\n",
+  "double quote escape": "☺ ☻ \n",
+  "array": [
+    {
+      "space": "ecaps"
+    },
+    {
+      "another": "item"
+    }
+  ],
+  "json style": [
+    "hello",
+    "world"
+  ],
+  "numbers": 100,
+  "boolean": [
+    true,
+    false
+  ],
+  "nulls": [
+    {
+      "null": null
+    },
+    {
+      "tilde": null
+    }
+  ],
+  "object(maps)": {
+    "key": "value",
+    "another": "another value",
+    "nested object": {
+      "nested keys": "nested values"
+    }
+  },
+  "json style object": {
+    "k1": "v1",
+    "k2": "v2"
+  },
+  "sequence": [
+    "item 1",
+    "item 2",
+    0.5,
+    {
+      "ka": "va",
+      "kb": "vb"
+    },
+    [
+      "nested array item",
+      "nested array item 2"
+    ]
+  ],
+  "literal block": "first line\nsecond line\n",
+  "folded block": "first line second line no newlines\nunless there is an empty line\nminus sign after the angle bracket suppresses trailing newlines\nto preserve trailing newlines, suffix bracket/pipe with +"
+}

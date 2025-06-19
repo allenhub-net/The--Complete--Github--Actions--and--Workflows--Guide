@@ -1,0 +1,46 @@
+name: first-workflow
+
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - section--01
+
+jobs:
+  
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Hello, World!"
+
+      - name: mutiline command
+        run: |
+          node -v
+          npm -v
+
+  parallel-jobs-macos:
+    runs-on: macos-latest
+    steps:
+      - name: view software versions
+        run: sw_vers
+
+  dependent-job:
+    runs-on: windows-latest
+    needs: 
+      - run-shell-commands
+      - another-parallel-job
+    steps:
+      - name: echo a string
+        run: Write-Output "Windows String"
+
+  another-parallel-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Another Parallel Job"
+
+
+
+        
+          

@@ -1,0 +1,29 @@
+name: events
+
+on: 
+  push:
+
+  pull_request:
+    types: 
+      - opened
+      - assigned
+      - synchronize
+      - reopened
+
+  issues:
+    types:
+      - opened
+
+  workflow_dispatch:
+
+jobs:
+  checkout-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "GITHUB_SHA:${GITHUB_SHA}"
+          echo "GITHUB_REF:${GITHUB_REF}"
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      
+  

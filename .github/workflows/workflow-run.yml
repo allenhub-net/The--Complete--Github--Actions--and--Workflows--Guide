@@ -1,0 +1,19 @@
+name: workflow-run
+
+on: 
+
+  workflow_run:
+    workflows:
+      - events
+    types:
+      - completed
+
+  workflow_dispatch:
+
+jobs:
+  echo-string:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::notice title=GITHUB_SHA::GITHUB_SHA is ${GITHUB_SHA}"
+          echo "::notice title=GITHUB_REF::GITHUB_REF is ${GITHUB_REF}"

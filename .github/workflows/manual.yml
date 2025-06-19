@@ -1,0 +1,67 @@
+name: manual
+
+on: 
+
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        description: 'Branch to run on'
+        required: true
+        default: 'section_02'
+        type: string
+      message:
+        description: 'String to echo'
+        required: true
+        default: 'Hello, World!'
+        type: string
+      environment:
+        description: 'Environment to run on'
+        required: true
+        type: environment
+        default: 'left'
+      biteme:
+        description: 'Bite me'
+        required: true
+        type: boolean
+        default: false
+        
+jobs:
+  log-info:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          {
+            echo "### Workflow Inputs"
+            echo "- **message**: ${{ inputs.message }}"
+            echo ""
+            echo "### Target Branch"
+            echo "- **target_branch**: ${{ inputs.target_branch }}"
+            echo ""
+            echo "### Environment Context"
+            echo "- **environment**: ${{ inputs.environment }}"
+            echo ""
+            echo "### Biteme"
+            echo "- **biteme**: ${{ inputs.biteme }}"
+            echo ""
+            echo "### GitHub Context Variables"
+            echo "- github.sha: ${{ github.sha }}"
+            echo "- github.ref: ${{ github.ref }}"
+            echo "- github.event_name: ${{ github.event_name }}"
+            echo "- github.workflow: ${{ github.workflow }}"
+            echo "- github.action: ${{ github.action }}"
+            echo "- github.actor: ${{ github.actor }}"
+            echo "- github.repository: ${{ github.repository }}"
+            echo "- github.event_path: ${{ github.event_path }}"
+            echo "- github.workspace: ${{ github.workspace }}"
+            echo "- github.run_id: ${{ github.run_id }}"
+            echo "- github.run_number: ${{ github.run_number }}"
+            echo "- github.job: ${{ github.job }}"
+            echo "- github.api_url: ${{ github.api_url }}"
+            echo "- github.graphql_url: ${{ github.graphql_url }}"
+            echo "- github.server_url: ${{ github.server_url }}"
+            echo "- github.repository_id: ${{ github.repository_id }}"
+            echo "- github.ref_type: ${{ github.ref_type }}"
+            echo "- github.head_ref: ${{ github.head_ref }}"
+            echo "- github.base_ref: ${{ github.base_ref }}"
+          } >> $GITHUB_STEP_SUMMARY
+

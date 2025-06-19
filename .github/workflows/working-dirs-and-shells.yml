@@ -1,0 +1,71 @@
+name: working-dirs-and-shells
+
+on: 
+  push:
+
+
+defaults: 
+  run:
+    shell: bash
+
+    
+    
+jobs:
+  display-working-dir-info-ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display working directory list files
+        run: |
+          echo "Current working directory: $(pwd)"
+          echo ""
+          echo "Contents of the current directory:"
+          ls -la 2>&1 | sed 's/^/    /'
+          echo ""
+          echo "id of triggerning commit: ${GITHUB_SHA}"
+          echo "github repository: ${GITHUB_REPOSITORY}"
+          echo "github workspace: ${GITHUB_WORKSPACE}"
+
+      - name: python shell
+        shell: python
+        run: |
+          import platform
+          print(platform.processor())
+
+          
+
+  display-working-dir-info-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Display working directory list files
+        run: |
+          echo "Current working directory: $(pwd)"
+          echo ""
+          echo "Contents of the current directory:"
+          ls -la 2>&1 | sed 's/^/    /'
+          echo ""
+          echo "id of triggerning commit: ${GITHUB_SHA}"
+          echo "github repository: ${GITHUB_REPOSITORY}"
+          echo "github workspace: ${GITHUB_WORKSPACE}"
+
+      - name: python shell
+        shell: python
+        run: |
+          import platform
+          print(platform.processor())
+
+
+
+  display-working-dir-info-macos:
+    runs-on: macos-latest
+    steps:
+      - name: Display working directory list files
+        run: |
+          echo "Current working directory: $(pwd)"
+          echo ""
+          echo "Contents of the current directory:"
+          ls -la 2>&1 | sed 's/^/    /'
+          echo ""
+          echo "id of triggerning commit: ${GITHUB_SHA}"
+          echo "github repository: ${GITHUB_REPOSITORY}"
+          echo "github workspace: ${GITHUB_WORKSPACE}"
+

@@ -1,0 +1,66 @@
+elder: hank
+key: value
+"key with quotes": "value with quotes"
+another key: 1
+4: 18
+special_chars: "colon : noloc"
+
+# comment
+
+single quote: 'sq value'
+quoted quote: 'quote goes here'' or \u263A \n'
+double quote escape: "\u263A \u263B \n"
+
+array: 
+  - space: ecaps
+  - another: item
+
+json style: [hello, world]
+
+
+numbers: 100
+
+boolean: [true, false]
+
+nulls: 
+  - null: null 
+  - tilde: ~
+
+
+object(maps):
+  key: value
+  another: another value
+  nested object:
+    nested keys: nested values
+
+
+json style object: {
+  "k1": "v1",
+  "k2": "v2"
+}
+
+
+
+sequence:
+  - item 1
+  - item 2
+  - 0.5
+  - ka: va
+    kb: vb
+  - - nested array item
+    - nested array item 2
+
+literal block: |
+  first line
+  second line
+
+folded block: >-
+  first line
+  second line
+  no newlines
+
+  unless there is an empty line
+
+  minus sign after the angle bracket suppresses trailing newlines
+
+  to preserve trailing newlines, suffix bracket/pipe with +

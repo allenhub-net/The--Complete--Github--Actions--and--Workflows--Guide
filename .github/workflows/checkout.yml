@@ -1,0 +1,36 @@
+name: checkout
+on:
+  - push
+  - workflow_dispatch 
+
+jobs: 
+
+  checkout-without-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: list files before
+        run: ls -la
+
+      - name: checkout repo
+        run: |
+          git init 
+          git remote add origin "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          git fetch origin
+          git checkout main
+
+      - name: list files after
+        run: ls -la 
+
+
+  checkout-with-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: list files before
+        run: ls -la
+
+      - name: checkout repo
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: list files after
+        run: ls -la 
+

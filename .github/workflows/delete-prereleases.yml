@@ -1,0 +1,29 @@
+name: delete-prereleases
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'delete pre-releases'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+
+  delete-pre-releases:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Run delete pre-releases script
+        working-directory: .github/workflows
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [[ "${{ github.event.inputs.force }}" == "true" ]]; then
+            bash delete-prereleases.sh --force
+          else
+            bash delete-prereleases.sh
+          fi
