@@ -46,7 +46,7 @@ function generateMermaid() {
 function getDirTreeWithSpacing(dir, parent, lines) {
   const files = fs.readdirSync(dir, { withFileTypes: true });
   files.forEach(f => {
-    if (f.name.startsWith('.')) return;
+    if (f.name.startsWith('.') && f.name !== '.github') return;
     if (['node_modules', '.git'].includes(f.name)) return;
     const fullPath = path.join(dir, f.name);
     const node = (dir === '.' ? '' : dir.replace('./', '').replace(/\//g, '').toUpperCase() + '_') + f.name.replace(/\W/g, '').toUpperCase();

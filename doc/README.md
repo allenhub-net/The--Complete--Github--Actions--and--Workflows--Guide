@@ -86,7 +86,7 @@ But again — for just restoring extensions, the extension ID list is the smalle
 
    date
 
-    Thu Jun 19 18:06:21 UTC 2025
+   Thu Jun 19 18:06:21 UTC 2025
 
    code --list-extensions --show-versions
 
