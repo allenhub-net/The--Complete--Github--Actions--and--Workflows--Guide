@@ -82,7 +82,6 @@ graph LR;
     %% Double vertical spacing
     classDef doubledSpacing height:60px;
     ROOT["/ (root)"]:::doubledSpacing
-    ROOT --> ._MAKEFILE["Makefile"]:::doubledSpacing
     ROOT --> ._READMEMD["README.md"]:::doubledSpacing
     ROOT --> ._DOC["doc/"]:::doubledSpacing
     ._DOC --> .DOC_READMEMD["README.md"]:::doubledSpacing
@@ -90,7 +89,6 @@ graph LR;
     ._DOC --> .DOC_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
     ._DOC --> .DOC_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
     ._DOC --> .DOC_RENOVATEBOTMD["renovatebot.md"]:::doubledSpacing
-    ._DOC --> .DOC_X["x"]:::doubledSpacing
     ROOT --> ._SECTION_01["section_01/"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_READMEMD["README.md"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_APPJS["app.js"]:::doubledSpacing
