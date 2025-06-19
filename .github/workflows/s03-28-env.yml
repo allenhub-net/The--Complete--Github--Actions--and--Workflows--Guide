@@ -1,0 +1,39 @@
+name: env
+
+on:
+  push:
+    branches:
+      - section--03
+  workflow_dispatch:
+
+env:
+  WF_LEVEL_ENV: 'WLE - available to all jobs'
+
+
+jobs:
+
+  env-vars-and-context:
+    env:
+      JOB_LEVEL_ENV: 'JLE - available to all steps in job "env"'
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/section--03'
+    steps:
+      - name: log env vars # interpolated on the runner machine
+        run: echo '$GITHUB_REF:' $GITHUB_REF
+
+      - name: log context # evaluated by github actions before sending workflow to runner machine - sent to runner machine already evaluated
+        run: |
+          echo '$'{{ github.ref }}: '${{ github.ref }}'
+     
+      - name: log custom env vars
+        env: 
+          STEP_LEVEL_ENV: 'SLE - available to this step only'
+          WF_LEVEL_ENV: WLE - overridden by this step
+        run: |
+          echo '$'{{ env.STEP_LEVEL_ENV }}: '${{ env.STEP_LEVEL_ENV }} (ok for if condition)' 
+          echo '$STEP_LEVEL_ENV:' "$STEP_LEVEL_ENV (not ok for if codition)"
+          echo '$WF_LEVEL_ENV:' $WF_LEVEL_ENV
+          echo '$JOB_LEVEL_ENV:' $JOB_LEVEL_ENV
+
+
+
