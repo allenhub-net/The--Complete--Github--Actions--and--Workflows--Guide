@@ -20,7 +20,7 @@ console.log('Repository root (relative):', repoRootRelative);
 function getDirTree(dir, parent, lines) {
   const files = fs.readdirSync(dir, { withFileTypes: true });
   files.forEach(f => {
-    if (f.name.startsWith('.')) return;
+    if (f.name.startsWith('.') && f.name !== '.github') return;
     if (['node_modules', '.git'].includes(f.name)) return;
     const fullPath = path.join(dir, f.name);
     const label = f.name.endsWith('/') ? f.name : f.name;
