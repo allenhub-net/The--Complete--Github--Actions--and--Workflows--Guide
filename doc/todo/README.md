@@ -8,9 +8,13 @@
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
-### TODO: create a workflow/action that ensures PRs to /main will trigger a semantic release
+## TODO: create a workflow/action that ensures PRs to /main will trigger a semantic release
 
-### TODO: figure how a release branch makes sense
+if trunk-based actually means trunk-based, anything going onto the trunk should be a release
+
+see below
+
+## TODO: figure how a release branch makes sense
 
 in the context of trunk-based development
 
