@@ -85,6 +85,3 @@
 
 <!-- markdownlint-enable MD007 -->
 
-## TODO
-
-TODO: create a workflow/action that ensures PRs to /main will trigger a semantic release
