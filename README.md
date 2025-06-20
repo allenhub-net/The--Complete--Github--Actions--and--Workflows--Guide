@@ -64,6 +64,18 @@
    * [Section 3.26 - Status Checks](section_03/README.md#section-326---status-checks)
    * [Section 3.27 - Environment Variables](section_03/README.md#section-327---environment-variables)
 
+* [Codespaces](doc/codespaces/README.md#codespaces)
+   * [GitHub Codespaces/VSCode](doc/codespaces/README.md#github-codespacesvscode)
+      * [VSCode Extensions](doc/codespaces/README.md#vscode-extensions)
+      * [Manual List](doc/codespaces/README.md#manual-list)
+
+* [Renovatebot](doc/renovatebot/README.md#renovatebot)
+   * [Ereate PRs in GitHub not Renovate Console](doc/renovatebot/README.md#ereate-prs-in-github-not-renovate-console)
+   * [Commit Message](doc/renovatebot/README.md#commit-message)
+      * [Default ### Commit Message](doc/renovatebot/README.md#default--commit-message)
+      * [Pull Request Title](doc/renovatebot/README.md#pull-request-title)
+      * [🏆 WINNER 🏆 PR Title and Description](doc/renovatebot/README.md#-winner--pr-title-and-description)
+
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
 

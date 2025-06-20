@@ -2,7 +2,10 @@
 
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
-
+* [Codespaces](#codespaces)
+   * [GitHub Codespaces/VSCode](#github-codespacesvscode)
+      * [VSCode Extensions](#vscode-extensions)
+      * [Manual List](#manual-list)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
