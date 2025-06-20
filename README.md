@@ -8,7 +8,6 @@
 <!--ts-->
 
 * [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
-   * [TODO](README.md#todo)
 
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
@@ -79,6 +78,10 @@
       * [Default ### Commit Message](doc/renovatebot/README.md#default--commit-message)
       * [Pull Request Title](doc/renovatebot/README.md#pull-request-title)
       * [🏆 WINNER 🏆 PR Title and Description](doc/renovatebot/README.md#-winner--pr-title-and-description)
+
+* [Stuff To Do](doc/todo/README.md#stuff-to-do)
+      * [TODO: create a workflow/action that ensures PRs to /main will trigger a semantic release](doc/todo/README.md#todo-create-a-workflowaction-that-ensures-prs-to-main-will-trigger-a-semantic-release)
+      * [TODO: figure how a release branch makes sense](doc/todo/README.md#todo-figure-how-a-release-branch-makes-sense)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
