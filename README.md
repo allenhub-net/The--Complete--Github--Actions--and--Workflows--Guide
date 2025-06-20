@@ -9,7 +9,6 @@
 
 * [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
    * [EKS Notes](README.md#eks-notes)
-   * [Mermaid](README.md#mermaid)
    * [Dependabot](README.md#dependabot)
    * [Markdown](README.md#markdown)
    * [TODO](README.md#todo)
@@ -57,6 +56,9 @@
    * [GitHub Codespaces/VSCode](doc/codespaces/README.md#github-codespacesvscode)
       * [VSCode Extensions](doc/codespaces/README.md#vscode-extensions)
       * [Manual List](doc/codespaces/README.md#manual-list)
+
+* [Mermaid](doc/mermaid/README.md#mermaid)
+   * [Repository Map](doc/mermaid/README.md#repository-map)
 
 * [Renovatebot](doc/renovatebot/README.md#renovatebot)
    * [Create PRs in GitHub not Renovate Console](doc/renovatebot/README.md#create-prs-in-github-not-renovate-console)
