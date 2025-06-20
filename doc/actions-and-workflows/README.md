@@ -86,11 +86,22 @@ For `workflow_run` triggers, GitHub always uses the static `name:` field for the
 
 ### Q: what does this mean? NEW_ENV_HEREDOC=$'foo\nbar'
 
-GitHub Copilot
+**me**:  
+what does this mean?  
+`NEW_ENV_HEREDOC=$'foo\nbar'`
+
+**GitHub Copilot**:  
 The line
 
-means that the environment variable NEW_ENV_HEREDOC will contain the string foo followed by a newline, then bar.
+    NEW_ENV_HEREDOC=$'foo\nbar'
+
+means that the environment variable `NEW_ENV_HEREDOC` will contain the string `foo` followed by a newline, then `bar`.
+
+
 So its value is:
 
-The $'...' syntax in Bash allows you to use escape sequences like \n for newlines.
-In the context of your workflow, this is how multi-line environment variables are set using the here-doc syntax with $GITHUB_ENV.
+    foo
+    bar
+
+The `$'...'` syntax in Bash allows you to use escape sequences like `\n` for newlines.  
+In the context of your workflow, this is how multi-line environment variables are set using the here-doc syntax with `$GITHUB_ENV`.
