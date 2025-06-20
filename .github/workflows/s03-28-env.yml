@@ -28,9 +28,16 @@ jobs:
           echo "NEW_ENV_VAR_WHEN=subsequent_steps_only" >> $GITHUB_ENV
           echo "NEW_ENV_VAR_AVAILABLE_IN_THIS_STEP=false" >> $GITHUB_ENV
 
+      - name: set env with here doc
+        run: |
+          echo "NEW_ENV_HEREDOC<<EOF" >> $GITHUB_ENV
+          echo "foo" >> $GITHUB_ENV
+          echo "bar" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+          
 
       - name: check vars
-        run: set | grep NEW
+        run: set | grep NEW_ENV
 
       - name: log context # evaluated by github actions before sending workflow to runner machine - sent to runner machine already evaluated
         run: |
