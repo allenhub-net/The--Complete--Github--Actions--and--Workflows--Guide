@@ -8,6 +8,9 @@
       * [Q: why does the title of this workflow run show up as "semantic release", and not the commit summary?](#q-why-does-the-title-of-this-workflow-run-show-up-as-semantic-release-and-not-the-commit-summary)
       * [Q: why does the title of this workflow show up at the commit summary and not "github-markdown-toc"](#q-why-does-the-title-of-this-workflow-show-up-at-the-commit-summary-and-not-github-markdown-toc)
       * [Q: what will the title of the workflow run be if the triggering event was "workflow_run"?](#q-what-will-the-title-of-the-workflow-run-be-if-the-triggering-event-was-workflow_run)
+   * [Dollar Sign Prefix to a Bash String](#dollar-sign-prefix-to-a-bash-string)
+      * [Q: what does this mean? NEW_ENV_HEREDOC=$'foo
+bar'](#q-what-does-this-mean-new_env_heredocfoonbar)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 

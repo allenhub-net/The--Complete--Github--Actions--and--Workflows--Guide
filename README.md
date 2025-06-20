@@ -54,6 +54,9 @@
       * [Q: why does the title of this workflow run show up as "semantic release", and not the commit summary?](doc/actions-and-workflows/README.md#q-why-does-the-title-of-this-workflow-run-show-up-as-semantic-release-and-not-the-commit-summary)
       * [Q: why does the title of this workflow show up at the commit summary and not "github-markdown-toc"](doc/actions-and-workflows/README.md#q-why-does-the-title-of-this-workflow-show-up-at-the-commit-summary-and-not-github-markdown-toc)
       * [Q: what will the title of the workflow run be if the triggering event was "workflow_run"?](doc/actions-and-workflows/README.md#q-what-will-the-title-of-the-workflow-run-be-if-the-triggering-event-was-workflow_run)
+   * [Dollar Sign Prefix to a Bash String](doc/actions-and-workflows/README.md#dollar-sign-prefix-to-a-bash-string)
+      * [Q: what does this mean? NEW_ENV_HEREDOC=$'foo
+bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonbar)
 
 * [Codespaces](doc/codespaces/README.md#codespaces)
    * [GitHub Codespaces/VSCode](doc/codespaces/README.md#github-codespacesvscode)
