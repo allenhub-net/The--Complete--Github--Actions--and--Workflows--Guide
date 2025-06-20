@@ -38,6 +38,7 @@ jobs:
 
           echo "NEW_ENV_RANDOM_JOKE<<$DELIM" >> $GITHUB_ENV
           curl -s https://icanhazdadjoke.com/ >> $GITHUB_ENV
+          curl -s https://icanhazdadjoke.com/ >> $GITHUB_ENV
           echo "" >> $GITHUB_ENV
           echo "$DELIM" >> $GITHUB_ENV
           
