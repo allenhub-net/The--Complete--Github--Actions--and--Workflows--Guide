@@ -26,7 +26,7 @@ jobs:
             echo "match: ${md} - updating TOC in ${md}" 
             ./gh-md-toc --insert --no-backup --hide-footer ${md}
           done
-        - name: Update omni-TOC in top-level README.md
+      - name: Update omni-TOC in top-level README.md
         run: |
           echo "updating omni-TOC in README.md"
           ./gh-md-toc $(find * -name README.md | awk '{ print gsub("/","/"), $0 }' | sort -n | cut -d' ' -f2-) > toc.tmp
