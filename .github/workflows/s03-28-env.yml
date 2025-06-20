@@ -40,7 +40,7 @@ jobs:
           echo "Why did the scarecrow win an award?" >> $GITHUB_ENV
           echo "Because he was outstanding in his field!" >> $GITHUB_ENV
           curl -s https://icanhazdadjoke.com/ >> $GITHUB_ENV
-          echo ""
+          echo "" >> $GITHUB_ENV
           echo "${DELIM}" >> $GITHUB_ENV
           
 
