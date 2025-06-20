@@ -14,17 +14,6 @@
    * [Markdown](README.md#markdown)
    * [TODO](README.md#todo)
 
-* [Notes](doc/README.md#notes)
-   * [GitHub Codespaces/VSCode](doc/README.md#github-codespacesvscode)
-      * [VSCode Extensions](doc/README.md#vscode-extensions)
-      * [Manual List](doc/README.md#manual-list)
-   * [Renovatebot](doc/README.md#renovatebot)
-      * [Ereate PRs in GitHub not Renovate Console](doc/README.md#ereate-prs-in-github-not-renovate-console)
-      * [Commit Message](doc/README.md#commit-message)
-         * [Default ### Commit Message](doc/README.md#default--commit-message)
-         * [Pull Request Title](doc/README.md#pull-request-title)
-         * [🏆 WINNER 🏆 PR Title and Description](doc/README.md#-winner--pr-title-and-description)
-
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
    * [Section 1.4 - First Workflow](section_01/README.md#section-14---first-workflow)
@@ -70,7 +59,7 @@
       * [Manual List](doc/codespaces/README.md#manual-list)
 
 * [Renovatebot](doc/renovatebot/README.md#renovatebot)
-   * [Ereate PRs in GitHub not Renovate Console](doc/renovatebot/README.md#ereate-prs-in-github-not-renovate-console)
+   * [Create PRs in GitHub not Renovate Console](doc/renovatebot/README.md#create-prs-in-github-not-renovate-console)
    * [Commit Message](doc/renovatebot/README.md#commit-message)
       * [Default ### Commit Message](doc/renovatebot/README.md#default--commit-message)
       * [Pull Request Title](doc/renovatebot/README.md#pull-request-title)
