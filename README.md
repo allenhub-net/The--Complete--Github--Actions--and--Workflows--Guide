@@ -108,10 +108,13 @@ graph LR;
     ROOT --> ._READMEMD["README.md"]:::doubledSpacing
     ROOT --> ._DOC["doc/"]:::doubledSpacing
     ._DOC --> .DOC_READMEMD["README.md"]:::doubledSpacing
-    ._DOC --> .DOC_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
-    ._DOC --> .DOC_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
-    ._DOC --> .DOC_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
-    ._DOC --> .DOC_RENOVATEBOTMD["renovatebot.md"]:::doubledSpacing
+    ._DOC --> .DOC_CODESPACES["codespaces/"]:::doubledSpacing
+    .DOC_CODESPACES --> .DOCCODESPACES_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_RENOVATEBOT["renovatebot/"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_READMEMD["README.md"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
     ROOT --> ._SECTION_01["section_01/"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_READMEMD["README.md"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_APPJS["app.js"]:::doubledSpacing
