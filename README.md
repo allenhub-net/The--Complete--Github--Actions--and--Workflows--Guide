@@ -8,10 +8,6 @@
 <!--ts-->
 
 * [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
-   * [EKS Notes](README.md#eks-notes)
-   * [Dependabot](README.md#dependabot)
-   * [Markdown](README.md#markdown)
-   * [TODO](README.md#todo)
 
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
@@ -72,28 +68,6 @@
 
 <!-- markdownlint-enable MD007 -->
 
-## EKS Notes
-
-<https://docs.renovatebot.com/modules/versioning/aws-eks-addon/>
-
-
-## Dependabot
-
-interesting to see dependabot flag the issue.  when
-I added a known-to-be-out-of-date dev dependency to
-package-lock.json, renovate picked it up right away
-
-as soon as I merged the renovate PR, dependabot closed the issue
-
-slick
-
-<https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/security/dependabot/3>
-
-## Markdown
-
-* two blank spaces at the end of a line of text yields a line break
-
 ## TODO
 
 TODO: create a workflow/action that ensures PRs to /main will trigger a semantic release
-
