@@ -21,6 +21,16 @@ jobs:
       - name: log env vars # interpolated on the runner machine
         run: echo '$GITHUB_REF:' $GITHUB_REF
 
+      - name: set env vars
+        run: |
+          echo "NEW_ENV_VAR=$(date)" >> $GITHUB_ENV
+          echo "NEW_ENV_VAR_WHEN=subsequent_steps_only" >> $GITHUB_ENV
+          echo "NEW_ENV_VAR_AVAILABLE_IN_THIS_STEP=false" >> $GITHUB_ENV
+
+
+      - name: check vars
+        run: set | grep NEW
+
       - name: log context # evaluated by github actions before sending workflow to runner machine - sent to runner machine already evaluated
         run: |
           echo '$'{{ github.ref }}: '${{ github.ref }}'
