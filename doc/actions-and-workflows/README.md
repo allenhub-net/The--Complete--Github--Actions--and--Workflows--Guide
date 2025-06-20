@@ -3,6 +3,11 @@
 
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
+* [Actions and Workflows](#actions-and-workflows)
+   * [Workflow Run Title](#workflow-run-title)
+      * [Q: why does the title of this <em>[ed: semantic release]</em> workflow run show up as "semantic release", and not the commit summary?](#q-why-does-the-title-of-this-ed-semantic-release-workflow-run-show-up-as-semantic-release-and-not-the-commit-summary)
+      * [Q: why does the title of this [ed: github markdown toc] workflow show up at the commit summary and not "github-markdown-toc"](#q-why-does-the-title-of-this-ed-github-markdown-toc-workflow-show-up-at-the-commit-summary-and-not-github-markdown-toc)
+      * [Q: what will the title of the workflow run be if the triggering event was "workflow_run"?](#q-what-will-the-title-of-the-workflow-run-be-if-the-triggering-event-was-workflow_run)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
