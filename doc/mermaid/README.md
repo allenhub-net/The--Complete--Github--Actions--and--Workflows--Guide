@@ -70,6 +70,25 @@ graph LR;
     ._DOC --> .DOC_DEPENDABOT["dependabot/"]:::doubledSpacing
     .DOC_DEPENDABOT --> .DOCDEPENDABOT_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_EKS["eks/"]:::doubledSpacing
+    .DOC_EKS --> .DOCEKS_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_MARKDOWN["markdown/"]:::doubledSpacing
+    .DOC_MARKDOWN --> .DOCMARKDOWN_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_MERMAID["mermaid/"]:::doubledSpacing
+    .DOC_MERMAID --> .DOCMERMAID_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_RENOVATEBOT["renovatebot/"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_READMEMD["README.md"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
+    ._DOC --> .DOC_TODO["todo/"]:::doubledSpacing
+    .DOC_TODO --> .DOCTODO_READMEMD["README.md"]:::doubledSpacing
+    ROOT --> ._SECTION_01["section_01/"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_READMEMD["README.md"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_APPJS["app.js"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_CONVERTJS["convert.js"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_INPUTYAML["input.yaml"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_OUTPUTJSON["output.json"]:::doubledSpacing
+    ._SECTION_01 --> .SECTION_01_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_PACKAGEJSON["package.json"]:::doubledSpacing
     ROOT --> ._SECTION_02["section_02/"]:::doubledSpacing
     ._SECTION_02 --> .SECTION_02_READMEMD["README.md"]:::doubledSpacing
