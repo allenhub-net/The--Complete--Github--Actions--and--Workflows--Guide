@@ -24,6 +24,7 @@ jobs:
       - name: set env vars
         run: |
           echo "NEW_ENV_VAR=$(date)" >> $GITHUB_ENV
+          echo "NEW_ENV_RANDOM=$RANDOM" >> $GITHUB_ENV
           echo "NEW_ENV_VAR_WHEN=subsequent_steps_only" >> $GITHUB_ENV
           echo "NEW_ENV_VAR_AVAILABLE_IN_THIS_STEP=false" >> $GITHUB_ENV
 
