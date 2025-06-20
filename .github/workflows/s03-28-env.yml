@@ -44,10 +44,13 @@ jobs:
           echo a
           sed 's/^/$GITHUB_ENV:/' < $GITHUB_ENV
           echo b
-          
+
 
       - name: whats in github env
-        run: sed 's/^/$GITHUB_ENV:/' < $GITHUB_ENV
+        run: |
+          echo c
+          sed 's/^/$GITHUB_ENV:/' < $GITHUB_ENV
+          echo d
 
       - name: check vars
         run: set | grep NEW_ENV
