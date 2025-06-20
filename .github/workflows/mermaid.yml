@@ -4,6 +4,9 @@ on:
   push:
   workflow_dispatch: 
 
+env:
+  TARGET: doc/mermaid/README.md
+
 jobs:
   update-mermaid:
     runs-on: ubuntu-latest
@@ -22,7 +25,7 @@ jobs:
         run: cd "$NODE_HOME" && (npm ci || npm install)
 
       - name: Update Mermaid graph in README.md
-        run: cd "$NODE_HOME" && (npm run update-mermaid -- doc/mermaid/README.md)
+        run: cd "$NODE_HOME" && (npm run update-mermaid -- "${{ env.TARGET }}")
 
       - name: Commit and push changes
         run: |
@@ -31,12 +34,12 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git status
           git diff
-          git add README.md
+          git add "${{ env.TARGET }}"
           if git diff --cached --quiet; then
             echo "No changes to commit" >> $GITHUB_STEP_SUMMARY
           else
             echo "Changes made to the following files:" >> $GITHUB_STEP_SUMMARY
             git diff --cached --name-only | sed 's/^/* /' >> $GITHUB_STEP_SUMMARY
-            git commit -m "chore: update Mermaid graph in README.md"
+            git commit -m "chore: update Mermaid graph in "${{ env.TARGET }}""
           fi
           git push

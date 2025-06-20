@@ -41,17 +41,17 @@ graph LR;
     ROOT --> ._GITHUB[".github/"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_RENOVATEJSON["renovate.json"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_WORKFLOWS["workflows/"]:::doubledSpacing
-    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CHECKOUTYML["checkout.yml"]:::doubledSpacing
-    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CONTEXTSYML["contexts.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_DELETEPRERELEASESSH["delete-prereleases.sh"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_DELETEPRERELEASESYML["delete-prereleases.yml"]:::doubledSpacing
-    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_EVENTSYML["events.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_EXTERNALYML["external.yml"]:::doubledSpacing
-    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_FIRSTWORKFLOWYML["first-workflow.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_GITHUBMARKDOWNTOCYML["github-markdown-toc.yml"]:::doubledSpacing
-    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_MANUALYML["manual.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_MERMAIDYML["mermaid.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_PRCOMMENTYML["pr-comment.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0104FIRSTWORKFLOWYML["s01-04-first-workflow.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0114CHECKOUTYML["s01-14-checkout.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0215EVENTSYML["s02-15-events.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0221MANUALYML["s02-21-manual.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0324CONTEXTSYML["s03-24-contexts.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0328ENVYML["s03-28-env.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICPRERELEASEYML["semantic-prerelease.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICRELEASEYML["semantic-release.yml"]:::doubledSpacing
@@ -63,13 +63,25 @@ graph LR;
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKINGDIRSANDSHELLSYML["working-dirs-and-shells.yml"]:::doubledSpacing
     ROOT --> ._READMEMD["README.md"]:::doubledSpacing
     ROOT --> ._DOC["doc/"]:::doubledSpacing
+    ._DOC --> .DOC_ACTIONSANDWORKFLOWS["actions-and-workflows/"]:::doubledSpacing
+    .DOC_ACTIONSANDWORKFLOWS --> .DOCACTIONS-AND-WORKFLOWS_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_CODESPACES["codespaces/"]:::doubledSpacing
     .DOC_CODESPACES --> .DOCCODESPACES_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_DEPENDABOT["dependabot/"]:::doubledSpacing
+    .DOC_DEPENDABOT --> .DOCDEPENDABOT_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_EKS["eks/"]:::doubledSpacing
+    .DOC_EKS --> .DOCEKS_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_MARKDOWN["markdown/"]:::doubledSpacing
+    .DOC_MARKDOWN --> .DOCMARKDOWN_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_MERMAID["mermaid/"]:::doubledSpacing
+    .DOC_MERMAID --> .DOCMERMAID_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_RENOVATEBOT["renovatebot/"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_READMEMD["README.md"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
+    ._DOC --> .DOC_TODO["todo/"]:::doubledSpacing
+    .DOC_TODO --> .DOCTODO_READMEMD["README.md"]:::doubledSpacing
     ROOT --> ._SECTION_01["section_01/"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_READMEMD["README.md"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_APPJS["app.js"]:::doubledSpacing
