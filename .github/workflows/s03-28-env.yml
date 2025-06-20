@@ -30,7 +30,7 @@ jobs:
 
       - name: set env with here doc
         run: |
-          DELIM=1234
+          DELIM=$(uuidgen)
           echo "NEW_ENV_HEREDOC<<$DELIM" >> $GITHUB_ENV
           echo "foo" >> $GITHUB_ENV
           echo "bar" >> $GITHUB_ENV
