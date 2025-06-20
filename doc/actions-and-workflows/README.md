@@ -13,7 +13,7 @@
 
 ## Workflow Run Title
 
-### Q: why does the title of this _[ed: semantic release]_ workflow run show up as "semantic release", and not the commit summary?
+### Q: why does the title of this workflow run show up as "semantic release", and not the commit summary?
 
 **me**:  
 why does the title of this _[ed: semantic release]_ workflow run show up as "semantic release", and not the commit summary?
@@ -43,9 +43,9 @@ GitHub Actions does not currently support dynamic workflow names based on commit
 * The workflow run title comes from the static `name:` field.
 * Dynamic names are only possible for jobs/steps, not the workflow run itself.
 
-### Q: why does the title of this [ed: github markdown toc] workflow show up at the commit summary and not "github-markdown-toc"
+### Q: why does the title of this workflow show up at the commit summary and not "github-markdown-toc"
 
-**me**: why does the title of this [ed: github markdown toc] workflow show up at the commit summary and not "github-markdown-toc"
+**me**: why does the title of this _[ed: github markdown toc]_ workflow show up at the commit summary and not "github-markdown-toc"
 
 
 **GitHub Copilot**:  
