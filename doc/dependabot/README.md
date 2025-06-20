@@ -2,6 +2,8 @@
 
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
+* [Dependabot](#dependabot)
+   * [Stale JS library](#stale-js-library)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 

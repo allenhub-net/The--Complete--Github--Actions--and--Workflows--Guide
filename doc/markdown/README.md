@@ -2,6 +2,9 @@
 
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
+* [Markdown](#markdown)
+   * [Line Break](#line-break)
+   * [Horizontal Rule](#horizontal-rule)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 

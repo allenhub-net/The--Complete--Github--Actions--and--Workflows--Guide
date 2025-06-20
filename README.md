@@ -8,6 +8,7 @@
 <!--ts-->
 
 * [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
+   * [TODO](README.md#todo)
 
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
@@ -52,6 +53,16 @@
    * [GitHub Codespaces/VSCode](doc/codespaces/README.md#github-codespacesvscode)
       * [VSCode Extensions](doc/codespaces/README.md#vscode-extensions)
       * [Manual List](doc/codespaces/README.md#manual-list)
+
+* [Dependabot](doc/dependabot/README.md#dependabot)
+   * [Stale JS library](doc/dependabot/README.md#stale-js-library)
+
+* [EKS](doc/eks/README.md#eks)
+   * [Renovate EKS Addons](doc/eks/README.md#renovate-eks-addons)
+
+* [Markdown](doc/markdown/README.md#markdown)
+   * [Line Break](doc/markdown/README.md#line-break)
+   * [Horizontal Rule](doc/markdown/README.md#horizontal-rule)
 
 * [Mermaid](doc/mermaid/README.md#mermaid)
    * [Repository Map](doc/mermaid/README.md#repository-map)

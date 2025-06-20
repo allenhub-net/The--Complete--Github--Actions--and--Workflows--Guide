@@ -2,6 +2,8 @@
 
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
+* [EKS](#eks)
+   * [Renovate EKS Addons](#renovate-eks-addons)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
