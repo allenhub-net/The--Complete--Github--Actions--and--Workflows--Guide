@@ -9,6 +9,7 @@
    * [Section 3.25 - If Key](#section-325---if-key)
    * [Section 3.26 - Status Checks](#section-326---status-checks)
    * [Section 3.27 - Environment Variables](#section-327---environment-variables)
+   * [Section 3.28 - Dynamic Variables](#section-328---dynamic-variables)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 

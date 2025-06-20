@@ -47,6 +47,7 @@
    * [Section 3.25 - If Key](section_03/README.md#section-325---if-key)
    * [Section 3.26 - Status Checks](section_03/README.md#section-326---status-checks)
    * [Section 3.27 - Environment Variables](section_03/README.md#section-327---environment-variables)
+   * [Section 3.28 - Dynamic Variables](section_03/README.md#section-328---dynamic-variables)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
