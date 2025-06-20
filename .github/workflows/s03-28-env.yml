@@ -39,10 +39,10 @@ jobs:
           echo "NEW_ENV_RANDOM_JOKE<<$DELIM" >> $GITHUB_ENV
           curl -s https://icanhazdadjoke.com/ >> $GITHUB_ENV
           echo "" >> $GITHUB_ENV
-          curl -s https://icanhazdadjoke.com/ >> $GITHUB_ENV
-          echo "" >> $GITHUB_ENV
           echo "$DELIM" >> $GITHUB_ENV
           
+      - name: whats in github env
+        run: sed 's/^/$GITHUB_ENV:/' < $GITHUB_ENV
 
       - name: check vars
         run: set | grep NEW_ENV
