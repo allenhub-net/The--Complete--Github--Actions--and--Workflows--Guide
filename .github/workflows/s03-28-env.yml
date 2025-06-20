@@ -39,7 +39,7 @@ jobs:
           echo "Why did the scarecrow win an award?" >> $GITHUB_ENV
           echo "Because he was outstanding in his field!" >> $GITHUB_ENV
           echo "${DELIM}" >> $GITHUB_ENV
-          "
+          
 
       - name: check vars
         run: set | grep NEW_ENV
