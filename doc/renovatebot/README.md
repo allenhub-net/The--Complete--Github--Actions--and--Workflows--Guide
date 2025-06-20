@@ -1,6 +1,6 @@
 # Renovatebot
 
-## create PRs in github not renovate console
+## Ereate PRs in GitHub not Renovate Console
 
 🦠 renovate web service by default will create the dependency dashboard in the
  web console (the "developer console"), and not in a github issue.
@@ -24,11 +24,11 @@
      * ✅ Require config file
      * ✅ Create onboarding PRs
 
-## Commit message
+## Commit Message
 
 ![PR Settings](pr-settings.png)
 
-### Default message
+### Default ### Commit Message
 
 doesn't trigger semantic release the
 way I want
@@ -37,6 +37,6 @@ way I want
 
 seems good
 
-### 🏆 WINNER 🏆 PR Title and description
+### 🏆 WINNER 🏆 PR Title and Description
 
 includes the branch and (clickable) PR number in the commit summary
