@@ -10,6 +10,8 @@
 
 ## Repository Map
 
+<!-- markdownlint-disable MD033 -->
+
 <table>
     <tr>
         <td style="border:none;">See:</td>
@@ -21,9 +23,11 @@
     </tr>
     <tr>
         <td style="border:none;"></td>
-        <td style="border:none;"><a href=".../../.github/workflows/mermaid.yml">GitHub Mermaid Workflow</a></td>
+        <td style="border:none;"><a href="../../.github/workflows/mermaid.yml">GitHub Mermaid Workflow</a></td>
     </tr>
 </table>
+
+<!-- markdownlint-enable MD033 -->
 
 ---
 
