@@ -1,6 +1,15 @@
 # Renovatebot
 
-## Ereate PRs in GitHub not Renovate Console
+<!-- markdownlint-disable MD007 -->
+<!--ts-->
+* [Codespaces](#codespaces)
+   * [GitHub Codespaces/VSCode](#github-codespacesvscode)
+      * [VSCode Extensions](#vscode-extensions)
+      * [Manual List](#manual-list)
+<!--te-->
+<!-- markdownlint-enable MD007 -->
+
+## Create PRs in GitHub not Renovate Console
 
 🦠 renovate web service by default will create the dependency dashboard in the
  web console (the "developer console"), and not in a github issue.
