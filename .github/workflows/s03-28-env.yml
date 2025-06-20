@@ -41,6 +41,11 @@ jobs:
           echo "" >> $GITHUB_ENV
           echo "$DELIM" >> $GITHUB_ENV
           
+          echo a
+          sed 's/^/$GITHUB_ENV:/' < $GITHUB_ENV
+          echo b
+          
+
       - name: whats in github env
         run: sed 's/^/$GITHUB_ENV:/' < $GITHUB_ENV
 
