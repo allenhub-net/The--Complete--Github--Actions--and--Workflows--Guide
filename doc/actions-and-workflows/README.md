@@ -78,3 +78,16 @@ So, the workflow run will be titled `"semantic-release"` in the GitHub Actions U
 
 > The dynamic job name (`Semantic Release (triggered by "...")`) only affects the job name inside the run, not the overall workflow run title.  
 For `workflow_run` triggers, GitHub always uses the static `name:` field for the workflow run title.
+
+## Dollar Sign Prefix to a Bash String
+
+### Q: what does this mean? NEW_ENV_HEREDOC=$'foo\nbar'
+
+GitHub Copilot
+The line
+
+means that the environment variable NEW_ENV_HEREDOC will contain the string foo followed by a newline, then bar.
+So its value is:
+
+The $'...' syntax in Bash allows you to use escape sequences like \n for newlines.
+In the context of your workflow, this is how multi-line environment variables are set using the here-doc syntax with $GITHUB_ENV.
