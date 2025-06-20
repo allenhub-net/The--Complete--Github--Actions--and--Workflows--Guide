@@ -22,7 +22,7 @@ jobs:
         run: cd "$NODE_HOME" && (npm ci || npm install)
 
       - name: Update Mermaid graph in README.md
-        run: cd "$NODE_HOME" && (npm run update-mermaid -- README.md)
+        run: cd "$NODE_HOME" && (npm run update-mermaid -- doc/mermaid/README.md)
 
       - name: Commit and push changes
         run: |
