@@ -9,6 +9,7 @@
    * [Section 3.25 - If Key](#section-325---if-key)
    * [Section 3.26 - Status Checks](#section-326---status-checks)
    * [Section 3.27 - Environment Variables](#section-327---environment-variables)
+   * [Section 3.28 - Dynamic Variables](#section-328---dynamic-variables)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
@@ -63,4 +64,16 @@ will work b/c it is evaluated by GHA
 
 `if: $GITHUB_REF == 'refs/head/main'`  
 won't work
+
+
+## Section 3.28 - Dynamic Variables
+
+can define environment variables by writing to a specific file on our runner machine.
+
+the runner machine generates some temporary files used to perform certain actions, like defining environment variables.
+
+see: `GITHUB_ENV`  
+path to file we can write to expose new variables
+
+See: [Setting an Environment Variable](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions#setting-an-environment-variable)
 

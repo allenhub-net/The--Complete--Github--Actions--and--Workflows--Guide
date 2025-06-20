@@ -21,6 +21,40 @@ jobs:
       - name: log env vars # interpolated on the runner machine
         run: echo '$GITHUB_REF:' $GITHUB_REF
 
+      - name: set env vars
+        run: |
+          echo "NEW_ENV_VAR=$(date)" >> $GITHUB_ENV
+          echo "NEW_ENV_RANDOM=$RANDOM" >> $GITHUB_ENV
+          echo "NEW_ENV_VAR_WHEN=subsequent_steps_only" >> $GITHUB_ENV
+          echo "NEW_ENV_VAR_AVAILABLE_IN_THIS_STEP=false" >> $GITHUB_ENV
+
+      - name: set env with here doc
+        run: |
+          DELIM=$(uuidgen)
+          echo "NEW_ENV_HEREDOC<<$DELIM" >> $GITHUB_ENV
+          echo "foo" >> $GITHUB_ENV
+          echo "bar" >> $GITHUB_ENV
+          echo "$DELIM" >> $GITHUB_ENV
+
+          echo "NEW_ENV_RANDOM_JOKE<<$DELIM" >> $GITHUB_ENV
+          curl -s https://icanhazdadjoke.com/ >> $GITHUB_ENV
+          echo "" >> $GITHUB_ENV
+          echo "$DELIM" >> $GITHUB_ENV
+          
+          echo a
+          sed 's/^/$GITHUB_ENV:/' < $GITHUB_ENV
+          echo b
+
+
+      - name: whats in github env
+        run: |
+          echo c
+          sed 's/^/$GITHUB_ENV:/' < $GITHUB_ENV
+          echo d
+
+      - name: check vars
+        run: set | grep NEW_ENV
+
       - name: log context # evaluated by github actions before sending workflow to runner machine - sent to runner machine already evaluated
         run: |
           echo '$'{{ github.ref }}: '${{ github.ref }}'

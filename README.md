@@ -47,12 +47,16 @@
    * [Section 3.25 - If Key](section_03/README.md#section-325---if-key)
    * [Section 3.26 - Status Checks](section_03/README.md#section-326---status-checks)
    * [Section 3.27 - Environment Variables](section_03/README.md#section-327---environment-variables)
+   * [Section 3.28 - Dynamic Variables](section_03/README.md#section-328---dynamic-variables)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
       * [Q: why does the title of this workflow run show up as "semantic release", and not the commit summary?](doc/actions-and-workflows/README.md#q-why-does-the-title-of-this-workflow-run-show-up-as-semantic-release-and-not-the-commit-summary)
       * [Q: why does the title of this workflow show up at the commit summary and not "github-markdown-toc"](doc/actions-and-workflows/README.md#q-why-does-the-title-of-this-workflow-show-up-at-the-commit-summary-and-not-github-markdown-toc)
       * [Q: what will the title of the workflow run be if the triggering event was "workflow_run"?](doc/actions-and-workflows/README.md#q-what-will-the-title-of-the-workflow-run-be-if-the-triggering-event-was-workflow_run)
+   * [Dollar Sign Prefix to a Bash String](doc/actions-and-workflows/README.md#dollar-sign-prefix-to-a-bash-string)
+      * [Q: what does this mean? NEW_ENV_HEREDOC=$'foo
+bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonbar)
 
 * [Codespaces](doc/codespaces/README.md#codespaces)
    * [GitHub Codespaces/VSCode](doc/codespaces/README.md#github-codespacesvscode)
