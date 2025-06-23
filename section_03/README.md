@@ -10,6 +10,7 @@
    * [Section 3.26 - Status Checks](#section-326---status-checks)
    * [Section 3.27 - Environment Variables](#section-327---environment-variables)
    * [Section 3.28 - Dynamic Variables](#section-328---dynamic-variables)
+   * [Section 3.29 - Configuration Variables and Secrets](#section-329---configuration-variables-and-secrets)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 

@@ -48,6 +48,7 @@
    * [Section 3.26 - Status Checks](section_03/README.md#section-326---status-checks)
    * [Section 3.27 - Environment Variables](section_03/README.md#section-327---environment-variables)
    * [Section 3.28 - Dynamic Variables](section_03/README.md#section-328---dynamic-variables)
+   * [Section 3.29 - Configuration Variables and Secrets](section_03/README.md#section-329---configuration-variables-and-secrets)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
