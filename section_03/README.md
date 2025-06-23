@@ -77,3 +77,18 @@ path to file we can write to expose new variables
 
 See: [Setting an Environment Variable](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions#setting-an-environment-variable)
 
+## Section 3.29 - Configuration Variables and Secrets
+
+Configuration variables available at these level
+
+* organization
+* repository
+* environment
+
+interesting example: RUNNER='ubuntu-latest'
+
+precedence: 
+* env (highest)
+* repo 
+* org (lowest)
+
