@@ -93,3 +93,6 @@ precedence:
 * repo 
 * org (lowest)
 
+semantic release is being a pain
+
+test1: no feat: commits, but feat: in the PR
