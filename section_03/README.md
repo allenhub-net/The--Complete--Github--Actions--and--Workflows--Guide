@@ -96,3 +96,6 @@ precedence:
 semantic release is being a pain
 
 test1: no feat: commits, but feat: in the PR
+result: no release
+
+test2: feat: in commit 
