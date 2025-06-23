@@ -99,3 +99,5 @@ test1: no feat: commits, but feat: in the PR
 result: no release
 
 test2: feat: in commit 
+
+final results: it matters what is in the commit - it doesn't matter what's in the PR message
