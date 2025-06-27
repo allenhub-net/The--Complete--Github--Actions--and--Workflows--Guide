@@ -54,6 +54,9 @@
    * [Section 3.31 - GITHUB_TOKEN](section_03/README.md#section-331---github_token)
 
 * [Section 4 - Advanced GitHub Actions Features](section_04/README.md#section-4---advanced-github-actions-features)
+   * [Section 4.33 - Timeout and Continue](section_04/README.md#section-433---timeout-and-continue)
+      * [continue-on-error](section_04/README.md#continue-on-error)
+      * [timeout-minutes](section_04/README.md#timeout-minutes)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
