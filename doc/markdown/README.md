@@ -6,6 +6,8 @@
    * [Line Break](#line-break)
    * [Horizontal Rule](#horizontal-rule)
    * [Bot Quoting](#bot-quoting)
+   * [Image Links](#image-links)
+      * [Leading <em>bang</em> symbol](#leading-bang-symbol)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 

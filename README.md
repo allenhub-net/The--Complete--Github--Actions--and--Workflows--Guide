@@ -43,12 +43,6 @@
    * [section 2.23 - scheduled event](section_02/README.md#section-223---scheduled-event)
 
 * [Section 3 - Expressions, Contexts, Etc](section_03/README.md#section-3---expressions-contexts-etc)
-   * [Section 3.24 - Expressions and Contexts](section_03/README.md#section-324---expressions-and-contexts)
-   * [Section 3.25 - If Key](section_03/README.md#section-325---if-key)
-   * [Section 3.26 - Status Checks](section_03/README.md#section-326---status-checks)
-   * [Section 3.27 - Environment Variables](section_03/README.md#section-327---environment-variables)
-   * [Section 3.28 - Dynamic Variables](section_03/README.md#section-328---dynamic-variables)
-   * [Section 3.29 - Configuration Variables and Secrets](section_03/README.md#section-329---configuration-variables-and-secrets)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
@@ -74,6 +68,8 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
    * [Line Break](doc/markdown/README.md#line-break)
    * [Horizontal Rule](doc/markdown/README.md#horizontal-rule)
    * [Bot Quoting](doc/markdown/README.md#bot-quoting)
+   * [Image Links](doc/markdown/README.md#image-links)
+      * [Leading <em>bang</em> symbol](doc/markdown/README.md#leading-bang-symbol)
 
 * [Mermaid](doc/mermaid/README.md#mermaid)
    * [Repository Map](doc/mermaid/README.md#repository-map)
@@ -84,6 +80,9 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
       * [Default ### Commit Message](doc/renovatebot/README.md#default--commit-message)
       * [Pull Request Title](doc/renovatebot/README.md#pull-request-title)
       * [🏆 WINNER 🏆 PR Title and Description](doc/renovatebot/README.md#-winner--pr-title-and-description)
+
+* [Semantic Release](doc/semantic-release/README.md#semantic-release)
+   * [What Actually Triggers a Semantic Release](doc/semantic-release/README.md#what-actually-triggers-a-semantic-release)
 
 * [Stuff To Do](doc/todo/README.md#stuff-to-do)
    * [TODO: create a workflow/action that ensures PRs to /main will trigger a semantic release](doc/todo/README.md#todo-create-a-workflowaction-that-ensures-prs-to-main-will-trigger-a-semantic-release)

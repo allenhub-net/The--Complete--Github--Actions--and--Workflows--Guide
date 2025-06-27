@@ -2,10 +2,8 @@
 
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
-* [Codespaces](#codespaces)
-   * [GitHub Codespaces/VSCode](#github-codespacesvscode)
-      * [Note VSCode Extensions to Document/Reproduce Codespace](#note-vscode-extensions-to-documentreproduce-codespace)
-      * [Manual List](#manual-list)
+* [Semantic Release](#semantic-release)
+   * [What Actually Triggers a Semantic Release](#what-actually-triggers-a-semantic-release)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
