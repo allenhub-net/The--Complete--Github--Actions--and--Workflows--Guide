@@ -12,6 +12,8 @@
    * [Section 3.28 - Dynamic Variables](#section-328---dynamic-variables)
    * [Section 3.29 - Configuration Variables and Secrets](#section-329---configuration-variables-and-secrets)
    * [Section 3.30 - Encrypting and Decrypting Large Files](#section-330---encrypting-and-decrypting-large-files)
+      * [encrypt](#encrypt)
+      * [decrypt](#decrypt)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
@@ -116,3 +118,15 @@ Note: markdown image link didn't (seem to) honor style for size contraints
 ## Section 3.30 - Encrypting and Decrypting Large Files
 
 passphrase: `supersecret`
+
+### encrypt
+
+```bash
+gpg --symmetric --cipher-algo AES256 secret.json
+```
+
+### decrypt
+
+```bash
+gpg --decrypt --passphrase=supersecret  --output x secret.json.gpg
+```
