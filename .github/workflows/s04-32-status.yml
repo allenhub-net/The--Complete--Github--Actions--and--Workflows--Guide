@@ -8,13 +8,14 @@ on:
 jobs:
   job1:
     runs-on: ubuntu-latest
+    timeout-minutes: 1
     steps:
       - name: step1
-        timeout-minutes: 1
+        #timeout-minutes: 1
         run: |
           echo "::notice title=job1::This is job 1"
           echo "start at: $(date)"
-          sleep 90
+          sleep 9
           echo "end at: $(date)"
 
       - name: step2
