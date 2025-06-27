@@ -9,7 +9,6 @@
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
-
 ## Section 4.33 - Timeout and Continue
 
 ### continue-on-error
