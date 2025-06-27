@@ -45,6 +45,8 @@ jobs:
         working-directory: doc
         run: |
           pwd
+          ls -l ..
+          ls -l
           echo "updating doc/omni-TOC"
           ../gh-md-toc $(find * -name README.md | awk '{ print gsub("/","/"), $0 }' | sort -n | cut -d' ' -f2-) > toc.tmp
           awk '/<!--ts-->/ {print;while((getline<"toc.tmp")>0)print;f=1;next} /<!--te-->/ {f=0;print;next} !f' README.md > README.md.tmp && mv README.md.tmp README.md
