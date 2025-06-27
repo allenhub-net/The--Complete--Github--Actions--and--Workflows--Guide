@@ -51,6 +51,7 @@
    * [Section 3.30 - Encrypting and Decrypting Large Files](section_03/README.md#section-330---encrypting-and-decrypting-large-files)
       * [encrypt](section_03/README.md#encrypt)
       * [decrypt](section_03/README.md#decrypt)
+   * [Section 3.31 - GITHUB_TOKEN](section_03/README.md#section-331---github_token)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)

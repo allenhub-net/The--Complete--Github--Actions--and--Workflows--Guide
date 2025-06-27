@@ -14,6 +14,7 @@
    * [Section 3.30 - Encrypting and Decrypting Large Files](#section-330---encrypting-and-decrypting-large-files)
       * [encrypt](#encrypt)
       * [decrypt](#decrypt)
+   * [Section 3.31 - GITHUB_TOKEN](#section-331---github_token)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
