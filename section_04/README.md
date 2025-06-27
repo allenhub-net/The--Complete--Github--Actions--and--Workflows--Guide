@@ -7,12 +7,4 @@
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
-## semantic pre-release
 
-debugging
-
-more debuging
-
-yet more
-
-and again
