@@ -63,3 +63,18 @@ So its value is:
 The `$'...'` syntax in Bash allows you to use escape sequences like `\n` for newlines.  
 In the context of your workflow, this is how multi-line environment variables are set using the here-doc syntax with `$GITHUB_ENV`.
 ```
+
+## Image Links
+
+### Leading _bang_ symbol
+
+**me**:  
+what does the "!" at the beginning of the line mean
+
+**GitHub Copilot**:  
+The "!" at the beginning of the line in Markdown is used to indicate an image.  
+The full syntax is:
+
+* The `!` tells Markdown this is an image, not a regular link.
+* The text in brackets (`[]`) is the alt text (shown if the image can't be displayed).
+* The text in parentheses (`()`) is the path or URL to the image.
