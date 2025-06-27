@@ -53,6 +53,9 @@
       * [decrypt](section_03/README.md#decrypt)
    * [Section 3.31 - GITHUB_TOKEN](section_03/README.md#section-331---github_token)
 
+* [Section 4 - Advanced GitHub Actions Features](section_04/README.md#section-4---advanced-github-actions-features)
+   * [semantic pre-release](section_04/README.md#semantic-pre-release)
+
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
       * [Q: why does the title of this workflow run show up as "semantic release", and not the commit summary?](doc/actions-and-workflows/README.md#q-why-does-the-title-of-this-workflow-run-show-up-as-semantic-release-and-not-the-commit-summary)
