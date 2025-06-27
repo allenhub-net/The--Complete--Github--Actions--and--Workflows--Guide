@@ -43,6 +43,12 @@
    * [section 2.23 - scheduled event](section_02/README.md#section-223---scheduled-event)
 
 * [Section 3 - Expressions, Contexts, Etc](section_03/README.md#section-3---expressions-contexts-etc)
+   * [Section 3.24 - Expressions and Contexts](section_03/README.md#section-324---expressions-and-contexts)
+   * [Section 3.25 - If Key](section_03/README.md#section-325---if-key)
+   * [Section 3.26 - Status Checks](section_03/README.md#section-326---status-checks)
+   * [Section 3.27 - Environment Variables](section_03/README.md#section-327---environment-variables)
+   * [Section 3.28 - Dynamic Variables](section_03/README.md#section-328---dynamic-variables)
+   * [Section 3.29 - Configuration Variables and Secrets](section_03/README.md#section-329---configuration-variables-and-secrets)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
