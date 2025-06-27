@@ -40,6 +40,23 @@ jobs:
             echo "Changes made to the following files:" >> $GITHUB_STEP_SUMMARY
             git diff --name-only | sed 's/^/* /' >> $GITHUB_STEP_SUMMARY
           fi
+
+      - name: Update omni-TOC in doc/README.md
+        working-directory: doc
+        run: |
+          echo "updating doc/omni-TOC"
+          ../gh-md-toc $(find * -name README.md | awk '{ print gsub("/","/"), $0 }' | sort -n | cut -d' ' -f2-) > toc.tmp
+          awk '/<!--ts-->/ {print;while((getline<"toc.tmp")>0)print;f=1;next} /<!--te-->/ {f=0;print;next} !f' README.md > README.md.tmp && mv README.md.tmp README.md
+          rm toc.tmp
+          rm gh-md-toc
+          git diff 
+          if git diff --quiet; then
+            echo "No changes to commit" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "Changes made to the following files:" >> $GITHUB_STEP_SUMMARY
+            git diff --name-only | sed 's/^/* /' >> $GITHUB_STEP_SUMMARY
+          fi
+
       - name: self-commit our changes
         uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 # v6.0.1
         with:
