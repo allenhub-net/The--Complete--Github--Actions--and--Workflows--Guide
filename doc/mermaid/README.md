@@ -64,6 +64,7 @@ graph LR;
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKINGDIRSANDSHELLSYML["working-dirs-and-shells.yml"]:::doubledSpacing
     ROOT --> ._READMEMD["README.md"]:::doubledSpacing
     ROOT --> ._DOC["doc/"]:::doubledSpacing
+    ._DOC --> .DOC_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_ACTIONSANDWORKFLOWS["actions-and-workflows/"]:::doubledSpacing
     .DOC_ACTIONSANDWORKFLOWS --> .DOCACTIONS-AND-WORKFLOWS_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_CODESPACES["codespaces/"]:::doubledSpacing
