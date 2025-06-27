@@ -11,6 +11,7 @@
    * [Section 3.27 - Environment Variables](#section-327---environment-variables)
    * [Section 3.28 - Dynamic Variables](#section-328---dynamic-variables)
    * [Section 3.29 - Configuration Variables and Secrets](#section-329---configuration-variables-and-secrets)
+   * [Section 3.30 - Encrypting and Decrypting Large Files](#section-330---encrypting-and-decrypting-large-files)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
