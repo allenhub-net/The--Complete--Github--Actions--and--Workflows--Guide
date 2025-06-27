@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  issues: read
+  pull-requests: write
 
 jobs:
   pr-comment:
