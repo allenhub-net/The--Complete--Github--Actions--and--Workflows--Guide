@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: step1
+        timeout-minutes: 1
         run: |
           echo "::notice title=job1::This is job 1"
           echo "start at: $(date)"
-          sleep 20
+          sleep 90
           echo "end at: $(date)"
 
       - name: step2
