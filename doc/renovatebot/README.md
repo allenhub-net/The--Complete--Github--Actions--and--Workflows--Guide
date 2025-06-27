@@ -20,13 +20,14 @@
 "Silent Mode" seems to be the culprait, as least as far as naming clarity is concerned.
 
 1. go to "SETTINGS"  
+
    ![Mend Renovate Settings](mend-renovate-settings.png)
 
 1. Selection "Dependencies"
 
 1. Configure
 
-   ![Renovate Config Example](renovate-config.png)
+   [![Renovate Config Example](renovate-config-400x400.png)](renovate-config.png)
 
    * ✅ Dependency Updates
    * ❌ Silent Mode
@@ -37,12 +38,14 @@
 
 ## Commit Message
 
-![PR Settings](pr-settings.png)
+[![PR Settings](pr-settings-400x400.png)](pr-settings.png)
 
-### Default ### Commit Message
+### Default Commit Message
 
 doesn't trigger semantic release the
-way I want
+way I want.  
+
+[See the `semantic-release` #what-actually-triggers-a-semantic-release](../semantic-release/README.md#what-actually-triggers-a-semantic-release)
 
 ### Pull Request Title
 
@@ -51,3 +54,4 @@ seems good
 ### 🏆 WINNER 🏆 PR Title and Description
 
 includes the branch and (clickable) PR number in the commit summary
+

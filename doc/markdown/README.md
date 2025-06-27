@@ -80,3 +80,25 @@ The full syntax is:
 * The `!` tells Markdown this is an image, not a regular link.
 * The text in brackets (`[]`) is the alt text (shown if the image can't be displayed).
 * The text in parentheses (`()`) is the path or URL to the image.
+
+
+## Image resizing
+
+I have screenshot but I don't want it to dominate the page.  Markdown doesn't seem to reliably render the image according to the style marks.  ChatGPT says Markdown doesn't support image resizing.
+
+I used `ImageMagick` to resize the image and link to the original.
+
+### ImageMagick in a Codespace
+```bash
+sudo apt update
+sudo apt install imagemagick
+convert secrets.png -resize 400x400 secrets-400x400.png
+
+: feeling gnarly?
+convert  -resize 400x400 -bordercolor black -border 2 -bordercolor yellow -border 4 -bordercolor black -border 2  renovate-config.png renovate-config-400x400.png
+```
+
+### Markdown Using Scaled Image
+```text
+[![Secrets Example](secrets-400x400.png)](secrets.png)
+```

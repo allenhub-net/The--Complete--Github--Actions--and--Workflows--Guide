@@ -102,14 +102,13 @@ test2: feat: in commit
 
 final results: it matters what is in the commit - it doesn't matter what's in the PR message
 
+Note: markdown image link didn't (seem to) honor style for size contraints
+
 ### `variables` example
 
-<!-- markdownlint-disable MD033 -->
-<img src="./variables.png" alt="Secrets Example" style="max-width: 400px; max-height: 400px;" />
-<!-- markdownlint-enable MD033 -->
+[![Variables Example](variables-400x400.png)](variables.png)
 
 ### `secrets` example (with overrides)
 
-<!-- markdownlint-disable MD033 -->
-<img src="./secrets.png" alt="Secrets Example" style="max-width: 400px; max-height: 400px;" />
-<!-- markdownlint-enable MD033 -->
+[![Secrets Example](secrets-400x400.png)](secrets.png)
+
