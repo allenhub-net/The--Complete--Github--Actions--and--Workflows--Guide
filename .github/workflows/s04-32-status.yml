@@ -15,7 +15,7 @@ jobs:
         run: |
           echo "::notice title=job1::This is job 1"
           echo "start at: $(date)"
-          sleep 9
+          sleep 90
           echo "end at: $(date)"
 
       - name: step2
