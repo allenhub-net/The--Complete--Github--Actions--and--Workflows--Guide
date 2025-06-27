@@ -115,3 +115,15 @@ Note: markdown image link didn't (seem to) honor style for size contraints
 ## Section 3.30 - Encrypting and Decrypting Large Files
 
 passphrase: `supersecret`
+
+### encrypt
+
+```bash
+gpg --symmetric --cipher-algo AES256 secret.json
+```
+
+### decrypt
+
+```bash
+gpg --decrypt --passphrase=supersecret  --output x secret.json.gpg
+```
