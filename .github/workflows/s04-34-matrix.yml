@@ -7,12 +7,11 @@ on:
 jobs:
 
   node-matrix:
+    continue-on-error: true
     strategy:
       matrix:
         node-version: 
           - ''
-          - 14
-          - 15
           - 16
         os:
           - ubuntu-latest
@@ -26,7 +25,7 @@ jobs:
           NODE_VER: ${{ matrix.node-version }}
         run: |
           echo "NODE_VER: ${NODE_VER}"
-          title="Node ${NODE_VER:-default} version"
+          title="Node ${NODE_VER:-default} version on $${ matrix.os }}"
           nv=$(node -v)
           echo "::notice title=${title}::${nv}"
           echo "version: ${nv}"
