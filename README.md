@@ -9,8 +9,6 @@
 
 * [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
 
-* [Notes from The--Complete--Github--Actions--and--Workflows--Guide](doc/README.md#notes-from-the--complete--github--actions--and--workflows--guide)
-
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
    * [Section 1.4 - First Workflow](section_01/README.md#section-14---first-workflow)
