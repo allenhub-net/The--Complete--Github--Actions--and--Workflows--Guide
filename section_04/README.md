@@ -24,3 +24,12 @@ note: if timeout at job level, timeout produces `cancelled` instead of error (fa
 ```bash
 timeout-minutes: 1
 ```
+
+## Section 4.34 - matrix
+
+job-level `continue-on-error: true` do different things
+
+`continue-on-error: true` prevent workflow from failing if a job in our matrix fails
+
+`fail-fast: false` prevent github from cancelling pending and in-progress jobs if a job in our matrix fails
+
