@@ -61,7 +61,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 
 * [Codespaces](doc/codespaces/README.md#codespaces)
    * [GitHub Codespaces/VSCode](doc/codespaces/README.md#github-codespacesvscode)
-      * [VSCode Extensions](doc/codespaces/README.md#vscode-extensions)
+      * [Note VSCode Extensions to Document/Reproduce Codespace](doc/codespaces/README.md#note-vscode-extensions-to-documentreproduce-codespace)
       * [Manual List](doc/codespaces/README.md#manual-list)
 
 * [Dependabot](doc/dependabot/README.md#dependabot)

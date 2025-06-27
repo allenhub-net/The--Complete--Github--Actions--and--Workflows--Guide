@@ -4,6 +4,7 @@
 <!--ts-->
 * [Codespaces](#codespaces)
    * [GitHub Codespaces/VSCode](#github-codespacesvscode)
+      * [Note VSCode Extensions to Document/Reproduce Codespace](#note-vscode-extensions-to-documentreproduce-codespace)
       * [Manual List](#manual-list)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
