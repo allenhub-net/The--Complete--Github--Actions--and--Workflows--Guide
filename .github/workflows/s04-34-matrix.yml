@@ -1,6 +1,7 @@
 name: matrix
 
 on:
+  - workflow_dispatch
   - push
 
 jobs:
@@ -22,4 +23,3 @@ jobs:
           echo "::notice title=${title}::${nv}"
           echo "version: ${nv}"
 
-          
