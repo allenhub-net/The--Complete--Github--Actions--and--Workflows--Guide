@@ -7,6 +7,13 @@ on:
 jobs:
   node-matrix:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: 
+          - 14
+          - 15
+          - 16
+
     steps: 
       - run: |
           title="runner node version"
@@ -16,9 +23,9 @@ jobs:
 
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with: 
-          node-version: 13
+          node-version: ${{ matrix.node-version }}
       - run: |
-          title="Node 13 version"
+          title="Node ${{ matrix.node-version }} version"
           nv=$(node -v)
           echo "::notice title=${title}::${nv}"
           echo "version: ${nv}"
