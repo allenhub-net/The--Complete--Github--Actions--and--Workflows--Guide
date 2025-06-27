@@ -1,7 +1,5 @@
 # Section 2 - Events
 
-[Udemy Course Link](https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8noJMBI7eT51ozLMdESC0TC/)
-
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
 * [Section 2 - Events](#section-2---events)

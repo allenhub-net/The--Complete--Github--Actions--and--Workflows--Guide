@@ -1,7 +1,5 @@
 # Section 3 - Expressions, Contexts, Etc
 
-[Udemy Course Link](https://www.udemy.com/share/102DqF3@2HGIM2z2VoQAKmZTdGdGTqxk019uYQvvPTloZt5Ss8noJMBI7eT51ozLMdESC0TC/)
-
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
 * [Section 3 - Expressions, Contexts, Etc](#section-3---expressions-contexts-etc)
