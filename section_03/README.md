@@ -112,3 +112,6 @@ Note: markdown image link didn't (seem to) honor style for size contraints
 
 [![Secrets Example](secrets-400x400.png)](secrets.png)
 
+## Section 3.30 - Encrypting and Decrypting Large Files
+
+passphrase: `supersecret`
