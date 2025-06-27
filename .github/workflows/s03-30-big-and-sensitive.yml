@@ -1,0 +1,22 @@
+name: vars-and-secrets
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  decrypt:
+    runs-on: ${{ vars.JOBS_RUNNER }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Decrypt files
+        env: 
+          PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        run: |
+          gpg --batch --yes --decrypt --passphrase="${PASSPHRASE}" --output secret.json section_03/secret.json.gpg
+
+      - name: view 
+        run: |
+          cat secret.json
+
+          

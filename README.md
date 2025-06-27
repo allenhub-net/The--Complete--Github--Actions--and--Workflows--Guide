@@ -4,7 +4,7 @@
 
 [GitHub Actions Workflow Documentation](https://docs.github.com/en/actions/writing-workflows)
 
-<!-- markdownlint-disable MD007 -->
+<!-- markdownlint-disable -->
 <!--ts-->
 
 
@@ -99,4 +99,4 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
 
-<!-- markdownlint-enable MD007 -->
+<!-- markdownlint-enable -->
