@@ -61,7 +61,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 
 * [Codespaces](doc/codespaces/README.md#codespaces)
    * [GitHub Codespaces/VSCode](doc/codespaces/README.md#github-codespacesvscode)
-      * [VSCode Extensions](doc/codespaces/README.md#vscode-extensions)
+      * [Note VSCode Extensions to Document/Reproduce Codespace](doc/codespaces/README.md#note-vscode-extensions-to-documentreproduce-codespace)
       * [Manual List](doc/codespaces/README.md#manual-list)
 
 * [Dependabot](doc/dependabot/README.md#dependabot)
@@ -73,6 +73,12 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 * [Markdown](doc/markdown/README.md#markdown)
    * [Line Break](doc/markdown/README.md#line-break)
    * [Horizontal Rule](doc/markdown/README.md#horizontal-rule)
+   * [Bot Quoting](doc/markdown/README.md#bot-quoting)
+   * [Image Links](doc/markdown/README.md#image-links)
+      * [Leading <em>bang</em> symbol](doc/markdown/README.md#leading-bang-symbol)
+   * [Image resizing](doc/markdown/README.md#image-resizing)
+      * [ImageMagick in a Codespace](doc/markdown/README.md#imagemagick-in-a-codespace)
+      * [Markdown Using Scaled Image](doc/markdown/README.md#markdown-using-scaled-image)
 
 * [Mermaid](doc/mermaid/README.md#mermaid)
    * [Repository Map](doc/mermaid/README.md#repository-map)
@@ -80,9 +86,12 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 * [Renovatebot](doc/renovatebot/README.md#renovatebot)
    * [Create PRs in GitHub not Renovate Console](doc/renovatebot/README.md#create-prs-in-github-not-renovate-console)
    * [Commit Message](doc/renovatebot/README.md#commit-message)
-      * [Default ### Commit Message](doc/renovatebot/README.md#default--commit-message)
+      * [Default Commit Message](doc/renovatebot/README.md#default-commit-message)
       * [Pull Request Title](doc/renovatebot/README.md#pull-request-title)
       * [🏆 WINNER 🏆 PR Title and Description](doc/renovatebot/README.md#-winner--pr-title-and-description)
+
+* [Semantic Release](doc/semantic-release/README.md#semantic-release)
+   * [What Actually Triggers a Semantic Release](doc/semantic-release/README.md#what-actually-triggers-a-semantic-release)
 
 * [Stuff To Do](doc/todo/README.md#stuff-to-do)
    * [TODO: create a workflow/action that ensures PRs to /main will trigger a semantic release](doc/todo/README.md#todo-create-a-workflowaction-that-ensures-prs-to-main-will-trigger-a-semantic-release)
@@ -92,4 +101,3 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 <!--te-->
 
 <!-- markdownlint-enable MD007 -->
-

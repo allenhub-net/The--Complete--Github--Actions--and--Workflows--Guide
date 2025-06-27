@@ -97,7 +97,6 @@ The line
 
 means that the environment variable `NEW_ENV_HEREDOC` will contain the string `foo` followed by a newline, then `bar`.
 
-
 So its value is:
 
     foo

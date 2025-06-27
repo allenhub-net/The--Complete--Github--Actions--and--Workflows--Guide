@@ -64,6 +64,7 @@ graph LR;
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKINGDIRSANDSHELLSYML["working-dirs-and-shells.yml"]:::doubledSpacing
     ROOT --> ._READMEMD["README.md"]:::doubledSpacing
     ROOT --> ._DOC["doc/"]:::doubledSpacing
+    ._DOC --> .DOC_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_ACTIONSANDWORKFLOWS["actions-and-workflows/"]:::doubledSpacing
     .DOC_ACTIONSANDWORKFLOWS --> .DOCACTIONS-AND-WORKFLOWS_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_CODESPACES["codespaces/"]:::doubledSpacing
@@ -78,9 +79,14 @@ graph LR;
     .DOC_MERMAID --> .DOCMERMAID_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_RENOVATEBOT["renovatebot/"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_READMEMD["README.md"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_MENDRENOVATESETTINGS400X400PNG["mend-renovate-settings-400x400.png"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_PRSETTINGS400X400PNG["pr-settings-400x400.png"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
+    .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_RENOVATECONFIG400X400PNG["renovate-config-400x400.png"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
+    ._DOC --> .DOC_SEMANTICRELEASE["semantic-release/"]:::doubledSpacing
+    .DOC_SEMANTICRELEASE --> .DOCSEMANTIC-RELEASE_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_TODO["todo/"]:::doubledSpacing
     .DOC_TODO --> .DOCTODO_READMEMD["README.md"]:::doubledSpacing
     ROOT --> ._SECTION_01["section_01/"]:::doubledSpacing
@@ -98,6 +104,10 @@ graph LR;
     ._SECTION_02 --> .SECTION_02_UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
     ROOT --> ._SECTION_03["section_03/"]:::doubledSpacing
     ._SECTION_03 --> .SECTION_03_READMEMD["README.md"]:::doubledSpacing
+    ._SECTION_03 --> .SECTION_03_SECRETS400X400PNG["secrets-400x400.png"]:::doubledSpacing
+    ._SECTION_03 --> .SECTION_03_SECRETSPNG["secrets.png"]:::doubledSpacing
+    ._SECTION_03 --> .SECTION_03_VARIABLES400X400PNG["variables-400x400.png"]:::doubledSpacing
+    ._SECTION_03 --> .SECTION_03_VARIABLESPNG["variables.png"]:::doubledSpacing
     ROOT --> ._UTIL["util/"]:::doubledSpacing
     ._UTIL --> .UTIL_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
     ._UTIL --> .UTIL_PROTECTEDBRANCHPSH["protected-branch-p.sh"]:::doubledSpacing

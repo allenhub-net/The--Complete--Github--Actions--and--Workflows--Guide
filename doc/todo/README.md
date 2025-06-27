@@ -19,4 +19,3 @@ see below
 in the context of trunk-based development
 
 getting lots of post-checking-to-/main "fixes" that clutter the semantic releases
-

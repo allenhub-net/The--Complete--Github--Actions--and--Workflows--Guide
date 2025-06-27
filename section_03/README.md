@@ -66,7 +66,6 @@ will work b/c it is evaluated by GHA
 `if: $GITHUB_REF == 'refs/head/main'`  
 won't work
 
-
 ## Section 3.28 - Dynamic Variables
 
 can define environment variables by writing to a specific file on our runner machine.
@@ -88,9 +87,10 @@ Configuration variables available at these level
 
 interesting example: RUNNER='ubuntu-latest'
 
-precedence: 
+precedence:
+
 * env (highest)
-* repo 
+* repo
 * org (lowest)
 
 semantic release is being a pain
@@ -98,6 +98,17 @@ semantic release is being a pain
 test1: no feat: commits, but feat: in the PR
 result: no release
 
-test2: feat: in commit 
+test2: feat: in commit
 
 final results: it matters what is in the commit - it doesn't matter what's in the PR message
+
+Note: markdown image link didn't (seem to) honor style for size contraints
+
+### `variables` example
+
+[![Variables Example](variables-400x400.png)](variables.png)
+
+### `secrets` example (with overrides)
+
+[![Secrets Example](secrets-400x400.png)](secrets.png)
+
