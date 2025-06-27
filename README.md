@@ -7,7 +7,6 @@
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
 
-* [The--Complete--Github--Actions--and--Workflows--Guide](README.md#the--complete--github--actions--and--workflows--guide)
 
 * [Section 1 - Basic Concepts](section_01/README.md#section-1---basic-concepts)
    * [Section 1.3 - YAML](section_01/README.md#section-13---yaml)
