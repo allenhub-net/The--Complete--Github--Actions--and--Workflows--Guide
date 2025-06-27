@@ -1,4 +1,4 @@
-name: vars-and-secrets
+name: big-and-sensitive
 
 on: 
   workflow_dispatch:
