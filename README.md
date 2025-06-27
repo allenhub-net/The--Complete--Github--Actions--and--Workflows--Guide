@@ -76,6 +76,9 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
    * [Bot Quoting](doc/markdown/README.md#bot-quoting)
    * [Image Links](doc/markdown/README.md#image-links)
       * [Leading <em>bang</em> symbol](doc/markdown/README.md#leading-bang-symbol)
+   * [Image resizing](doc/markdown/README.md#image-resizing)
+      * [ImageMagick in a Codespace](doc/markdown/README.md#imagemagick-in-a-codespace)
+      * [Markdown Using Scaled Image](doc/markdown/README.md#markdown-using-scaled-image)
 
 * [Mermaid](doc/mermaid/README.md#mermaid)
    * [Repository Map](doc/mermaid/README.md#repository-map)
@@ -83,7 +86,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 * [Renovatebot](doc/renovatebot/README.md#renovatebot)
    * [Create PRs in GitHub not Renovate Console](doc/renovatebot/README.md#create-prs-in-github-not-renovate-console)
    * [Commit Message](doc/renovatebot/README.md#commit-message)
-      * [Default ### Commit Message](doc/renovatebot/README.md#default--commit-message)
+      * [Default Commit Message](doc/renovatebot/README.md#default-commit-message)
       * [Pull Request Title](doc/renovatebot/README.md#pull-request-title)
       * [🏆 WINNER 🏆 PR Title and Description](doc/renovatebot/README.md#-winner--pr-title-and-description)
 

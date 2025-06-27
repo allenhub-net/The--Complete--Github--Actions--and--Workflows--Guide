@@ -5,7 +5,7 @@
 * [Renovatebot](#renovatebot)
    * [Create PRs in GitHub not Renovate Console](#create-prs-in-github-not-renovate-console)
    * [Commit Message](#commit-message)
-      * [Default ### Commit Message](#default--commit-message)
+      * [Default Commit Message](#default-commit-message)
       * [Pull Request Title](#pull-request-title)
       * [🏆 WINNER 🏆 PR Title and Description](#-winner--pr-title-and-description)
 <!--te-->

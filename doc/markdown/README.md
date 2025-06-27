@@ -8,6 +8,9 @@
    * [Bot Quoting](#bot-quoting)
    * [Image Links](#image-links)
       * [Leading <em>bang</em> symbol](#leading-bang-symbol)
+   * [Image resizing](#image-resizing)
+      * [ImageMagick in a Codespace](#imagemagick-in-a-codespace)
+      * [Markdown Using Scaled Image](#markdown-using-scaled-image)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
