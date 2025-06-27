@@ -3,7 +3,6 @@
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
 
-* [Notes from The--Complete--Github--Actions--and--Workflows--Guide](README.md#notes-from-the--complete--github--actions--and--workflows--guide)
 
 * [Actions and Workflows](actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](actions-and-workflows/README.md#workflow-run-title)
