@@ -137,3 +137,5 @@ gpg --decrypt --passphrase=supersecret  --output x secret.json.gpg
 if you perform a task with your GITHUB_TOKEN, it will not trigger additional workflow runs
 
 See: [Permissions for the GITHUB_TOKEN](https://docs.github.com/en/actions/how-tos/security-for-github-actions/security-guides/automatic-token-authentication#permissions-for-the-github_token)
+
+token test
