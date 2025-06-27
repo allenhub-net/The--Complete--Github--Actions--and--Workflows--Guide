@@ -56,6 +56,7 @@ graph LR;
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0330BIGANDSENSITIVEYML["s03-30-big-and-sensitive.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0331PRCOMMENTYML["s03-31-pr-comment.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0432STATUSYML["s04-32-status.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0434MATRIXYML["s04-34-matrix.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICPRERELEASEYML["semantic-prerelease.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICRELEASEYML["semantic-release.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SIMPLEACTIONYML["simple-action.yml"]:::doubledSpacing
