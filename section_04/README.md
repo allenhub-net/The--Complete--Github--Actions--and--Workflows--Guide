@@ -6,6 +6,7 @@
    * [Section 4.33 - Timeout and Continue](#section-433---timeout-and-continue)
       * [continue-on-error](#continue-on-error)
       * [timeout-minutes](#timeout-minutes)
+   * [Section 4.34 - matrix](#section-434---matrix)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
