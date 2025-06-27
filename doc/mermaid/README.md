@@ -81,6 +81,8 @@ graph LR;
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_MENDRENOVATESETTINGSPNG["mend-renovate-settings.png"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_PRSETTINGSPNG["pr-settings.png"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_RENOVATECONFIGPNG["renovate-config.png"]:::doubledSpacing
+    ._DOC --> .DOC_SEMANTICRELEASE["semantic-release/"]:::doubledSpacing
+    .DOC_SEMANTICRELEASE --> .DOCSEMANTIC-RELEASE_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_TODO["todo/"]:::doubledSpacing
     .DOC_TODO --> .DOCTODO_READMEMD["README.md"]:::doubledSpacing
     ROOT --> ._SECTION_01["section_01/"]:::doubledSpacing
@@ -98,6 +100,8 @@ graph LR;
     ._SECTION_02 --> .SECTION_02_UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
     ROOT --> ._SECTION_03["section_03/"]:::doubledSpacing
     ._SECTION_03 --> .SECTION_03_READMEMD["README.md"]:::doubledSpacing
+    ._SECTION_03 --> .SECTION_03_SECRETSPNG["secrets.png"]:::doubledSpacing
+    ._SECTION_03 --> .SECTION_03_VARIABLESPNG["variables.png"]:::doubledSpacing
     ROOT --> ._UTIL["util/"]:::doubledSpacing
     ._UTIL --> .UTIL_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
     ._UTIL --> .UTIL_PROTECTEDBRANCHPSH["protected-branch-p.sh"]:::doubledSpacing
