@@ -19,12 +19,12 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with: 
           node-version: ${{ matrix.node-version }}
-        env: 
+      - env: 
           NODE_VER: ${{ matrix.node-version }}
-      - run: |
+        run: |
           echo "NODE_VER: ${NODE_VER}"
           title="Node ${NODE_VER:-default} version"
           nv=$(node -v)
           echo "::notice title=${title}::${nv}"
           echo "version: ${nv}"
-
+        
