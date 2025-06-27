@@ -54,6 +54,7 @@ graph LR;
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0324CONTEXTSYML["s03-24-contexts.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0328ENVYML["s03-28-env.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0329VARSANDSECRETSYML["s03-29-vars-and-secrets.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0330BIGANDSENSITIVEYML["s03-30-big-and-sensitive.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICPRERELEASEYML["semantic-prerelease.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICRELEASEYML["semantic-release.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SIMPLEACTIONYML["simple-action.yml"]:::doubledSpacing
@@ -104,6 +105,7 @@ graph LR;
     ._SECTION_02 --> .SECTION_02_UPDATEMERMAIDGRAPHJS["update-mermaid-graph.js"]:::doubledSpacing
     ROOT --> ._SECTION_03["section_03/"]:::doubledSpacing
     ._SECTION_03 --> .SECTION_03_READMEMD["README.md"]:::doubledSpacing
+    ._SECTION_03 --> .SECTION_03_SECRETJSONGPG["secret.json.gpg"]:::doubledSpacing
     ._SECTION_03 --> .SECTION_03_SECRETS400X400PNG["secrets-400x400.png"]:::doubledSpacing
     ._SECTION_03 --> .SECTION_03_SECRETSPNG["secrets.png"]:::doubledSpacing
     ._SECTION_03 --> .SECTION_03_VARIABLES400X400PNG["variables-400x400.png"]:::doubledSpacing
