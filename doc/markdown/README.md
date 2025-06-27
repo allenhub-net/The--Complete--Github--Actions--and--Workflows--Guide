@@ -5,6 +5,7 @@
 * [Markdown](#markdown)
    * [Line Break](#line-break)
    * [Horizontal Rule](#horizontal-rule)
+   * [Bot Quoting](#bot-quoting)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 

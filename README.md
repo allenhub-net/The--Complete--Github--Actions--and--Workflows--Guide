@@ -73,6 +73,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 * [Markdown](doc/markdown/README.md#markdown)
    * [Line Break](doc/markdown/README.md#line-break)
    * [Horizontal Rule](doc/markdown/README.md#horizontal-rule)
+   * [Bot Quoting](doc/markdown/README.md#bot-quoting)
 
 * [Mermaid](doc/mermaid/README.md#mermaid)
    * [Repository Map](doc/mermaid/README.md#repository-map)
