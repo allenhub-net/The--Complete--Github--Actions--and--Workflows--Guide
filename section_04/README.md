@@ -9,6 +9,7 @@
    * [Section 4.33 - matrix](#section-433---matrix)
    * [Section 4.34 - Including and Excluding Matrix Configurations](#section-434---including-and-excluding-matrix-configurations)
    * [Section 4.35 - Handling Failing Jobs in Matrix](#section-435---handling-failing-jobs-in-matrix)
+   * [Section 4.36 - Outputs and Dynamic Matrices](#section-436---outputs-and-dynamic-matrices)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
