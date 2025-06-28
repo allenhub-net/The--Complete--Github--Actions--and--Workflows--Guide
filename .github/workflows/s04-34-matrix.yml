@@ -12,11 +12,22 @@ jobs:
       matrix:
         node-version: 
           - ''
-          - 15
           - 19
           - 18
           - 20
         os: [ubuntu-latest, macos-latest]
+        include: 
+          - os: ubuntu-latest
+            is-ubuntu: true
+          - experimental: false   
+          - os: ubuntu-latest
+            node-version: ''
+            experimental: true
+          - os: ubuntu-latest
+            node-version: 17
+        exclude: 
+          - os: macos-latest
+            node-version: 19
       fail-fast: true
       max-parallel: 3
     runs-on: ${{ matrix.os }}
@@ -30,5 +41,8 @@ jobs:
           echo "NODE_VER: ${NODE_VER}"
           title="Node ${NODE_VER:-default} version"
           nv=$(node -v)
-          echo "::notice title=${title} on ${{ matrix.os }}::${nv}"
+          echo "::notice title=${title} on ${{ matrix.os }} (u:${{ matrix.is-ubuntu }} e:${{ matrix.experimental }})::${nv}"
           echo "version: ${nv}"
+          echo "is-ubuntu: ${{ matrix.is-ubuntu }}"
+      - run: echo '${{ toJson(matrix)}}'
+        
