@@ -7,24 +7,20 @@ on:
 jobs:
 
   node-matrix:
-    #continue-on-error: true
+    continue-on-error: true
     strategy:
       matrix:
         node-version: 
           - ''
-          - 16
-        os:
-          - ubuntu-latest
-      max-parallel: 1
-      fail-fast: false
-    runs-on: $${ matrix.os }}
+          - 15
+          - 19
+          - 18
+          - 20
+        os: [ubuntu-latest, macos-latest]
+      fail-fast: true
+      max-parallel: 3
+    runs-on: ${{ matrix.os }}
     steps: 
-      - run: |
-          title="runner node version"
-          nv=$(node -v)
-          echo "::notice title=${title}::${nv}"
-          echo "version: ${nv}"
-
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with: 
           node-version: ${{ matrix.node-version }}
@@ -32,8 +28,7 @@ jobs:
           NODE_VER: ${{ matrix.node-version }}
         run: |
           echo "NODE_VER: ${NODE_VER}"
-          title="Node ${NODE_VER:-default} version on $${ matrix.os }}"
+          title="Node ${NODE_VER:-default} version"
           nv=$(node -v)
-          echo "::notice title=${title}::${nv}"
+          echo "::notice title=${title} on ${{ matrix.os }}::${nv}"
           echo "version: ${nv}"
-        
