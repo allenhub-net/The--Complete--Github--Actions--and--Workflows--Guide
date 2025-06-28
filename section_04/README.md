@@ -37,9 +37,9 @@ job-level `continue-on-error: true` do different things
 cool: ran a 5x2 matrix (10 jobs) with  `max-parallel: 3`.  put Node v15 on MacOS at the top so it ran early.  Three jobs in parallel, one of the first three being Node v15 on MacOS.  
 
 
-| `fail-fast` | `continue-on-error` | post-failure jobs cancelled | workflow marked failed |
-|-------------|---------------------|-----------------------------|------------------------|
-| `false`     |    `false`          |                             |                        |
+| `fail-fast` | `continue-on-error` | post-failure jobs | workflow |
+|-------------|---------------------|-------------------|----------|
+| `false`     |    `false`          | run               | fail     |
 | `false`     |    `true`           |                             |                        |
 | `true`      |    `false`          |                             |                        |
 | `true`      |    `true`           |                             |                        |
