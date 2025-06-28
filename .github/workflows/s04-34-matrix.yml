@@ -7,7 +7,7 @@ on:
 jobs:
 
   node-matrix:
-    continue-on-error: ${{ matrix.experimental }}
+    continue-on-error: ${{ matrix.experimental == true }}
     strategy:
       matrix:
         node-version: 
