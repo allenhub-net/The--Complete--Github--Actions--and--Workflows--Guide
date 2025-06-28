@@ -16,10 +16,15 @@ jobs:
           - 18
           - 20
         os: [ubuntu-latest, macos-latest]
-        includes: 
+        include: 
           - os: ubuntu-latest
             is-ubuntu: true
-
+          - experimental: false   
+          - os: ubuntu-latest
+            node-version: ''
+            experimental: true
+          - os: ubuntu-latest
+            node-version: 17
       fail-fast: true
       max-parallel: 3
     runs-on: ${{ matrix.os }}
