@@ -10,7 +10,7 @@
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
-## Section 4.33 - Timeout and Continue
+## Section 4.32 - Timeout and Continue
 
 ### continue-on-error
 
@@ -26,7 +26,7 @@ note: if timeout at job level, timeout produces `cancelled` instead of error (fa
 timeout-minutes: 1
 ```
 
-## Section 4.34 - matrix
+## Section 4.33 - matrix
 
 job-level `continue-on-error: true` do different things
 
@@ -44,3 +44,6 @@ cool: ran a 5x2 matrix (10 jobs) with  `max-parallel: 3`.  put Node v15 on MacOS
 | `true`      |    `true`           | run               | success  |
 
 hmmm:  downstream jobs are cancelled only when `fail-fast: true` and `continue-on-error: false`.
+
+## Section 4.34 - Including and Excluding Matrix Configurations
+
