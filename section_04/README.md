@@ -40,7 +40,7 @@ cool: ran a 5x2 matrix (10 jobs) with  `max-parallel: 3`.  put Node v15 on MacOS
 | `fail-fast` | `continue-on-error` | post-failure jobs | workflow |
 |-------------|---------------------|-------------------|----------|
 | `false`     |    `false`          | run               | fail     |
-| `false`     |    `true`           |                             |                        |
+| `false`     |    `true`           | run               | success  |
 | `true`      |    `false`          |                             |                        |
 | `true`      |    `true`           |                             |                        |
 
