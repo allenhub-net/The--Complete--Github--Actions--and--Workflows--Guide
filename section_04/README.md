@@ -34,3 +34,4 @@ job-level `continue-on-error: true` do different things
 
 `fail-fast: false` prevent github from cancelling pending and in-progress jobs if a job in our matrix fails
 
+cool: ran a 5x2 matrix (10 jobs) with `fail-fast: true` and `max-parallel: 3`.  put Node v15 on MacOS at the top so it ran early.  Three jobs in parallel, one of the first three being Node v15 on MacOS.  Failed as expected and no more jobs started.  All "downstream" jobs marked as cancelled.
