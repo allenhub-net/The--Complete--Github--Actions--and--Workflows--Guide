@@ -50,3 +50,7 @@ hmmm:  downstream jobs are cancelled only when `fail-fast: true` and `continue-o
 
 n/a
 
+## Section 4.35 - Handling Failing Jobs in Matrix
+
+[Section 4.33 - matrix](#section-433---matrix)
+
