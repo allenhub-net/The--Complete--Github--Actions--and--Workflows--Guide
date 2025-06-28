@@ -3,10 +3,11 @@
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
 * [Section 4 - Advanced GitHub Actions Features](#section-4---advanced-github-actions-features)
-   * [Section 4.33 - Timeout and Continue](#section-433---timeout-and-continue)
+   * [Section 4.32 - Timeout and Continue](#section-432---timeout-and-continue)
       * [continue-on-error](#continue-on-error)
       * [timeout-minutes](#timeout-minutes)
-   * [Section 4.34 - matrix](#section-434---matrix)
+   * [Section 4.33 - matrix](#section-433---matrix)
+   * [Section 4.34 - Including and Excluding Matrix Configurations](#section-434---including-and-excluding-matrix-configurations)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
