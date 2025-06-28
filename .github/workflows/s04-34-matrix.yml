@@ -41,6 +41,6 @@ jobs:
           echo "NODE_VER: ${NODE_VER}"
           title="Node ${NODE_VER:-default} version"
           nv=$(node -v)
-          echo "::notice title=${title} on ${{ matrix.os }} (u:${{ matrix.is-ubuntu }} e:${{ matrix.experimental }})::${nv}"
+          echo "::notice title=${title} on ${{ matrix.os }} (u:${{ matrix.is-ubuntu }},e:${{ matrix.experimental }})::${nv}"
           echo "version: ${nv}"
           echo "is-ubuntu: ${{ matrix.is-ubuntu }}"
