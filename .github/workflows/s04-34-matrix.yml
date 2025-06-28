@@ -27,5 +27,5 @@ jobs:
           echo "NODE_VER: ${NODE_VER}"
           title="Node ${NODE_VER:-default} version"
           nv=$(node -v)
-          echo "::notice title=${title}::${nv}"
+          echo "::notice title=${title} on ${{ matrix.os }}::${nv}"
           echo "version: ${nv}"
