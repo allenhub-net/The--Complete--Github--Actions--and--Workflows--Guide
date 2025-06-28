@@ -8,6 +8,7 @@
       * [timeout-minutes](#timeout-minutes)
    * [Section 4.33 - matrix](#section-433---matrix)
    * [Section 4.34 - Including and Excluding Matrix Configurations](#section-434---including-and-excluding-matrix-configurations)
+   * [Section 4.35 - Handling Failing Jobs in Matrix](#section-435---handling-failing-jobs-in-matrix)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
@@ -50,3 +51,8 @@ hmmm:  downstream jobs are cancelled only when `fail-fast: true` and `continue-o
 
 n/a
 
+## Section 4.35 - Handling Failing Jobs in Matrix
+
+[Section 4.33 - matrix](#section-433---matrix)
+
+cool - works as designed.  see `os: macos-latest` `node-version: 15`

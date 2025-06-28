@@ -7,12 +7,12 @@ on:
 jobs:
 
   node-matrix:
-    continue-on-error: true
+    continue-on-error: ${{ matrix.experimental == true }}
     strategy:
       matrix:
         node-version: 
           - ''
-          - 19
+          - 15
           - 18
           - 20
         os: [ubuntu-latest, macos-latest]
@@ -20,8 +20,8 @@ jobs:
           - os: ubuntu-latest
             is-ubuntu: true
           - experimental: false   
-          - os: ubuntu-latest
-            node-version: ''
+          - os: macos-latest
+            node-version: 15
             experimental: true
           - os: ubuntu-latest
             node-version: 17

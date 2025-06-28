@@ -59,6 +59,7 @@
       * [timeout-minutes](section_04/README.md#timeout-minutes)
    * [Section 4.33 - matrix](section_04/README.md#section-433---matrix)
    * [Section 4.34 - Including and Excluding Matrix Configurations](section_04/README.md#section-434---including-and-excluding-matrix-configurations)
+   * [Section 4.35 - Handling Failing Jobs in Matrix](section_04/README.md#section-435---handling-failing-jobs-in-matrix)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
