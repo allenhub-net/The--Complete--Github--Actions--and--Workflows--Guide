@@ -30,10 +30,9 @@ jobs:
       matrix:
         node-version: 
           - ''
-          - 15
           - 18
           - 20
-        os: [ubuntu-latest, macos-latest]
+        os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps: 
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
