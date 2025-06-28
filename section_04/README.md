@@ -56,3 +56,6 @@ n/a
 [Section 4.33 - matrix](#section-433---matrix)
 
 cool - works as designed.  see `os: macos-latest` `node-version: 15`
+
+## Section 4.36 - Outputs and Dynamic Matrices
+
