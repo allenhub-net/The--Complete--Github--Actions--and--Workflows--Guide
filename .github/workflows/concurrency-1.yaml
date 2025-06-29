@@ -1,5 +1,7 @@
 name: conc1
 
+run-name: conc1 (${{ inputs.envirnement }})
+
 on:
   workflow_dispatch:
     inputs:
