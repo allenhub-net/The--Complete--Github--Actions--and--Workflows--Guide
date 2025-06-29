@@ -61,3 +61,6 @@ cool - works as designed.  see `os: macos-latest` `node-version: 15`
 ## Section 4.36 - Outputs and Dynamic Matrices
 
 turned off macos, as 10x the cost of linux, and blew my budget of free account
+
+## Section 4.37 - Concurrency
+
