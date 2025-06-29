@@ -10,6 +10,7 @@
    * [Section 4.34 - Including and Excluding Matrix Configurations](#section-434---including-and-excluding-matrix-configurations)
    * [Section 4.35 - Handling Failing Jobs in Matrix](#section-435---handling-failing-jobs-in-matrix)
    * [Section 4.36 - Outputs and Dynamic Matrices](#section-436---outputs-and-dynamic-matrices)
+   * [Section 4.37 - Concurrency](#section-437---concurrency)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
@@ -61,3 +62,7 @@ cool - works as designed.  see `os: macos-latest` `node-version: 15`
 ## Section 4.36 - Outputs and Dynamic Matrices
 
 turned off macos, as 10x the cost of linux, and blew my budget of free account
+
+## Section 4.37 - Concurrency
+
+key concurrency groups off `environment:`
