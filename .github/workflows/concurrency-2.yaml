@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "::notice title=start at $(date)"
+          echo "::notice title=start at $(date)::"
           sleep 30
 
         
