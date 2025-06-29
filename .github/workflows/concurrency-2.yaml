@@ -13,8 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "::notice title=start at $(date)::start at $(date)"
-          echo "::notice title=GITHUB_REF::"
-          sleep 3
+          echo "::notice title=start::conc2 start at $(date)"
+          sleep 30
+          echo "::notice title=finish::conc2 finish at $(date)"
+
 
         

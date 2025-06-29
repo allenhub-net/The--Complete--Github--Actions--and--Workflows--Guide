@@ -13,4 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
+          echo "::notice title=start::conc1 start at $(date)"
           sleep 30
+          echo "::notice title=finish::conc1 finish at $(date)" 30
