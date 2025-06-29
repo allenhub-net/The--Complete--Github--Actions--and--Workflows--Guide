@@ -1,5 +1,7 @@
 name: conc2
 
+run-name: conc2 (${{ inputs.environment }})
+
 on:
   workflow_dispatch:
     inputs:
@@ -9,7 +11,7 @@ on:
         required: true
 
 concurrency: 
-  group: cg-2
+  group: cg-${{ inputs.environment }}
   cancel-in-progress: true
 
 jobs:
@@ -17,9 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "::notice title=start::conc2 start at $(date)"
+          echo "::notice title=start::conc1 start at $(date)"
+          echo "concurrency-group: cg-${{ inputs.environment }}" >> $GITHUB_STEP_SUMMARY
           sleep 30
-          echo "::notice title=finish::conc2 finish at $(date)"
-
-
-        
+          echo "::notice title=finish::conc1 finish at $(date)" 30
