@@ -9,7 +9,7 @@ on:
         required: true
 
 concurrency: 
-  group: cg-1
+  group: cg-${{ inputs.environment }}
   cancel-in-progress: true
 
 jobs:
