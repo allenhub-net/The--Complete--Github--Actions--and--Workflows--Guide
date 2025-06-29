@@ -20,6 +20,6 @@ jobs:
     steps:
       - run: |
           echo "::notice title=start::conc1 start at $(date)"
-          echo "concurrency-group: cg-${{ inputs.environment }}" >> $GITHUB_STEP_SUMMARY
+          echo "concurrency-group: cg-${{ github.workflow}}-${{ inputs.environment }}" >> $GITHUB_STEP_SUMMARY
           sleep 30
           echo "::notice title=finish::conc1 finish at $(date)" 30
