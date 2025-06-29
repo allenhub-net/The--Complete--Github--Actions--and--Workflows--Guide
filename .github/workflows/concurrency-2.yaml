@@ -8,7 +8,9 @@ on:
         type: environment
         required: true
 
-concurrency: cg-2
+concurrency: 
+  group: cg-2
+  cancel-in-progress: true
 
 jobs:
   sleep:
