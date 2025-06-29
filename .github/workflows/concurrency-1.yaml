@@ -1,6 +1,6 @@
 name: conc1
 
-run-name: conc1 (${{ inputs.envirnement }})
+run-name: conc1 (${{ github.events.inputs.envirnement }})
 
 on:
   workflow_dispatch:
