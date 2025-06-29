@@ -61,6 +61,7 @@
    * [Section 4.34 - Including and Excluding Matrix Configurations](section_04/README.md#section-434---including-and-excluding-matrix-configurations)
    * [Section 4.35 - Handling Failing Jobs in Matrix](section_04/README.md#section-435---handling-failing-jobs-in-matrix)
    * [Section 4.36 - Outputs and Dynamic Matrices](section_04/README.md#section-436---outputs-and-dynamic-matrices)
+   * [Section 4.37 - Concurrency](section_04/README.md#section-437---concurrency)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
