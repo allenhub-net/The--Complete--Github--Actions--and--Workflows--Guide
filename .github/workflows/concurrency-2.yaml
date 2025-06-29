@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "::notice title=start at $(date)::"
+          echo "::notice title=start at $(date)::start at $(date)"
           echo "::notice title=GITHUB_REF::"
-          sleep 30
+          sleep 3
 
         
