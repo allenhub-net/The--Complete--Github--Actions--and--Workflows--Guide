@@ -62,6 +62,7 @@
    * [Section 4.35 - Handling Failing Jobs in Matrix](section_04/README.md#section-435---handling-failing-jobs-in-matrix)
    * [Section 4.36 - Outputs and Dynamic Matrices](section_04/README.md#section-436---outputs-and-dynamic-matrices)
    * [Section 4.37 - Concurrency](section_04/README.md#section-437---concurrency)
+   * [Section 4.38 - Reusable Workflows](section_04/README.md#section-438---reusable-workflows)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
