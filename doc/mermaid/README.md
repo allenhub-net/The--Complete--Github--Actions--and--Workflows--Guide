@@ -64,6 +64,7 @@ graph LR;
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICRELEASEYML["semantic-release.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SIMPLEACTIONYML["simple-action.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_STALEYML["stale.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_USINGREUSABLEWORKFLOWSYML["using-reusable-workflows.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKFLOWCOMMANDSYML["workflow-commands.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKFLOWRUNYML["workflow-run.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKINGDIRSANDSHELLSYML["working-dirs-and-shells.yml"]:::doubledSpacing
