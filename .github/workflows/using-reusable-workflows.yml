@@ -1,0 +1,15 @@
+name: using-reusable-workflows
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "who"
+        type: string
+        default: 'mallen'
+        required: true
+
+jobs:
+  calling-a-reusable-workflow:
+    uses: allenhub-net/TCGAaWGuide-a/.github/workflows/reusable.yaml@main
+    
