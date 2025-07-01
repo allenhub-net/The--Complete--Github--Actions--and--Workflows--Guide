@@ -6,13 +6,12 @@
   "dependencyDashboardAutoclose": true,
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
-    "packageRules": [
+  "packageRules": [
     {
       "matchManagers": [
         "github-actions"
       ],
-      "pinDigests": true,
-      "versioning": "github-commits"
+      "pinDigests": true
     }
   ],
   "baseBranches": [
