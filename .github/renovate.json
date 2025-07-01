@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
+    "github-actions",
     "config:recommended"
   ],
   "dependencyDashboardAutoclose": true,
@@ -10,9 +11,11 @@
     "main",
     "/^section--[0-9]*/"
   ],
-    "regexManagers": [
+  "regexManagers": [
     {
-      "fileMatch": ["^\\.github/workflows/.*\\.ya?ml$"],
+      "fileMatch": [
+        "^\\.github/workflows/.*\\.ya?ml$"
+      ],
       "matchStrings": [
         "uses: (?<depName>[^@]+)@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
       ],
