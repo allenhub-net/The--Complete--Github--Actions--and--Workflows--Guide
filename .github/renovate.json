@@ -18,10 +18,11 @@
     "main",
     "/^section--[0-9]*/"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
-      "fileMatch": [
-        "^\\.github/workflows/.*\\.ya?ml$"
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/^\\.github/workflows/.*\\.ya?ml$/"
       ],
       "matchStrings": [
         "uses: (?<depName>[^@]+)@(?<currentValue>v?\\d+\\.\\d+\\.\\d+)"
