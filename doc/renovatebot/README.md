@@ -55,3 +55,65 @@ seems good
 
 includes the branch and (clickable) PR number in the commit summary
 
+## Update Reusable Workflows
+
+<!-- markdownlint-disable -->
+**me**:  
+I am using renovatebot to keep my github actions up to date.  
+I recently published: https://github.com/allenhub-net/TCGAaWGuide-a/releases/tag/v1.1.1
+but renovate is not generating a PR from the existing v1.1.0: https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/blob/main/.github/workflows/using-reusable-workflows.yml
+
+my config is here: https://github.com/allenhub-net/The--Complete--Github--Actions--and--Workflows--Guide/blob/main/.github/renovate.json
+
+how I can configure renovate to create a PR for upgrading from v1.1.0 to v1.1.1
+<!-- markdownlint-enable -->
+
+**ChatGPT**:  
+Renovate currently does not automatically update version tags
+in reusable workflows declared as:
+
+```yaml
+uses: owner/repo/.github/workflows/workflow.yml@v1.1.0
+```
+
+Even though a GitHub issue (#12212) opened on June 4, 2023 has
+proposed support for this, it's not merged and not available yet
+
+### How to make Renovate propose workflow version bumps
+
+**ChatGPT**:  
+**Add a** `regexManager` **for workflows**  
+You can teach Renovate to detect `uses:` tags inside
+`.github/workflows/...` files and treat them like GitHub
+Release tags. Here's a starting point:
+
+```json
+{
+  "extends": ["config:base"],
+  "regexManagers": [
+    {
+      "fileMatch": ["^\\.github/workflows/.*\\.ya?ml$"],
+      "matchStrings": [
+        "uses: (?<depName>[^@]+)@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
+      ],
+      "datasourceTemplate": "github-tags",
+      "packageNameTemplate": "{{depName}}",
+      "versioningTemplate": "semver",
+      "extractVersionTemplate": "{{currentValue}}"
+    }
+  ]
+}
+```
+
+This config:
+
+* Scans your reusable-workflow YAML files,
+
+* Captures `depName` (e.g. `allenhub-net/TCGAaWGuide-a`) and `currentValue` (`v1.1.0`),
+
+* Checks GitHub tags for newer versions (e.g. v1.1.1),
+
+Opens PRs updating the `uses:` line.
+
+You'll need to tweak the regex if your tags don't start with a v,
+or include commit SHA references.
