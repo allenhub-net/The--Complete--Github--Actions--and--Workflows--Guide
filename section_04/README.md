@@ -11,6 +11,7 @@
    * [Section 4.35 - Handling Failing Jobs in Matrix](#section-435---handling-failing-jobs-in-matrix)
    * [Section 4.36 - Outputs and Dynamic Matrices](#section-436---outputs-and-dynamic-matrices)
    * [Section 4.37 - Concurrency](#section-437---concurrency)
+   * [Section 4.38 - Reusable Workflows](#section-438---reusable-workflows)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
