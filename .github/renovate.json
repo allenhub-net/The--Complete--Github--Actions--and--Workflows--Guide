@@ -11,7 +11,8 @@
       "matchManagers": [
         "github-actions"
       ],
-      "pinDigests": true
+      "pinDigests": true,
+      "versioning": "github-commits"
     }
   ],
   "baseBranches": [
