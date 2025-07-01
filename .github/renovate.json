@@ -6,16 +6,6 @@
   "dependencyDashboardAutoclose": true,
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
-  "packageRules": [
-    {
-      "matchManagers": [
-        "github-actions"
-      ],
-      "pinDigests": true,
-      "versioning": "github-commits",
-      "rangeStrategy": "pin"
-    }
-  ],
   "baseBranches": [
     "main",
     "/^section--[0-9]*/"
