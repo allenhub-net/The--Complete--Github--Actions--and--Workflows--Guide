@@ -7,28 +7,15 @@
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
   "packageRules": [
-{
-  "matchDatasources": ["github-tags"],
-  "versioning": "semver"
-}
+    {
+      "matchDatasources": [
+        "github-tags"
+      ],
+      "versioning": "semver"
+    }
   ],
   "baseBranches": [
     "main"
-  ],
-  "customManagers": [
-    {
-      "customType": "regex",
-      "managerFilePatterns": [
-        "/^\\.github/workflows/.*\\.ya?ml$/"
-      ],
-      "matchStrings": [
-        "uses: (?<depName>[^@]+)@(?<currentValue>v?\\d+\\.\\d+\\.\\d+)"
-      ],
-      "datasourceTemplate": "github-tags",
-      "packageNameTemplate": "{{depName}}",
-      "versioningTemplate": "semver",
-      "extractVersionTemplate": "{{currentValue}}"
-    }
   ],
   "prHourlyLimit": 1000
 }
