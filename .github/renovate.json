@@ -34,5 +34,5 @@
       "extractVersionTemplate": "{{currentValue}}"
     }
   ],
-  "prHourlyLimit": 20
+  "prHourlyLimit": 1000
 }
