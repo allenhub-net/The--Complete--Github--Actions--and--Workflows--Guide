@@ -1,19 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:best-practices"
   ],
   "dependencyDashboardAutoclose": true,
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
-  "packageRules": [
-    {
-      "matchDatasources": [
-        "github-tags"
-      ],
-      "versioning": "semver"
-    }
-  ],
   "baseBranches": [
     "main"
   ],
