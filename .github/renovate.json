@@ -35,6 +35,7 @@
       "pinDigests": true,
       "groupName": "GitHub Actions",
       "enabled": true
-    },
-    "prHourlyLimit": 20
-  }
+    }
+  ],
+  "prHourlyLimit": 20
+}
