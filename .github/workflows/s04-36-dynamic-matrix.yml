@@ -1,0 +1,62 @@
+name: dynamic matrix
+
+on:
+  workflow_dispatch:
+    inputs: 
+      os: 
+        description: operating system 
+        default: "ubuntu-latest"
+        type: string
+      node-version:
+        description: node version"
+        default: "18,19,20"
+        type: string
+
+
+
+jobs:
+
+  prepare-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix-arrays: ${{ steps.step-3.outputs.result }}
+    steps:
+      - uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        id: step-3
+        with: 
+          script: "return {os: context.payload.inputs['os'].split(','), 'node-version': context.payload.inputs['node-version'].split(',') }"
+          result-encoding: json
+
+      - run: |
+          echo "step-3 output: ${{ steps.step-3.outputs.result }}"
+
+      - run: echo "step-output=value" >> $GITHUB_OUTPUT
+        id: step-1
+      - run: echo "step-output=value 2" >> $GITHUB_OUTPUT
+        id: step-2
+      - run: |
+          echo "step-1 output: ${{ steps.step-1.outputs.step-output }}"
+          echo "step-2 output: ${{ steps.step-2.outputs.step-output }}"
+
+
+  node-matrix:
+    needs: prepare-matrix
+    strategy:
+      matrix:
+        os: ${{ fromJson(needs.prepare-matrix.outputs.matrix-arrays).os }}
+        node-version: ${{ fromJson(needs.prepare-matrix.outputs.matrix-arrays).node-version }}
+    runs-on: ${{ matrix.os }}
+    steps: 
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with: 
+          node-version: ${{ matrix.node-version }}
+      - env: 
+          NODE_VER: ${{ matrix.node-version }}
+        run: |
+          echo "NODE_VER: ${NODE_VER}"
+          title="Node ${NODE_VER:-default} version"
+          nv=$(node -v)
+          echo "::notice title=${title} on ${{ matrix.os }})::${nv}"
+          echo "version: ${nv}"
+          echo "matrix: ${{ toJson(matrix)}}"
+        

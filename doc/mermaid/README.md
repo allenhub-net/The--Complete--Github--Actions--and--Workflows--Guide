@@ -41,6 +41,8 @@ graph LR;
     ROOT --> ._GITHUB[".github/"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_RENOVATEJSON["renovate.json"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_WORKFLOWS["workflows/"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CONCURRENCY1YAML["concurrency-1.yaml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CONCURRENCY2YAML["concurrency-2.yaml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_DELETEPRERELEASESSH["delete-prereleases.sh"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_DELETEPRERELEASESYML["delete-prereleases.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_EXTERNALYML["external.yml"]:::doubledSpacing
@@ -57,10 +59,12 @@ graph LR;
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0331PRCOMMENTYML["s03-31-pr-comment.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0432STATUSYML["s04-32-status.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0434MATRIXYML["s04-34-matrix.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0436DYNAMICMATRIXYML["s04-36-dynamic-matrix.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICPRERELEASEYML["semantic-prerelease.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICRELEASEYML["semantic-release.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SIMPLEACTIONYML["simple-action.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_STALEYML["stale.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_USINGREUSABLEWORKFLOWSYML["using-reusable-workflows.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKFLOWCOMMANDSYML["workflow-commands.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKFLOWRUNYML["workflow-run.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKINGDIRSANDSHELLSYML["working-dirs-and-shells.yml"]:::doubledSpacing
