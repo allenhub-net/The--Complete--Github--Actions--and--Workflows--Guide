@@ -8,6 +8,8 @@
       * [Default Commit Message](#default-commit-message)
       * [Pull Request Title](#pull-request-title)
       * [🏆 WINNER 🏆 PR Title and Description](#-winner--pr-title-and-description)
+   * [Update Reusable Workflows](#update-reusable-workflows)
+      * [How to make Renovate propose workflow version bumps](#how-to-make-renovate-propose-workflow-version-bumps)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 

@@ -103,6 +103,8 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
       * [Default Commit Message](doc/renovatebot/README.md#default-commit-message)
       * [Pull Request Title](doc/renovatebot/README.md#pull-request-title)
       * [🏆 WINNER 🏆 PR Title and Description](doc/renovatebot/README.md#-winner--pr-title-and-description)
+   * [Update Reusable Workflows](doc/renovatebot/README.md#update-reusable-workflows)
+      * [How to make Renovate propose workflow version bumps](doc/renovatebot/README.md#how-to-make-renovate-propose-workflow-version-bumps)
 
 * [Semantic Release](doc/semantic-release/README.md#semantic-release)
    * [What Actually Triggers a Semantic Release](doc/semantic-release/README.md#what-actually-triggers-a-semantic-release)
