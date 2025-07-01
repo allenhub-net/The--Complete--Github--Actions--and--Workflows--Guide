@@ -26,12 +26,13 @@
         "^\\.github/workflows/.*\\.ya?ml$"
       ],
       "matchStrings": [
-        "uses: (?<depName>[^@]+)@(?<currentValue>v?\\d+\\.\\d+\\.\\d+)"
+        "uses: (?<depName>[^@]+)@(?<currentValue>v?\\d+\\.\\d+\\.\\d+|[a-f0-9]{40})(?:\\s+#\\s*(?<currentTag>v?\\d+\\.\\d+\\.\\d+))?"
       ],
       "datasourceTemplate": "github-tags",
       "packageNameTemplate": "{{depName}}",
       "versioningTemplate": "semver",
-      "extractVersionTemplate": "{{currentValue}}"
+      "extractVersionTemplate": "{{currentValue}}",
+      "replaceString": "uses: {{depName}}@{{newValue}} # {{newTag}}"
     }
   ],
   "prHourlyLimit": 1000
