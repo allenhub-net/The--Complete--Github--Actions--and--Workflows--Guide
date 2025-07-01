@@ -7,13 +7,10 @@
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
   "packageRules": [
-    {
-      "matchManagers": [
-        "github-actions"
-      ],
-      "pinDigests": true,
-      "versioning": "semver"
-    }
+{
+  "matchDatasources": ["github-tags"],
+  "versioning": "semver"
+}
   ],
   "baseBranches": [
     "main"
