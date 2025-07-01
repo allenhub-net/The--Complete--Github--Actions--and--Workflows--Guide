@@ -11,5 +11,5 @@ on:
 
 jobs:
   calling-a-reusable-workflow:
-    uses: allenhub-net/TCGAaWGuide-a/.github/workflows/reusable.yaml@v1.0.0
+    uses: allenhub-net/TCGAaWGuide-a/.github/workflows/reusable.yaml@986adebd6f5fb2057135962bce991cb06a8877fe # v1.0.0
 
