@@ -20,5 +20,19 @@
     "main",
     "/^section--[0-9]*/"
   ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "^\\.github/workflows/.*\\.ya?ml$"
+      ],
+      "matchStrings": [
+        "uses: (?<depName>[^@]+)@(?<currentValue>v?\\d+\\.\\d+\\.\\d+)"
+      ],
+      "datasourceTemplate": "github-tags",
+      "packageNameTemplate": "{{depName}}",
+      "versioningTemplate": "semver",
+      "extractVersionTemplate": "{{currentValue}}"
+    }
+  ],
   "prHourlyLimit": 20
 }
