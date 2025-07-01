@@ -10,17 +10,16 @@
     "main",
     "/^section--[0-9]*/"
   ],
-  "packageRules": [
+    "regexManagers": [
     {
-      "matchManagers": [
-        "github-actions"
+      "fileMatch": ["^\\.github/workflows/.*\\.ya?ml$"],
+      "matchStrings": [
+        "uses: (?<depName>[^@]+)@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
       ],
-      "matchDatasources": [
-        "github-tags"
-      ],
-      "pinDigests": true,
-      "groupName": "GitHub Actions",
-      "enabled": true
+      "datasourceTemplate": "github-tags",
+      "packageNameTemplate": "{{depName}}",
+      "versioningTemplate": "semver",
+      "extractVersionTemplate": "{{currentValue}}"
     }
   ],
   "prHourlyLimit": 20
