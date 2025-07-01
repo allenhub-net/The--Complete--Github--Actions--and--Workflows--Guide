@@ -12,12 +12,11 @@
         "github-actions"
       ],
       "pinDigests": true,
-      "versioning": "github-commits"
+      "versioning": "semver"
     }
   ],
   "baseBranches": [
-    "main",
-    "/^section--[0-9]*/"
+    "main"
   ],
   "customManagers": [
     {
