@@ -6,6 +6,20 @@
   "dependencyDashboardAutoclose": true,
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
+  "packageRules": [
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchDatasources": [
+        "github-tags",
+        "github-releases"
+      ],
+      "pinDigests": true,
+      "groupName": "GitHub Actions",
+      "enabled": true
+    }
+  ],
   "baseBranches": [
     "main"
   ],
