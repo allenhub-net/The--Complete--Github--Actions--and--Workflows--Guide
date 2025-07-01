@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github-actions",
     "config:recommended"
   ],
   "dependencyDashboardAutoclose": true,
@@ -25,5 +24,17 @@
       "extractVersionTemplate": "{{currentValue}}"
     }
   ],
-  "prHourlyLimit": 20
-}
+  "packageRules": [
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchDatasources": [
+        "github-tags"
+      ],
+      "pinDigests": true,
+      "groupName": "GitHub Actions",
+      "enabled": true
+    },
+    "prHourlyLimit": 20
+  }
