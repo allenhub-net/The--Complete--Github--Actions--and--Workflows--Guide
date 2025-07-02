@@ -26,4 +26,4 @@ jobs:
     needs: calling-a-reusable-workflow-in-same-repo
     steps: 
       - run: |
-          echo ${{ needs.calling-a-reusable-workflow-in-same-repo.outputs.date }}
+          echo ${{ needs.calling-a-reusable-workflow-in-same-repo.outputs.date }} | tee -a $GITHUB_STEP_SUMMARY
