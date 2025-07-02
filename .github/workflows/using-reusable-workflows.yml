@@ -17,3 +17,13 @@ jobs:
     secrets:
       access-token: ${{ secrets.ACCESS_TOKEN }}
 
+
+  calling-a-reusable-workflow-in-same-repo:
+    uses: ./.github/workflows/reusable-workflow.yml
+
+  using-reusable-workflow-output:
+    runs-on: ubuntu-latest
+    needs: calling-a-reusable-workflow-in-same-repo
+    steps: 
+      - run: |
+          echo ${{ needs.calling-a-reusable-workflow-in-same-repo.outputs.date }} | tee -a $GITHUB_STEP_SUMMARY
