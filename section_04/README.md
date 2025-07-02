@@ -13,6 +13,7 @@
    * [Section 4.37 - Concurrency](#section-437---concurrency)
    * [Section 4.38 - Reusable Workflows](#section-438---reusable-workflows)
    * [Section 4.39 - Reusable Workflow Outputs](#section-439---reusable-workflow-outputs)
+   * [Section 4.40 - Nesting Reusable Workflows](#section-440---nesting-reusable-workflows)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
@@ -78,3 +79,7 @@ for reusable workflows, the called workflow is the entire job
 See notes for renovating reusable workflows [Update Reusable Workflows](../doc/renovatebot/README.md#update-reusable-workflows).
 
 ## Section 4.39 - Reusable Workflow Outputs
+
+## Section 4.40 - Nesting Reusable Workflows
+
+[![Secrets Example](nested-wf-400x400.png)](nested-wf.png)

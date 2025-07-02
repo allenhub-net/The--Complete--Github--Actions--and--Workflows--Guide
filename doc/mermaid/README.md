@@ -118,6 +118,8 @@ graph LR;
     ._SECTION_03 --> .SECTION_03_VARIABLESPNG["variables.png"]:::doubledSpacing
     ROOT --> ._SECTION_04["section_04/"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_READMEMD["README.md"]:::doubledSpacing
+    ._SECTION_04 --> .SECTION_04_NESTEDWF400X400PNG["nested-wf-400x400.png"]:::doubledSpacing
+    ._SECTION_04 --> .SECTION_04_NESTEDWFPNG["nested-wf.png"]:::doubledSpacing
     ROOT --> ._UTIL["util/"]:::doubledSpacing
     ._UTIL --> .UTIL_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
     ._UTIL --> .UTIL_PROTECTEDBRANCHPSH["protected-branch-p.sh"]:::doubledSpacing

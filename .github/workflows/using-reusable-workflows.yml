@@ -20,6 +20,7 @@ jobs:
 
   calling-a-reusable-workflow-in-same-repo:
     uses: ./.github/workflows/reusable-workflow.yml
+    secrets: inherit
 
   using-reusable-workflow-output:
     runs-on: ubuntu-latest

@@ -64,6 +64,7 @@
    * [Section 4.37 - Concurrency](section_04/README.md#section-437---concurrency)
    * [Section 4.38 - Reusable Workflows](section_04/README.md#section-438---reusable-workflows)
    * [Section 4.39 - Reusable Workflow Outputs](section_04/README.md#section-439---reusable-workflow-outputs)
+   * [Section 4.40 - Nesting Reusable Workflows](section_04/README.md#section-440---nesting-reusable-workflows)
 
 * [Actions and Workflows](doc/actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](doc/actions-and-workflows/README.md#workflow-run-title)
