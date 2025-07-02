@@ -1,32 +1,26 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    ":dependencyDashboard",
-    ":semanticPrefixFixDepsChoreOthers",
-    ":ignoreModulesAndTests",
-    "group:monorepos",
-    "group:recommended",
-    "mergeConfidence:age-confidence-badges",
-    "replacements:all",
-    "workarounds:all",
-    "docker:pinDigests",
-    ":configMigration",
-    ":pinDevDependencies",
-    "abandonments:recommended"
+    "config:recommended"
   ],
   "dependencyDashboardAutoclose": true,
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
   "baseBranches": [
-    "main"
+    "main",
+    "/^section--[0-9]*/"
   ],
-  "prHourlyLimit": 1000,
-  "packageRules": [
+    "regexManagers": [
     {
-      "matchDepTypes": [
-        "action"
+      "fileMatch": ["^\\.github/workflows/.*\\.ya?ml$"],
+      "matchStrings": [
+        "uses: (?<depName>[^@]+)@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
       ],
-      "pinDigests": true
+      "datasourceTemplate": "github-tags",
+      "packageNameTemplate": "{{depName}}",
+      "versioningTemplate": "semver",
+      "extractVersionTemplate": "{{currentValue}}"
     }
-  ]
+  ],
+  "prHourlyLimit": 1000
 }
