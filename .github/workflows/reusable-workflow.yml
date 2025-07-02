@@ -22,3 +22,10 @@ jobs:
           sed 's/^/GITHUB_OUTPUT: /' < $GITHUB_OUTPUT  >> $GITHUB_STEP_SUMMARY
         id: date-step
         
+  nested-wf-call:
+    uses: allenhub-net/TCGAaWGuide-a/.github/workflows/reusable.yaml@63387f88ea68918cf091d0b059e29bb2edf53646 # v2.0.0
+    with: 
+      name: "Babar"
+    secrets:
+      access-token: ${{ secrets.ACCESS_TOKEN }}
+
