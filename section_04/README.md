@@ -73,3 +73,5 @@ key concurrency groups off `environment:`
 use actions in `steps:`
 
 for reusable workflows, the called workflow is the entire job
+
+See notes for renovating reusable workflows [Update Reusable Workflows](../doc/renovatebot/README.md#update-reusable-workflows).
