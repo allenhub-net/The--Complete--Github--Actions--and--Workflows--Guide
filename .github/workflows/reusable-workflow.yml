@@ -6,10 +6,9 @@ on:
 
   workflow_call:
     outputs:
-      output: 
-        date: 
-          description: "the date"
-          value: ${{ jobs.generate-output.outputs.date }}
+      date: 
+        description: "the date"
+        value: ${{ jobs.generate-output.outputs.date }}
 
 
 jobs:
