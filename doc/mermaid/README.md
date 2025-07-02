@@ -40,7 +40,6 @@ graph LR;
     ROOT["/ (root)"]:::doubledSpacing
     ROOT --> ._GITHUB[".github/"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_RENOVATEJSON["renovate.json"]:::doubledSpacing
-    ._GITHUB --> ..GITHUB_RENOVATEJSONS4["renovate.json.s4"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_WORKFLOWS["workflows/"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CONCURRENCY1YAML["concurrency-1.yaml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CONCURRENCY2YAML["concurrency-2.yaml"]:::doubledSpacing
