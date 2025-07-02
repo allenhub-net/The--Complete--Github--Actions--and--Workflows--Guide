@@ -19,5 +19,6 @@ jobs:
     steps:
       - run: |
           echo "date=$(date)" >> $GITHUB_OUTPUT
+          sed 's/^/GITHUB_OUTPUT: /' < $GITHUB_OUTPUT
         id: date-step
         
