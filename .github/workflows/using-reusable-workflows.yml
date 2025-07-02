@@ -19,7 +19,7 @@ jobs:
 
 
   calling-a-reusable-workflow-in-same-repo:
-    uses: ./.github/workflows/reusable.yaml
+    uses: ./.github/workflows/reusable-workflow.yml
 
   using-reusable-workflow-output:
     runs-on: ubuntu-latest
