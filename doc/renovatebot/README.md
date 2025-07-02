@@ -83,6 +83,11 @@ proposed support for this, it's not merged and not available yet
 
 ### How to make Renovate propose workflow version bumps
 
+**NB**: hosted renovate caches for ~30 minutes, so rapid
+iteration of a reusable workflow will _appear_ to not work.
+This _may_ lead to hours of frenzied debugging of a config
+which works just fine.  
+
 **ChatGPT**:  
 **Add a** `regexManager` **for workflows**  
 You can teach Renovate to detect `uses:` tags inside
