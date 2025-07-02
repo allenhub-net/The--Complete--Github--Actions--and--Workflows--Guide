@@ -11,7 +11,7 @@ on:
 
 jobs:
   calling-a-reusable-workflow:
-    uses: allenhub-net/TCGAaWGuide-a/.github/workflows/reusable.yaml@0ba0ebe622192d7b99b713228228c9398c450bfb # v1.1.8
+    uses: allenhub-net/TCGAaWGuide-a/.github/workflows/reusable.yaml@bb7c156fcb73b4e4585045808b60a9ccad139232 # v1.1.9
     with: 
       name: ${{ inputs.name }}
     secrets:
