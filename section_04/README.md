@@ -12,6 +12,7 @@
    * [Section 4.36 - Outputs and Dynamic Matrices](#section-436---outputs-and-dynamic-matrices)
    * [Section 4.37 - Concurrency](#section-437---concurrency)
    * [Section 4.38 - Reusable Workflows](#section-438---reusable-workflows)
+   * [Section 4.39 - Reusable Workflow Outputs](#section-439---reusable-workflow-outputs)
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
@@ -75,3 +76,5 @@ use actions in `steps:`
 for reusable workflows, the called workflow is the entire job
 
 See notes for renovating reusable workflows [Update Reusable Workflows](../doc/renovatebot/README.md#update-reusable-workflows).
+
+## Section 4.39 - Reusable Workflow Outputs
