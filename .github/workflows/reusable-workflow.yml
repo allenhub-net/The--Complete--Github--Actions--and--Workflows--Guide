@@ -23,7 +23,7 @@ jobs:
         id: date-step
         
   nested-wf-call:
-    uses: allenhub-net/TCGAaWGuide-a/.github/workflows/reusable.yaml@63387f88ea68918cf091d0b059e29bb2edf53646 # v2.0.0
+    uses: allenhub-net/TCGAaWGuide-a/.github/workflows/reusable.yaml@f82eab47a57d58b31b4a75eb27e42e4c4001ae43 # v2.0.1
     with: 
       name: "Babar"
     secrets:
