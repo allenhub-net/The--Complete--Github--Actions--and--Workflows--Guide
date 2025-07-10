@@ -1,7 +1,7 @@
 name: caching
 
 on:
-  - workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   use-axios:
@@ -13,5 +13,5 @@ jobs:
       - name: Install dependencies
         run: cd "$NODE_HOME" && (npm ci || npm install)
 
-        
+
       
