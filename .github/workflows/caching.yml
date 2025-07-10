@@ -9,7 +9,7 @@ jobs:
     env:
       NODE_HOME: section_04
     steps:
-      - uses: checkout/action@v4
+      - uses: actions/checkout@v4
       - name: Install dependencies
         run: cd "$NODE_HOME" && (npm ci || npm install)
 
