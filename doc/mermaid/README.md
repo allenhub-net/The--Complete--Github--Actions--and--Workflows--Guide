@@ -41,6 +41,7 @@ graph LR;
     ROOT --> ._GITHUB[".github/"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_RENOVATEJSON["renovate.json"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_WORKFLOWS["workflows/"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CACHINGYML["caching.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CONCURRENCY1YAML["concurrency-1.yaml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CONCURRENCY2YAML["concurrency-2.yaml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_DELETEPRERELEASESSH["delete-prereleases.sh"]:::doubledSpacing
@@ -122,6 +123,8 @@ graph LR;
     ._SECTION_04 --> .SECTION_04_READMEMD["README.md"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_NESTEDWF400X400PNG["nested-wf-400x400.png"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_NESTEDWFPNG["nested-wf.png"]:::doubledSpacing
+    ._SECTION_04 --> .SECTION_04_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
+    ._SECTION_04 --> .SECTION_04_PACKAGEJSON["package.json"]:::doubledSpacing
     ROOT --> ._UTIL["util/"]:::doubledSpacing
     ._UTIL --> .UTIL_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
     ._UTIL --> .UTIL_PROTECTEDBRANCHPSH["protected-branch-p.sh"]:::doubledSpacing
