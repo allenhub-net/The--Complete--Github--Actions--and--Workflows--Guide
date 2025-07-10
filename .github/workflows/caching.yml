@@ -1,0 +1,17 @@
+name: caching
+
+on:
+  - workflow_dispatch:
+
+jobs:
+  use-axios:
+    runs-on: ubuntu-latest
+    env:
+      NODE_HOME: section_04
+    steps:
+      - uses: checkout/action@v4
+      - name: Install dependencies
+        run: cd "$NODE_HOME" && (npm ci || npm install)
+
+        
+      
