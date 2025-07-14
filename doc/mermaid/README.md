@@ -121,6 +121,7 @@ graph LR;
     ._SECTION_03 --> .SECTION_03_VARIABLESPNG["variables.png"]:::doubledSpacing
     ROOT --> ._SECTION_04["section_04/"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_READMEMD["README.md"]:::doubledSpacing
+    ._SECTION_04 --> .SECTION_04_DADJOKEJS["dadjoke.js"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_NESTEDWF400X400PNG["nested-wf-400x400.png"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_NESTEDWFPNG["nested-wf.png"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
