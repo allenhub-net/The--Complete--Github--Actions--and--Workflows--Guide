@@ -13,7 +13,7 @@
 <!--te-->
 <!-- markdownlint-enable MD007 -->
 
-## Create PRs in GitHub not Renovate Console
+## Create Dependency Dashboard in GitHub not Renovate Console
 
 🦠 renovate web service by default will create the dependency dashboard in the
  web console (the "developer console"), and not in a github issue.
