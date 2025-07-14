@@ -19,5 +19,4 @@ jobs:
             const axios = require('axios');
             const response = await axios("https://icanhazdadjoke.com", { headers: { Accept: "text/plain" } });
             console.log(response.data);
-          working-directory: section_04
       
