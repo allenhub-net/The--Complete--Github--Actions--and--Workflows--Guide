@@ -19,8 +19,9 @@ jobs:
       - name: Install dependencies
         working-directory: section_04
         run: |
+          find * | sed 's/^/pre:/'
           (npm ci || npm install)
-          find *
+          find * | sed 's/^/post:/'
       - name: Use Axios
         working-directory: section_04
         run: |
