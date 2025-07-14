@@ -99,8 +99,6 @@ graph LR;
     .DOC_TODO --> .DOCTODO_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_WSL["wsl/"]:::doubledSpacing
     .DOC_WSL --> .DOCWSL_READMEMD["README.md"]:::doubledSpacing
-    ROOT --> ._PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
-    ROOT --> ._PACKAGEJSON["package.json"]:::doubledSpacing
     ROOT --> ._SECTION_01["section_01/"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_READMEMD["README.md"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_APPJS["app.js"]:::doubledSpacing
@@ -125,6 +123,8 @@ graph LR;
     ._SECTION_04 --> .SECTION_04_READMEMD["README.md"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_NESTEDWF400X400PNG["nested-wf-400x400.png"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_NESTEDWFPNG["nested-wf.png"]:::doubledSpacing
+    ._SECTION_04 --> .SECTION_04_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing
+    ._SECTION_04 --> .SECTION_04_PACKAGEJSON["package.json"]:::doubledSpacing
     ROOT --> ._UTIL["util/"]:::doubledSpacing
     ._UTIL --> .UTIL_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
     ._UTIL --> .UTIL_PROTECTEDBRANCHPSH["protected-branch-p.sh"]:::doubledSpacing
