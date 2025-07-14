@@ -8,6 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: cache node modules
+        id: cache-dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/section_04/node_modules
+          key: "npm-cache"
+      - name: display cache output 
+        run: echo '${{ toJSon(steps.cache-dependencies.outputs) }}'
       - name: Install dependencies
         working-directory: section_04
         run: |
