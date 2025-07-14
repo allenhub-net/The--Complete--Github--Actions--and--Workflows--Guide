@@ -3,7 +3,7 @@
 <!-- markdownlint-disable MD007 -->
 <!--ts-->
 * [Renovatebot](#renovatebot)
-   * [Create PRs in GitHub not Renovate Console](#create-prs-in-github-not-renovate-console)
+   * [Create Dependency Dashboard in GitHub not Renovate Console](#create-dependency-dashboard-in-github-not-renovate-console)
    * [Commit Message](#commit-message)
       * [Default Commit Message](#default-commit-message)
       * [Pull Request Title](#pull-request-title)

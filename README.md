@@ -100,7 +100,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
    * [Repository Map](doc/mermaid/README.md#repository-map)
 
 * [Renovatebot](doc/renovatebot/README.md#renovatebot)
-   * [Create PRs in GitHub not Renovate Console](doc/renovatebot/README.md#create-prs-in-github-not-renovate-console)
+   * [Create Dependency Dashboard in GitHub not Renovate Console](doc/renovatebot/README.md#create-dependency-dashboard-in-github-not-renovate-console)
    * [Commit Message](doc/renovatebot/README.md#commit-message)
       * [Default Commit Message](doc/renovatebot/README.md#default-commit-message)
       * [Pull Request Title](doc/renovatebot/README.md#pull-request-title)

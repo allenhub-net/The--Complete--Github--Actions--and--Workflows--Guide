@@ -38,7 +38,7 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
    * [Repository Map](mermaid/README.md#repository-map)
 
 * [Renovatebot](renovatebot/README.md#renovatebot)
-   * [Create PRs in GitHub not Renovate Console](renovatebot/README.md#create-prs-in-github-not-renovate-console)
+   * [Create Dependency Dashboard in GitHub not Renovate Console](renovatebot/README.md#create-dependency-dashboard-in-github-not-renovate-console)
    * [Commit Message](renovatebot/README.md#commit-message)
       * [Default Commit Message](renovatebot/README.md#default-commit-message)
       * [Pull Request Title](renovatebot/README.md#pull-request-title)
