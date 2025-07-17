@@ -37,6 +37,13 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
 * [Mermaid](mermaid/README.md#mermaid)
    * [Repository Map](mermaid/README.md#repository-map)
 
+* [Release Flow](release-flow/README.md#release-flow)
+   * [Diagram Release Flow](release-flow/README.md#diagram-release-flow)
+      * [Q: please diagram "release flow" as shown here: <a href="https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/" rel="nofollow">Release Flow - How We Do Branching on the VSTS Team</a>](release-flow/README.mdhttps://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
+   * [Release Flow for Udemy](release-flow/README.md#release-flow-for-udemy)
+      * [How to Read the Diagram](release-flow/README.md#how-to-read-the-diagram)
+      * [Diagram Notes](release-flow/README.md#diagram-notes)
+
 * [Renovatebot](renovatebot/README.md#renovatebot)
    * [Create Dependency Dashboard in GitHub not Renovate Console](renovatebot/README.md#create-dependency-dashboard-in-github-not-renovate-console)
    * [Commit Message](renovatebot/README.md#commit-message)
