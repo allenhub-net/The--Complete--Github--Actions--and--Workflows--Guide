@@ -105,6 +105,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
    * [Release Flow for Udemy](doc/release-flow/README.md#release-flow-for-udemy)
       * [How to Read the Diagram](doc/release-flow/README.md#how-to-read-the-diagram)
       * [Diagram Notes](doc/release-flow/README.md#diagram-notes)
+   * [For This Course](doc/release-flow/README.md#for-this-course)
 
 * [Renovatebot](doc/renovatebot/README.md#renovatebot)
    * [Create Dependency Dashboard in GitHub not Renovate Console](doc/renovatebot/README.md#create-dependency-dashboard-in-github-not-renovate-console)

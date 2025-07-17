@@ -8,6 +8,7 @@
    * [Release Flow for Udemy](#release-flow-for-udemy)
       * [How to Read the Diagram](#how-to-read-the-diagram)
       * [Diagram Notes](#diagram-notes)
+   * [For This Course](#for-this-course)
 <!--te-->
 <!-- markdownlint-enable  -->
 
