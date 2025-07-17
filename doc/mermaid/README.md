@@ -85,6 +85,8 @@ graph LR;
     .DOC_MARKDOWN --> .DOCMARKDOWN_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_MERMAID["mermaid/"]:::doubledSpacing
     .DOC_MERMAID --> .DOCMERMAID_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_RELEASEFLOW["release-flow/"]:::doubledSpacing
+    .DOC_RELEASEFLOW --> .DOCRELEASE-FLOW_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_RENOVATEBOT["renovatebot/"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_READMEMD["README.md"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_MENDRENOVATESETTINGS400X400PNG["mend-renovate-settings-400x400.png"]:::doubledSpacing
@@ -121,6 +123,7 @@ graph LR;
     ._SECTION_03 --> .SECTION_03_VARIABLESPNG["variables.png"]:::doubledSpacing
     ROOT --> ._SECTION_04["section_04/"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_READMEMD["README.md"]:::doubledSpacing
+    ._SECTION_04 --> .SECTION_04_DADJOKEJS["dadjoke.js"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_NESTEDWF400X400PNG["nested-wf-400x400.png"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_NESTEDWFPNG["nested-wf.png"]:::doubledSpacing
     ._SECTION_04 --> .SECTION_04_PACKAGELOCKJSON["package-lock.json"]:::doubledSpacing

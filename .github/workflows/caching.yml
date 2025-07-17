@@ -6,12 +6,29 @@ on:
 jobs:
   use-axios:
     runs-on: ubuntu-latest
-    env:
-      NODE_HOME: section_04
     steps:
       - uses: actions/checkout@v4
+      - name: cache node modules
+        id: cache-dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/section_04/node_modules
+          key: "npm-cache"
+      - name: display cache output 
+        run: echo '${{ toJSon(steps.cache-dependencies.outputs) }}'
       - name: Install dependencies
-        run: cd "$NODE_HOME" && (npm ci || npm install)
-
-
-      
+        working-directory: section_04
+        run: |
+          find * | sed 's/^/pre:/'
+          (npm ci || npm install)
+          find * | sed 's/^/post:/'
+      - name: Use Axios
+        working-directory: section_04
+        run: |
+          node -e '
+            const axios = require("axios");
+            axios("https://icanhazdadjoke.com", { headers: { Accept: "text/plain" } })
+              .then(response => console.log(response.data))
+              .catch(error => { console.error(error); process.exit(1); });
+          ' | tee -a $GITHUB_STEP_SUMMARY
+          
