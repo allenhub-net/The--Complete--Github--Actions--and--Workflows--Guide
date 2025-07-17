@@ -8,11 +8,7 @@ jobs:
     steps:
       - name: simple JS action
         id: greet
-<<<<<<< HEAD
         uses: actions/hello-world-javascript-action@87d4776715fe0006d59da063299516c3c423ad78
-=======
-        uses: actions/hello-world-javascript-action@7128506cedb0d87460ecbc4d43e0cc06128295e6
->>>>>>> 1e262b6 (chore(deps): update actions/hello-world-javascript-action digest to 7128506)
         with: 
           who-to-greet: Mona the Octocat
       
