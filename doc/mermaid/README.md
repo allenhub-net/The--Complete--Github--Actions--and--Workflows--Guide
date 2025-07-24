@@ -87,6 +87,7 @@ graph LR;
     .DOC_MERMAID --> .DOCMERMAID_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_RELEASEFLOW["release-flow/"]:::doubledSpacing
     .DOC_RELEASEFLOW --> .DOCRELEASE-FLOW_READMEMD["README.md"]:::doubledSpacing
+    .DOC_RELEASEFLOW --> .DOCRELEASE-FLOW_PRACTICEMD["practice.md"]:::doubledSpacing
     ._DOC --> .DOC_RENOVATEBOT["renovatebot/"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_READMEMD["README.md"]:::doubledSpacing
     .DOC_RENOVATEBOT --> .DOCRENOVATEBOT_MENDRENOVATESETTINGS400X400PNG["mend-renovate-settings-400x400.png"]:::doubledSpacing
