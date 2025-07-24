@@ -9,6 +9,7 @@
       * [How to Read the Diagram](#how-to-read-the-diagram)
       * [Diagram Notes](#diagram-notes)
    * [For This Course](#for-this-course)
+   * [Release Flow Discovery](#release-flow-discovery)
 <!--te-->
 <!-- markdownlint-enable  -->
 
