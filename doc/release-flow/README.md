@@ -186,3 +186,9 @@ commit
 
 
 ```
+
+
+
+## Release Flow Discovery
+
+[Release Flow - How We Do Branching on the VSTS Team](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
