@@ -10,7 +10,7 @@
       * [Leading <em>bang</em> symbol](#leading-bang-symbol)
    * [Image resizing](#image-resizing)
       * [ImageMagick in a Codespace](#imagemagick-in-a-codespace)
-      * [Markdown Using Scaled Image](#markdown-using-scaled-image)
+      * [Markdown Using Scaled Image - which is slick](#markdown-using-scaled-image---which-is-slick)
 <!--te-->
 <!-- markdownlint-enable  -->
 

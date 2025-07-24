@@ -32,7 +32,7 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
       * [Leading <em>bang</em> symbol](markdown/README.md#leading-bang-symbol)
    * [Image resizing](markdown/README.md#image-resizing)
       * [ImageMagick in a Codespace](markdown/README.md#imagemagick-in-a-codespace)
-      * [Markdown Using Scaled Image](markdown/README.md#markdown-using-scaled-image)
+      * [Markdown Using Scaled Image - which is slick](markdown/README.md#markdown-using-scaled-image---which-is-slick)
 
 * [Mermaid](mermaid/README.md#mermaid)
    * [Repository Map](mermaid/README.md#repository-map)
