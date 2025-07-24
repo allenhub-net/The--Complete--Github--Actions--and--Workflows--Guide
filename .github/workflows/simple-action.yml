@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: simple JS action
         id: greet
-        uses: actions/hello-world-javascript-action@b16d2601a6b948e2fb26f3772276581f31daa7cd
+        uses: actions/hello-world-javascript-action@f8b77f4e965a4985f6e2ae52e42bb7da3cf3876c
         with: 
           who-to-greet: Mona the Octocat
       
