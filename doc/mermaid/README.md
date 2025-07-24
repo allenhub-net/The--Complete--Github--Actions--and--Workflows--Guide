@@ -131,5 +131,6 @@ graph LR;
     ._SECTION_04 --> .SECTION_04_PACKAGEJSON["package.json"]:::doubledSpacing
     ROOT --> ._UTIL["util/"]:::doubledSpacing
     ._UTIL --> .UTIL_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
+    ._UTIL --> .UTIL_HIHOUXINYU["hi,Houxinyu"]:::doubledSpacing
     ._UTIL --> .UTIL_PROTECTEDBRANCHPSH["protected-branch-p.sh"]:::doubledSpacing
 ```
