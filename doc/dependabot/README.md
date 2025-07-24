@@ -15,4 +15,4 @@ package-lock.json, renovate picked it up right away
 
 as soon as I merged the renovate PR, dependabot closed the issue
 
-slick
+very slick
