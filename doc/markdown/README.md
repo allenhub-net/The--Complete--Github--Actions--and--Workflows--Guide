@@ -114,7 +114,7 @@ convert  -resize 400x400 -bordercolor black -border 2 -bordercolor yellow -borde
 ```
 <!-- markdownlint-enable -->
 
-### Markdown Using Scaled Image
+### Markdown Using Scaled Image - which is slick
 
 ```text
 [![Secrets Example](secrets-400x400.png)](secrets.png)
