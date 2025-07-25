@@ -105,6 +105,7 @@ graph LR;
     .DOC_TODO --> .DOCTODO_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_WSL["wsl/"]:::doubledSpacing
     .DOC_WSL --> .DOCWSL_READMEMD["README.md"]:::doubledSpacing
+    ROOT --> ._FOO["foo"]:::doubledSpacing
     ROOT --> ._SECTION_01["section_01/"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_READMEMD["README.md"]:::doubledSpacing
     ._SECTION_01 --> .SECTION_01_APPJS["app.js"]:::doubledSpacing
