@@ -5,7 +5,9 @@
       "prerelease": true
     },
     {
-      "name": "release/*",
+      "name": "release/*"
+    },
+    {
       "name": "semrel-stub"
     }
   ],
