@@ -1,0 +1,27 @@
+name: Enforce Semantic Release Commits
+
+on:
+  pull_request:
+    types: [opened, synchronize, edited, reopened]
+
+jobs:
+  check-commit-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Fetch all commits
+        run: git fetch --prune --unshallow
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install commitlint
+        run: npm install -g @commitlint/{cli,config-conventional}
+
+      - name: Lint commit messages
+        run: |
+          git log origin/${{ github.base_ref }}..HEAD --pretty=format:%s | npx commitlint
