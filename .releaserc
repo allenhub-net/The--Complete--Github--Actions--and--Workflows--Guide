@@ -1,9 +1,11 @@
 {
   "branches": [
-    "main",
     {
-      "name": "section--*",
+      "name": "main",
       "prerelease": true
+    },
+    {
+      "name": "release/*"
     }
   ],
   "plugins": [
