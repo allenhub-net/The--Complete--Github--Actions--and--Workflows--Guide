@@ -39,6 +39,7 @@ graph LR;
     classDef doubledSpacing height:60px;
     ROOT["/ (root)"]:::doubledSpacing
     ROOT --> ._GITHUB[".github/"]:::doubledSpacing
+    ._GITHUB --> ..GITHUB_DEPENDABOTYML["dependabot.yml"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_RENOVATEJSON["renovate.json"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_WORKFLOWS["workflows/"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CACHINGYML["caching.yml"]:::doubledSpacing
