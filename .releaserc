@@ -1,10 +1,12 @@
 {
   "branches": [
     {
-      "name": "main"
+      "name": "main",
+      "prerelease": true
     },
     {
-      "name": "release/*"
+      "name": "release/*",
+      "name": "semrel-stub"
     }
   ],
   "plugins": [
