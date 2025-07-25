@@ -13,6 +13,12 @@
 <!--te-->
 <!-- markdownlint-enable  -->
 
+## References
+
+[http://releaseflow.org/](http://releaseflow.org/)
+
+[Release Flow - How We Do Branching on the VSTS Team](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
+
 ## Diagram Release Flow
 
 ### Q: please diagram "release flow" as shown here: [Release Flow - How We Do Branching on the VSTS Team](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
