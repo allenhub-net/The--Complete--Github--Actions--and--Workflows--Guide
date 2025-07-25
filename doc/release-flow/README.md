@@ -3,6 +3,7 @@
 <!-- markdownlint-disable -->
 <!--ts-->
 * [Release Flow](#release-flow)
+   * [References](#references)
    * [Diagram Release Flow](#diagram-release-flow)
       * [Q: please diagram "release flow" as shown here: <a href="https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/" rel="nofollow">Release Flow - How We Do Branching on the VSTS Team</a>](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
    * [Release Flow for Udemy](#release-flow-for-udemy)
