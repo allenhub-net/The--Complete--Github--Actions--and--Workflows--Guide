@@ -100,6 +100,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
    * [Repository Map](doc/mermaid/README.md#repository-map)
 
 * [Release Flow](doc/release-flow/README.md#release-flow)
+   * [References](doc/release-flow/README.md#references)
    * [Diagram Release Flow](doc/release-flow/README.md#diagram-release-flow)
       * [Q: please diagram "release flow" as shown here: <a href="https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/" rel="nofollow">Release Flow - How We Do Branching on the VSTS Team</a>](doc/release-flow/README.mdhttps://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
    * [Release Flow for Udemy](doc/release-flow/README.md#release-flow-for-udemy)
