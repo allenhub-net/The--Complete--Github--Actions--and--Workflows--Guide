@@ -4,6 +4,10 @@ on:
   pull_request:
     types: [opened, synchronize, edited, reopened]
 
+
+  workflow_dispatch:
+
+
 jobs:
   check-commit-message:
     runs-on: ubuntu-latest
