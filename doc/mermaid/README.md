@@ -73,7 +73,6 @@ graph LR;
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKFLOWRUNYML["workflow-run.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_WORKINGDIRSANDSHELLSYML["working-dirs-and-shells.yml"]:::doubledSpacing
     ROOT --> ._READMEMD["README.md"]:::doubledSpacing
-    ROOT --> ._COMMITLINTCONFIGJS["commitlint.config.js"]:::doubledSpacing
     ROOT --> ._DOC["doc/"]:::doubledSpacing
     ._DOC --> .DOC_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_ACTIONSANDWORKFLOWS["actions-and-workflows/"]:::doubledSpacing
