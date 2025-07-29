@@ -1,1 +1,10 @@
 Fri Jul 25 20:10:49 UTC 2025
+,
+
+  rules: {
+    'type-enum': [
+      2, // error level (fail on vi o l ati on)
+      'always',
+      ['feat', 'fix'], // ONLY allow 'feat' and 'fix'
+    ],
+  }
