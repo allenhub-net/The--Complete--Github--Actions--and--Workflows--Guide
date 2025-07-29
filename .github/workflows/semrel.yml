@@ -28,7 +28,13 @@ jobs:
 
       - name: Lint commit messages 1
         run: |
-          git log origin/${{ github.base_ref }}..HEAD 
+          if [ -z "${{ github.base_ref }}" ]; then
+            # Default to main if base_ref is empty (e.g., workflow_dispatch)
+            BASE_REF=main
+          else
+            BASE_REF=${{ github.base_ref }}
+          fi
+          git log origin/$BASE_REF..HEAD
 
       - name: Lint commit messages 2
         run: |
