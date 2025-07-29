@@ -38,8 +38,20 @@ jobs:
 
       - name: Lint commit messages 2
         run: |
-          git log origin/${{ github.base_ref }}..HEAD --pretty=format:%s
+          if [ -z "${{ github.base_ref }}" ]; then
+            # Default to main if base_ref is empty (e.g., workflow_dispatch)
+            BASE_REF=main
+          else
+            BASE_REF=${{ github.base_ref }}
+          fi
+          git log origin/$BASE_REF..HEAD --pretty=format:%s
           
       - name: Lint commit messages 3
         run: |
-          git log origin/${{ github.base_ref }}..HEAD --pretty=format:%s | npx commitlint          
+          if [ -z "${{ github.base_ref }}" ]; then
+            # Default to main if base_ref is empty (e.g., workflow_dispatch)
+            BASE_REF=main
+          else
+            BASE_REF=${{ github.base_ref }}
+          fi
+          git log origin/$BASE_REF..HEAD --pretty=format:%s | npx commitlint          
