@@ -86,6 +86,9 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 * [EKS](doc/eks/README.md#eks)
    * [Renovate EKS Addons](doc/eks/README.md#renovate-eks-addons)
 
+* [Markdown](doc/git/README.md#markdown)
+   * [Rebase Since Branch Point](doc/git/README.md#rebase-since-branch-point)
+
 * [Markdown](doc/markdown/README.md#markdown)
    * [Line Break](doc/markdown/README.md#line-break)
    * [Horizontal Rule](doc/markdown/README.md#horizontal-rule)
