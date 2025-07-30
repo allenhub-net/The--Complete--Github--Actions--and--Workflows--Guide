@@ -25,7 +25,8 @@
 ### Q: please diagram "release flow" as shown here: [Release Flow - How We Do Branching on the VSTS Team](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
 
 **me**:
-please diagram "release flow" as shown here: <https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/>
+please diagram "release flow" as shown here:
+[Release Flow: How We Do Branching on the VSTS Team](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
 
 please use mermaid, gitgraph, top-down
 
@@ -122,8 +123,6 @@ semantic-release will create a new patch tag.
 * Each tag (e.g., `v3.1.0`) is created by `semantic-release` after merging a chapter.
 * You can extend this for more sections/chapters as needed.
 
-
-
 ## For This Course
 
 ```mermaid
@@ -194,8 +193,6 @@ commit
 
 
 ```
-
-
 
 ## Release Flow Discovery
 
