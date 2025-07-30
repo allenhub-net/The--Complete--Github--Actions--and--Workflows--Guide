@@ -2,7 +2,7 @@
 
 <!-- markdownlint-disable -->
 <!--ts-->
-* [Markdown](#markdown)
+* [Git](#git)
    * [Rebase Since Branch Point](#rebase-since-branch-point)
 <!--te-->
 <!-- markdownlint-enable  -->
