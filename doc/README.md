@@ -1,8 +1,7 @@
 # Notes from The--Complete--Github--Actions--and--Workflows--Guide
 
-<!-- markdownlint-disable MD007 -->
+<!-- markdownlint-disable -->
 <!--ts-->
-
 
 * [Actions and Workflows](actions-and-workflows/README.md#actions-and-workflows)
    * [Workflow Run Title](actions-and-workflows/README.md#workflow-run-title)
@@ -72,4 +71,4 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
 
-<!-- markdownlint-enable MD007 -->
+<!-- markdownlint-enable -->
