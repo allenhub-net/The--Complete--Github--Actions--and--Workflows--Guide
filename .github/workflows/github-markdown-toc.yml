@@ -68,4 +68,4 @@ jobs:
       - name: self-commit our changes
         uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 # v6.0.1
         with:
-          commit_message: Auto update markdown TOC
+          commit_message: chore: update markdown toc

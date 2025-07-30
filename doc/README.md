@@ -24,6 +24,9 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
 * [EKS](eks/README.md#eks)
    * [Renovate EKS Addons](eks/README.md#renovate-eks-addons)
 
+* [Git](git/README.md#git)
+   * [Rebase Since Branch Point](git/README.md#rebase-since-branch-point)
+
 * [Markdown](markdown/README.md#markdown)
    * [Line Break](markdown/README.md#line-break)
    * [Horizontal Rule](markdown/README.md#horizontal-rule)
