@@ -43,6 +43,7 @@ graph LR;
     ._GITHUB --> ..GITHUB_RENOVATEJSON["renovate.json"]:::doubledSpacing
     ._GITHUB --> ..GITHUB_WORKFLOWS["workflows/"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CACHINGYML["caching.yml"]:::doubledSpacing
+    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_COMMITLINEYML["commitline.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CONCURRENCY1YAML["concurrency-1.yaml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_CONCURRENCY2YAML["concurrency-2.yaml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_DELETEPRERELEASESSH["delete-prereleases.sh"]:::doubledSpacing
@@ -65,7 +66,6 @@ graph LR;
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_S0436DYNAMICMATRIXYML["s04-36-dynamic-matrix.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICPRERELEASEYML["semantic-prerelease.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMANTICRELEASEYML["semantic-release.yml"]:::doubledSpacing
-    ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SEMRELYML["semrel.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_SIMPLEACTIONYML["simple-action.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_STALEYML["stale.yml"]:::doubledSpacing
     ..GITHUB_WORKFLOWS --> ..GITHUBWORKFLOWS_USINGREUSABLEWORKFLOWSYML["using-reusable-workflows.yml"]:::doubledSpacing
