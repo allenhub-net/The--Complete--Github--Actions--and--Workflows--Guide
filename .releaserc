@@ -8,7 +8,7 @@
       "name": "release/*"
     },
     {
-      "name": "semrel-stub"
+      "name": "bootstrap"
     }
   ],
   "plugins": [
