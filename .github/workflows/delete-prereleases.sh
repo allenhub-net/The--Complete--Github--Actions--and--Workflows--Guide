@@ -1,10 +1,10 @@
 #!/bin/bash
 # filepath: /workspaces/The--Complete--Github--Actions--and--Workflows--Guide/delete--pre-releases.sh
 
-# Check for force flag
-FORCE=0
-if [[ "$1" == "-f" || "$1" == "--force" ]]; then
-    FORCE=1
+# Check for dryrun flag
+DRYRUN=1
+if [[ "$1" == "-w" || "$1" == "--wet-run" ]]; then
+    DRYRUN=0
 fi
 
 # Get all releases (including pre-releases) as a JSON array
@@ -24,14 +24,11 @@ fi
 echo "$releases" | jq -c '.[] | select(.isPrerelease == true)' | while read -r prerelease; do
     tag=$(echo "$prerelease" | jq -r '.tagName')
     # Extract base tag (e.g., v1.6.0 from v1.6.0-section--01.1)
-    # Extract the base tag by removing the "-section--" suffix and everything after it.
-    # Expected format of the release tag: "v1.6.0-section--01.1", where "v1.6.0" is the base tag.
-    base_tag=$(echo "$tag" | sed -E 's/-section--.*//')
-    # Check if base release exists and is not a pre-release
+    base_tag=$(echo "$tag" | sed -E 's/-main.[0-9]+//')
     echo "Checking pre-release: $tag (base release: $base_tag)"
 
     if echo "$releases" | jq -e --arg base "$base_tag" '[.[] | select(.tagName == $base and .isPrerelease == false)] | length > 0' >/dev/null; then
-        if [[ "$FORCE" -eq 1 ]]; then
+        if [[ "$DRYRUN" -eq 0 ]]; then
             echo "  Deleting pre-release: $tag (base release $base_tag exists)"
             echo "::notice title=Deleting pre-release: $tag::Deleting pre-release: $tag (base release $base_tag exists)"
 

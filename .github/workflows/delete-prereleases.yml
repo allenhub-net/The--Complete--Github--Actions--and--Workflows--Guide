@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: 'delete pre-releases'
+        description: 'wet-run'
         required: false
         default: false
         type: boolean
@@ -22,8 +22,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [[ "${{ github.event.inputs.force }}" == "true" ]]; then
-            bash delete-prereleases.sh --force
+          if [[ "${{ github.event.inputs.wet-run }}" == "true" ]]; then
+            bash delete-prereleases.sh --wet-run
           else
             bash delete-prereleases.sh
           fi
