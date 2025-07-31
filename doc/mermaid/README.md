@@ -138,4 +138,5 @@ graph LR;
     ROOT --> ._UTIL["util/"]:::doubledSpacing
     ._UTIL --> .UTIL_DERENOVATESH["de-renovate.sh"]:::doubledSpacing
     ._UTIL --> .UTIL_PROTECTEDBRANCHPSH["protected-branch-p.sh"]:::doubledSpacing
+    ._UTIL --> .UTIL_PRUNEBRANCHESSH["prune-branches.sh"]:::doubledSpacing
 ```
