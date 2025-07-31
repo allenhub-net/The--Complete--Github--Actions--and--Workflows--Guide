@@ -79,6 +79,8 @@ graph LR;
     .DOC_ACTIONSANDWORKFLOWS --> .DOCACTIONS-AND-WORKFLOWS_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_CODESPACES["codespaces/"]:::doubledSpacing
     .DOC_CODESPACES --> .DOCCODESPACES_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_DADJOKES["dadjokes/"]:::doubledSpacing
+    .DOC_DADJOKES --> .DOCDADJOKES_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_DEPENDABOT["dependabot/"]:::doubledSpacing
     .DOC_DEPENDABOT --> .DOCDEPENDABOT_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_EKS["eks/"]:::doubledSpacing

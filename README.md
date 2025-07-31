@@ -80,6 +80,9 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
       * [Note VSCode Extensions to Document/Reproduce Codespace](doc/codespaces/README.md#note-vscode-extensions-to-documentreproduce-codespace)
       * [Manual List](doc/codespaces/README.md#manual-list)
 
+* [Dad Jokes](doc/dadjokes/README.md#dad-jokes)
+   * [Two Fish in a Tank](doc/dadjokes/README.md#two-fish-in-a-tank)
+
 * [Dependabot](doc/dependabot/README.md#dependabot)
    * [Stale JS library](doc/dependabot/README.md#stale-js-library)
 
