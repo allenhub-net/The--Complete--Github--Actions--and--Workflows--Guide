@@ -34,6 +34,7 @@ echo "$releases" | jq -c '.[] | select(.isPrerelease == true)' | while read -r p
 
             gh release delete "$tag" --yes 2>&1 | sed 's/^/    /'
             git push --delete origin "$tag" 2>&1 | sed 's/^/    /'
+            git tag -d "$tag" 2>&1 | sed 's/^/    /'
         else
             echo "    [DRY RUN] Would delete pre-release: $tag (base release $base_tag exists)"
             echo "    [DRY RUN] Would delete tag: $tag"
