@@ -4,8 +4,8 @@ placeholder for commits to test actions and branching
 
 <!-- markdownlint-disable -->
 <!--ts-->
-* [Git](#git)
-   * [Rebase Since Branch Point](#rebase-since-branch-point)
+* [Dad Jokes](#dad-jokes)
+   * [Two Fish in a Tank](#two-fish-in-a-tank)
 <!--te-->
 <!-- markdownlint-enable  -->
 
