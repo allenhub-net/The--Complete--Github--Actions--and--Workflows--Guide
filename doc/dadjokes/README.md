@@ -8,7 +8,7 @@ Placeholder for commits to test actions and branching.
 <!--ts-->
 * [Dad Jokes](#dad-jokes)
    * [Two Fish in a Tank](#two-fish-in-a-tank)
-   * [What Do You Call ...](#what-do-you-call-)
+   * [What Do You Call](#what-do-you-call)
       * [What do you call a girl between two posts?](#what-do-you-call-a-girl-between-two-posts)
 <!--te-->
 <!-- markdownlint-enable  -->
