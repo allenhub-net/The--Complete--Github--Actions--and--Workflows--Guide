@@ -85,10 +85,10 @@ graph LR;
     .DOC_DEPENDABOT --> .DOCDEPENDABOT_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_EKS["eks/"]:::doubledSpacing
     .DOC_EKS --> .DOCEKS_READMEMD["README.md"]:::doubledSpacing
-    ._DOC --> .DOC_FILING["filing/"]:::doubledSpacing
-    .DOC_FILING --> .DOCFILING_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_GIT["git/"]:::doubledSpacing
     .DOC_GIT --> .DOCGIT_READMEMD["README.md"]:::doubledSpacing
+    ._DOC --> .DOC_HOUSEHOLDFILING["household-filing/"]:::doubledSpacing
+    .DOC_HOUSEHOLDFILING --> .DOCHOUSEHOLD-FILING_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_MARKDOWN["markdown/"]:::doubledSpacing
     .DOC_MARKDOWN --> .DOCMARKDOWN_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_MERMAID["mermaid/"]:::doubledSpacing
