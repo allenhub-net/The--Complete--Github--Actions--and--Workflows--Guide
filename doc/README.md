@@ -29,6 +29,17 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
 * [EKS](eks/README.md#eks)
    * [Renovate EKS Addons](eks/README.md#renovate-eks-addons)
 
+* [Household Filing](filing/README.md#household-filing)
+   * [Household](filing/README.md#household)
+      * [Finances](filing/README.md#finances)
+         * [Henry](filing/README.md#henry)
+            * [H/F/H Student Loan / MEFA / YYYY](filing/README.md#hfh-student-loan--mefa--yyyy)
+   * [Reference](filing/README.md#reference)
+      * [Hobbies](filing/README.md#hobbies)
+         * [Makefile](filing/README.md#makefile)
+            * [Self-Documenting Makefiles](filing/README.md#self-documenting-makefiles)
+         * [USB](filing/README.md#usb)
+
 * [Git](git/README.md#git)
    * [Rebase Since Branch Point](git/README.md#rebase-since-branch-point)
 
