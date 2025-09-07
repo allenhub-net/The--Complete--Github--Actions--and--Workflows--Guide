@@ -2,8 +2,16 @@
 
 <!-- markdownlint-disable -->
 <!--ts-->
-* [Git](#git)
-   * [Rebase Since Branch Point](#rebase-since-branch-point)
+* [Household Filing](#household-filing)
+   * [Household](#household)
+      * [Finances](#finances)
+         * [Henry](#henry)
+            * [H/F/H Student Loan / MEFA / YYYY](#hfh-student-loan--mefa--yyyy)
+   * [Reference](#reference)
+      * [Hobbies](#hobbies)
+         * [Makefile](#makefile)
+            * [Self-Documenting Makefiles](#self-documenting-makefiles)
+         * [USB](#usb)
 <!--te-->
 <!-- markdownlint-enable  -->
 
@@ -26,4 +34,3 @@
 ##### Self-Documenting Makefiles
 
 #### USB
-
