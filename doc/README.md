@@ -35,7 +35,7 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
          * [Henry](filing/README.md#henry)
             * [H/F/H Student Loan / MEFA / YYYY](filing/README.md#hfh-student-loan--mefa--yyyy)
    * [Reference](filing/README.md#reference)
-      * [Hobbies](filing/README.md#hobbies)
+      * [Craft](filing/README.md#craft)
          * [Makefile](filing/README.md#makefile)
             * [Self-Documenting Makefiles](filing/README.md#self-documenting-makefiles)
          * [USB](filing/README.md#usb)

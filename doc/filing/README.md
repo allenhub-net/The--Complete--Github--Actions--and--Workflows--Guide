@@ -8,7 +8,7 @@
          * [Henry](#henry)
             * [H/F/H Student Loan / MEFA / YYYY](#hfh-student-loan--mefa--yyyy)
    * [Reference](#reference)
-      * [Hobbies](#hobbies)
+      * [Craft](#craft)
          * [Makefile](#makefile)
             * [Self-Documenting Makefiles](#self-documenting-makefiles)
          * [USB](#usb)
@@ -27,7 +27,7 @@
 
 ## Reference
 
-### Hobbies
+### Craft
 
 #### Makefile
 
