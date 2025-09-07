@@ -51,19 +51,21 @@ Cost and courses for the semester
 
 ##### H/F/H - RIT / Statement History and Billing Statements
 
-Statement History: appears to be the "omnibus" list all statements since enrolling
+Statement History: appears to be the "omnibus" list  of all statements since enrolling.
 
 Billing Statements: date-based billing statement showing financial state of 
-affairs as of statement date
+affairs as of statement date.
 
 **Note**: it appears that the "Statement Description" lines on the Statement
 History are only available in the demand-generated RIT eServices
 portal if there is a change
 since the previons Billing statement.  Thus, Billing Statements for
-* 2025-03-03
-* 2025-04-01
+
 * 2025-05-01
-failed to generate in the portal, presumably becuase nothing had changed.
+* 2025-04-01
+* 2025-03-03
+
+fail to generate in the portal, presumably becuase nothing had changed.
 
 
 ## Reference
