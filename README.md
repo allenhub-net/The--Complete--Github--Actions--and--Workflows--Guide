@@ -121,6 +121,9 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 * [Mermaid](doc/mermaid/README.md#mermaid)
    * [Repository Map](doc/mermaid/README.md#repository-map)
 
+* [noob](doc/noob/README.md#noob)
+   * [logs](doc/noob/README.md#logs)
+
 * [Release Flow](doc/release-flow/README.md#release-flow)
    * [References](doc/release-flow/README.md#references)
    * [Diagram Release Flow](doc/release-flow/README.md#diagram-release-flow)
