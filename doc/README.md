@@ -59,7 +59,7 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
 * [Mermaid](mermaid/README.md#mermaid)
    * [Repository Map](mermaid/README.md#repository-map)
 
-* [noob](noob/README.md#noob)
+* [Noob](noob/README.md#noob)
    * [logs](noob/README.md#logs)
 
 * [Release Flow](release-flow/README.md#release-flow)
