@@ -4,6 +4,7 @@
 <!--ts-->
 * [Noob](#noob)
    * [logs](#logs)
+   * [trst](#trst)
 <!--te-->
 <!-- markdownlint-enable  -->
 

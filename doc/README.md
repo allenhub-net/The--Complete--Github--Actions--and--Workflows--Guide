@@ -61,6 +61,7 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
 
 * [Noob](noob/README.md#noob)
    * [logs](noob/README.md#logs)
+   * [trst](noob/README.md#trst)
 
 * [Release Flow](release-flow/README.md#release-flow)
    * [References](release-flow/README.md#references)

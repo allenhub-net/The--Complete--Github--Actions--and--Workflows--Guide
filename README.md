@@ -123,6 +123,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 
 * [Noob](doc/noob/README.md#noob)
    * [logs](doc/noob/README.md#logs)
+   * [trst](doc/noob/README.md#trst)
 
 * [Release Flow](doc/release-flow/README.md#release-flow)
    * [References](doc/release-flow/README.md#references)
