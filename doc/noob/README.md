@@ -40,9 +40,10 @@ and ten lines long.  PRs welcome if you'd like to improve anything.
 **Moby Dawg**: yah, here's repo.  use the v12 toolchain & let me know
 if you have any problems
 
-### author: the author can make it work
+### author - the author can make it work
 
 **Moby Dawg**: sure, log into my machine and go to diretory _foo_.  run the
 `runme.sh` in that directory.
 You'll need some envionment variables
-set up - look in my `.bashrc` for an example.
+set up - look in my `.bashrc` for an example.  I
+think that's all.  there are some log files in _foo_ if you want to read them.
