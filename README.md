@@ -128,6 +128,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
       * [outsider - anyone on your team or group can use it](doc/noob/README.md#outsider---anyone-on-your-team-or-group-can-use-it)
       * [insider - the author and development collaborators can use it](doc/noob/README.md#insider---the-author-and-development-collaborators-can-use-it)
       * [author - the author can make it work](doc/noob/README.md#author---the-author-can-make-it-work)
+   * [help](doc/noob/README.md#help)
 
 * [Release Flow](doc/release-flow/README.md#release-flow)
    * [References](doc/release-flow/README.md#references)
