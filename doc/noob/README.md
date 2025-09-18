@@ -47,3 +47,7 @@ if you have any problems
 You'll need some envionment variables
 set up - look in my `.bashrc` for an example.  I
 think that's all.  there are some log files in _foo_ if you want to read them.
+
+## help
+
+when you ask for help you are asking someone to give you 
