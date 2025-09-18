@@ -61,7 +61,11 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
 
 * [Noob](noob/README.md#noob)
    * [logs](noob/README.md#logs)
-   * [trst](noob/README.md#trst)
+   * [maturity](noob/README.md#maturity)
+      * [customer - it just works](noob/README.md#customer---it-just-works)
+      * [outsider - anyone on your team or group can use it](noob/README.md#outsider---anyone-on-your-team-or-group-can-use-it)
+      * [insider - the author and development collaborators can use it](noob/README.md#insider---the-author-and-development-collaborators-can-use-it)
+      * [author: the author can make it work](noob/README.md#author-the-author-can-make-it-work)
 
 * [Release Flow](release-flow/README.md#release-flow)
    * [References](release-flow/README.md#references)

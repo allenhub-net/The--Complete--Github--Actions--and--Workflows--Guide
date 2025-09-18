@@ -123,7 +123,11 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
 
 * [Noob](doc/noob/README.md#noob)
    * [logs](doc/noob/README.md#logs)
-   * [trst](doc/noob/README.md#trst)
+   * [maturity](doc/noob/README.md#maturity)
+      * [customer - it just works](doc/noob/README.md#customer---it-just-works)
+      * [outsider - anyone on your team or group can use it](doc/noob/README.md#outsider---anyone-on-your-team-or-group-can-use-it)
+      * [insider - the author and development collaborators can use it](doc/noob/README.md#insider---the-author-and-development-collaborators-can-use-it)
+      * [author: the author can make it work](doc/noob/README.md#author-the-author-can-make-it-work)
 
 * [Release Flow](doc/release-flow/README.md#release-flow)
    * [References](doc/release-flow/README.md#references)
