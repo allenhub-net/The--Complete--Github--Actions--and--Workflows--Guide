@@ -59,15 +59,7 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
 * [Mermaid](mermaid/README.md#mermaid)
    * [Repository Map](mermaid/README.md#repository-map)
 
-* [Noob](noob/README.md#noob)
-   * [logs](noob/README.md#logs)
-   * [maturity](noob/README.md#maturity)
-      * [customer - it just works](noob/README.md#customer---it-just-works)
-      * [outsider - anyone on your team or group can use it](noob/README.md#outsider---anyone-on-your-team-or-group-can-use-it)
-      * [insider - the author and development collaborators can use it](noob/README.md#insider---the-author-and-development-collaborators-can-use-it)
-      * [author - the author can make it work](noob/README.md#author---the-author-can-make-it-work)
-   * [first mover](noob/README.md#first-mover)
-   * [help](noob/README.md#help)
+* [noob - Zero to Hero](noob/README.md#noob---zero-to-hero)
 
 * [Release Flow](release-flow/README.md#release-flow)
    * [References](release-flow/README.md#references)
@@ -98,23 +90,16 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
 * [Windows Subsystem for Linux](wsl/README.md#windows-subsystem-for-linux)
    * [References](wsl/README.md#references)
 
-* [Noob](noob/debugging/README.md#noob)
+* [debugging](noob/debugging/README.md#debugging)
    * [logs](noob/debugging/README.md#logs)
-   * [maturity](noob/debugging/README.md#maturity)
-      * [customer - it just works](noob/debugging/README.md#customer---it-just-works)
-      * [outsider - anyone on your team or group can use it](noob/debugging/README.md#outsider---anyone-on-your-team-or-group-can-use-it)
-      * [insider - the author and development collaborators can use it](noob/debugging/README.md#insider---the-author-and-development-collaborators-can-use-it)
-      * [author - the author can make it work](noob/debugging/README.md#author---the-author-can-make-it-work)
-   * [first mover](noob/debugging/README.md#first-mover)
 
-* [Noob](noob/maturity/README.md#noob)
-   * [logs](noob/maturity/README.md#logs)
-   * [maturity](noob/maturity/README.md#maturity)
-      * [customer - it just works](noob/maturity/README.md#customer---it-just-works)
-      * [outsider - anyone on your team or group can use it](noob/maturity/README.md#outsider---anyone-on-your-team-or-group-can-use-it)
-      * [insider - the author and development collaborators can use it](noob/maturity/README.md#insider---the-author-and-development-collaborators-can-use-it)
-      * [author - the author can make it work](noob/maturity/README.md#author---the-author-can-make-it-work)
-   * [first mover](noob/maturity/README.md#first-mover)
+* [first mover](noob/first-mover/README.md#first-mover)
+
+* [maturity](noob/maturity/README.md#maturity)
+   * [customer - it just works](noob/maturity/README.md#customer---it-just-works)
+   * [outsider - anyone on your team or group can use it](noob/maturity/README.md#outsider---anyone-on-your-team-or-group-can-use-it)
+   * [insider - the author and development collaborators can use it](noob/maturity/README.md#insider---the-author-and-development-collaborators-can-use-it)
+   * [author - the author can make it work](noob/maturity/README.md#author---the-author-can-make-it-work)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
 <!--te-->
