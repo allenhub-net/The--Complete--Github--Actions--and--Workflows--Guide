@@ -51,6 +51,15 @@ jobs:
           awk '/<!--ts-->/ {print;while((getline<"toc.tmp")>0)print;f=1;next} /<!--te-->/ {f=0;print;next} !f' README.md > README.md.tmp && mv README.md.tmp README.md
           rm toc.tmp
 
+      - name: Update omni-TOC in doc/noob/README.md
+        working-directory: doc/noob
+        run: |
+          echo "updating doc/noob/omni-TOC"
+          ../../gh-md-toc $(find * -name README.md | awk '{ print gsub("/","/"), $0 }' | sort -n | cut -d' ' -f2-) | fgrep -v "$(grep '^#[^#]' README.md | sed 's/^# *\(.*\)/[\1]/')" > toc.tmp
+          awk '/<!--ts-->/ {print;while((getline<"toc.tmp")>0)print;f=1;next} /<!--te-->/ {f=0;print;next} !f' README.md > README.md.tmp && mv README.md.tmp README.md
+          rm toc.tmp
+
+
       - name: commit any changes
         run: |
           git diff 
