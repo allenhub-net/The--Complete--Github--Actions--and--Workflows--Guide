@@ -95,6 +95,10 @@ graph LR;
     .DOC_MERMAID --> .DOCMERMAID_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_NOOB["noob/"]:::doubledSpacing
     .DOC_NOOB --> .DOCNOOB_READMEMD["README.md"]:::doubledSpacing
+    .DOC_NOOB --> .DOCNOOB_DEBUGGING["debugging/"]:::doubledSpacing
+    .DOCNOOB_DEBUGGING --> .DOCNOOBDEBUGGING_READMEMD["README.md"]:::doubledSpacing
+    .DOC_NOOB --> .DOCNOOB_MATURITY["maturity/"]:::doubledSpacing
+    .DOCNOOB_MATURITY --> .DOCNOOBMATURITY_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_RELEASEFLOW["release-flow/"]:::doubledSpacing
     .DOC_RELEASEFLOW --> .DOCRELEASE-FLOW_READMEMD["README.md"]:::doubledSpacing
     .DOC_RELEASEFLOW --> .DOCRELEASE-FLOW_PRACTICEMD["practice.md"]:::doubledSpacing
