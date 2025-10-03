@@ -97,6 +97,8 @@ graph LR;
     .DOC_NOOB --> .DOCNOOB_READMEMD["README.md"]:::doubledSpacing
     .DOC_NOOB --> .DOCNOOB_DEBUGGING["debugging/"]:::doubledSpacing
     .DOCNOOB_DEBUGGING --> .DOCNOOBDEBUGGING_READMEMD["README.md"]:::doubledSpacing
+    .DOC_NOOB --> .DOCNOOB_FIRSTMOVER["first-mover/"]:::doubledSpacing
+    .DOCNOOB_FIRSTMOVER --> .DOCNOOBFIRST-MOVER_READMEMD["README.md"]:::doubledSpacing
     .DOC_NOOB --> .DOCNOOB_MATURITY["maturity/"]:::doubledSpacing
     .DOCNOOB_MATURITY --> .DOCNOOBMATURITY_READMEMD["README.md"]:::doubledSpacing
     ._DOC --> .DOC_RELEASEFLOW["release-flow/"]:::doubledSpacing
