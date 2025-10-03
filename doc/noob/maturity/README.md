@@ -9,7 +9,6 @@
       * [outsider - anyone on your team or group can use it](#outsider---anyone-on-your-team-or-group-can-use-it)
       * [insider - the author and development collaborators can use it](#insider---the-author-and-development-collaborators-can-use-it)
       * [author - the author can make it work](#author---the-author-can-make-it-work)
-   * [help](#help)
 <!--te-->
 <!-- markdownlint-enable  -->
 
@@ -52,7 +51,3 @@ think that's all.  there are some log files in _foo_ if you want to read them.
 
 ## first mover
 
-
-## help
-
-when you ask for help you are asking someone to give you 
