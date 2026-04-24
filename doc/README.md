@@ -60,6 +60,7 @@ bar'](actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocfoonb
    * [Repository Map](mermaid/README.md#repository-map)
 
 * [noob - Zero to Hero](noob/README.md#noob---zero-to-hero)
+   * [manual transmission](noob/README.md#manual-transmission)
 
 * [Release Flow](release-flow/README.md#release-flow)
    * [References](release-flow/README.md#references)
