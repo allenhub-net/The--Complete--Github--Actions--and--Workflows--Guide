@@ -51,4 +51,11 @@ think that's all.  there are some log files in _foo_ if you want to read them.
 
 ## help
 
-when you ask for help you are asking someone to give you 
+when you ask for help you are asking someone to give you their time
+
+it is usually “off the books”.  consume that time respectfully
+
+## manual transmission
+
+no intense emotion has ever been expressed with an automatic transmisdion
+
