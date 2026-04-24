@@ -122,6 +122,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
    * [Repository Map](doc/mermaid/README.md#repository-map)
 
 * [noob - Zero to Hero](doc/noob/README.md#noob---zero-to-hero)
+   * [manual transmission](doc/noob/README.md#manual-transmission)
 
 * [Release Flow](doc/release-flow/README.md#release-flow)
    * [References](doc/release-flow/README.md#references)
