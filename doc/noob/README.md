@@ -3,6 +3,7 @@
 <!-- markdownlint-disable -->
 <!--ts-->
 
+   * [manual transmission](README.md#manual-transmission)
 
 * [debugging](debugging/README.md#debugging)
    * [logs](debugging/README.md#logs)
