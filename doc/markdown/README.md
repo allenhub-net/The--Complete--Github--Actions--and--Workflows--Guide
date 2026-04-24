@@ -54,11 +54,23 @@ Particpant responses are separated by a line of whitespace.
 For example (from [Actions and Workflows](../actions-and-workflows/README.md)):
 
 ```markdown
-**me**:  
+### _summary_: The `$'...'` syntax in Bash
+
+#### _question_: Q: _What does the `$'...'` syntax in Bash mean?_
+
+**me**:
+
+<ul>
+
 what does this mean?  
 `NEW_ENV_HEREDOC=$'foo\nbar'`
 
+</ul>
+
 **GitHub Copilot**:  
+
+<ul>
+
 The line
 
     NEW_ENV_HEREDOC=$'foo\nbar'
@@ -75,6 +87,9 @@ The `$'...'` syntax in Bash allows you to use escape sequences like `\n`
 for newlines.  
 In the context of your workflow, this is how multi-line
 environment variables are set using the here-doc syntax with `$GITHUB_ENV`.
+
+</ul>
+
 ```
 
 ## Image Links
