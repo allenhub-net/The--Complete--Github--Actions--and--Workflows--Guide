@@ -113,7 +113,7 @@ bar'](doc/actions-and-workflows/README.md#q-what-does-this-mean-new_env_heredocf
    * [Horizontal Rule](doc/markdown/README.md#horizontal-rule)
    * [Bot Quoting](doc/markdown/README.md#bot-quoting)
    * [Image Links](doc/markdown/README.md#image-links)
-      * [Leading <em>bang</em> symbol](doc/markdown/README.md#leading-bang-symbol)
+      * [Leading bang symbol](doc/markdown/README.md#leading-bang-symbol)
    * [Image resizing](doc/markdown/README.md#image-resizing)
       * [ImageMagick in a Codespace](doc/markdown/README.md#imagemagick-in-a-codespace)
       * [Markdown Using Scaled Image - which is slick](doc/markdown/README.md#markdown-using-scaled-image---which-is-slick)
