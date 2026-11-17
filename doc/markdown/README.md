@@ -7,7 +7,7 @@
    * [Horizontal Rule](#horizontal-rule)
    * [Bot Quoting](#bot-quoting)
    * [Image Links](#image-links)
-      * [Leading <em>bang</em> symbol](#leading-bang-symbol)
+      * [Leading bang symbol](#leading-bang-symbol)
    * [Image resizing](#image-resizing)
       * [ImageMagick in a Codespace](#imagemagick-in-a-codespace)
       * [Markdown Using Scaled Image - which is slick](#markdown-using-scaled-image---which-is-slick)
